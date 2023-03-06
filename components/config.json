@@ -1,3 +1,53 @@
 {
-  "locations": {}
+  "locations": [
+    {
+      "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/CP_VIP_League.jpg",
+      "title": "CLIFTON PARK",
+      "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
+      "btnTitle": "BOOK NOW",
+      "to": "/location/cliftonpark",
+      "id": "cliftonpark",
+      "images": [
+        "https://storage.googleapis.com/thebunker-assets/thebunker/clifton-park/main.png",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/CP_VIP_League.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/clifton-park/three.jpg"
+      ]
+    },
+    {
+      "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/main.png",
+      "title": "GUILDERLAND",
+      "address": "",
+      "btnTitle": "BOOK NOW",
+      "to": "/location/guilderland",
+      "id": "guilderland",
+      "images": [
+        "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg",
+        "https://source.unsplash.com/random/1600x900"
+      ]
+    },
+    {
+      "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
+      "title": "NORTH GREENBUSH",
+      "address": "",
+      "btnTitle": "BOOK NOW",
+      "to": "/location/northgreenbush",
+      "id": "northgreenbush",
+      "images": [
+        "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg",
+        "https://source.unsplash.com/random/1600x900"
+      ]
+    },
+    {
+      "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/main.png",
+      "title": "NEW HARTFORD",
+      "address": "",
+      "btnTitle": "BOOK NOW",
+      "to": "/location/newhartford",
+      "id": "newhartford",
+      "images": [
+        "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg",
+        "https://source.unsplash.com/random/1600x900"
+      ]
+    }
+  ]
 }

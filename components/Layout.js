@@ -42,7 +42,11 @@ const getDropdownComponent = (navitem) => {
       >
         {navitem.options.map((dropdownitem) => {
           return (
-            <Link href={dropdownitem.to} className="block py-2 text-lg">
+            <Link
+              href={dropdownitem.to}
+              className="block py-2 text-lg"
+              key={dropdownitem.id + 'desktop'}
+            >
               <span className="hover:text-primary">{dropdownitem.title}</span>
             </Link>
           );
@@ -51,50 +55,6 @@ const getDropdownComponent = (navitem) => {
     </div>
   );
 };
-
-// const Sidebar = () => {
-//   return (
-//     <div className="hidden md:flex flex-col max-w-[240px] bg-black text-white font-extrabold text-xl">
-//       <div className="p-4">
-//         <Link href="/" className="text-xl font-bold">
-//           <img
-//             src="https://storage.googleapis.com/thebunker-assets/thebunker/The_Bunker_KO.png"
-//             width="100%"
-//             className="w-5/6 mx-auto"
-//           />
-//         </Link>
-//       </div>
-//       <div className="p-4 flex flex-col items-start justify-start h-fit ml-9">
-//         {navigationItems.map((navitem) => {
-//           switch (navitem.type) {
-//             case 'link':
-//               console.log('link');
-//               return getLinkComponent(navitem);
-//             case 'dropdown':
-//               return getDropdownComponent(navitem);
-//           }
-//           return null;
-//         })}
-//       </div>
-//       <div className="p-4 w-full justify-start flex ml-8">
-//         <a
-//           href="https://www.facebook.com/"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           <FaFacebook className="hover:text-blue-600 w-8 h-8 inline-block mr-3" />
-//         </a>
-//         <a
-//           href="https://www.instagram.com/"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           <FaInstagram className="hover:text-red-600 w-8 h-8 inline-block" />
-//         </a>
-//       </div>
-//     </div>
-//   );
-// };
 
 import React from 'react';
 
@@ -114,10 +74,15 @@ const Sidebar = () => {
         {navigationItems.map((navitem) => {
           switch (navitem.type) {
             case 'link':
-              console.log('link');
-              return getLinkComponent(navitem);
+              return (
+                <div key={navitem.id + 'mbl'}>{getLinkComponent(navitem)}</div>
+              );
             case 'dropdown':
-              return getDropdownComponent(navitem);
+              return (
+                <div key={navitem.id + 'mbl'}>
+                  {getDropdownComponent(navitem)}
+                </div>
+              );
           }
           return null;
         })}
@@ -143,12 +108,17 @@ const Sidebar = () => {
 };
 
 const MobileNavBar = ({ open, toggle }) => {
+  const router = useRouter();
+
   return (
     <div className="md:hidden bg-black text-white p-4 flex items-center justify-between h-[65px]">
       <img
         src="https://storage.googleapis.com/thebunker-assets/thebunker/thebunker_mobile_header.png"
-        className="p-1"
+        className="p-1 cursor-pointer"
         style={{ maxWidth: '170px' }}
+        onClick={() => {
+          router.push('/');
+        }}
       />
       {open ? null : (
         <FiMenu className="w-8 h-8 cursor-pointer" onClick={toggle} />
@@ -171,9 +141,17 @@ const MobileNavBarNavigation = ({ open, toggle }) => {
         {navigationItems.map((navitem) => {
           switch (navitem.type) {
             case 'link':
-              return getLinkComponent(navitem);
+              return (
+                <div key={navitem.id + 'mobile'}>
+                  {getLinkComponent(navitem)}
+                </div>
+              );
             case 'dropdown':
-              return getDropdownComponent(navitem);
+              return (
+                <div key={navitem.id + 'mobile'}>
+                  {getDropdownComponent(navitem)}
+                </div>
+              );
           }
           return null;
         })}

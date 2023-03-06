@@ -8,18 +8,22 @@ export const navigationItems = [
       {
         title: 'Clifton Park',
         to: '/location/cliftonpark',
+        id: 7,
       },
       {
         title: 'Guilderland',
         to: '/location/guilderland',
+        id: 8,
       },
       {
         title: 'North Greenbush',
         to: '/location/northgreenbush',
+        id: 9,
       },
       {
         title: 'New Hartford',
         to: '/location/newhartford',
+        id: 10,
       },
     ],
   },
@@ -44,7 +48,7 @@ export const navigationItems = [
   {
     id: 5,
     title: 'BOOK NOW',
-    to: '/book-now',
+    to: '/',
     type: 'link',
   },
   {
