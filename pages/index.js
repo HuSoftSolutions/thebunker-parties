@@ -34,7 +34,7 @@ export default function Home() {
               BOOK YOUR EVENT
             </h1>
             <Card
-              imgUrl={newImg()}
+              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Party_Placeholder.png"
               title="STEP 1: WHERE TO PARTY?"
               message="All of our locations offer a variety of unique party packages and options to create the best event experience for any occasion. Visit our locations page for more information. If you already know the space you want, you're ready for Step 2!"
               onClick={() => {
