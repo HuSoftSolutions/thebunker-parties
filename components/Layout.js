@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { MdKeyboardArrowDown } from 'react-icons/md';
@@ -55,8 +55,6 @@ const getDropdownComponent = (navitem) => {
     </div>
   );
 };
-
-import React from 'react';
 
 const Sidebar = () => {
   return (

@@ -1,6 +1,6 @@
 import '@/styles/globals.css';
-import { Allerta } from 'next/font/google';
-const inter = Allerta({ weight: '400', subsets: ['latin'] });
+import { Inter } from 'next/font/google';
+const inter = Inter({ subsets: ['latin'] });
 
 export default function App({ Component, pageProps }) {
   return (

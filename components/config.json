@@ -11,6 +11,66 @@
         "https://storage.googleapis.com/thebunker-assets/thebunker/clifton-park/main.png",
         "https://storage.googleapis.com/thebunker-assets/thebunker/CP_VIP_League.jpg",
         "https://storage.googleapis.com/thebunker-assets/thebunker/clifton-park/three.jpg"
+      ],
+      "eventPackages": [
+        {
+          "title": "PLAINSMEN PACKAGE - $280",
+          "details": [
+            "2 hours",
+            "Private spaces with 2 screens",
+            "If golfing, up to 14 guests",
+            "If not golfing, up to 30 guests"
+          ]
+        },
+        {
+          "title": "VIP PACKAGE - $320",
+          "details": [
+            "2 hours",
+            "Private VIP suite",
+            "Adjacent Bay 3",
+            "Up to 30 guests"
+          ]
+        },
+        {
+          "title": "KIDS PACKAGE — $350",
+          "details": [
+            "2 hours",
+            "Plainsmen Room, includes 2 golf bays with extra seating ",
+            "4 flatbreads and soda",
+            "Up to 12 kids",
+            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
+          ]
+        },
+        {
+          "title": "CORPORATE PACKAGE - $360",
+          "details": ["2 hours", "Bays 3, 4 & 5", "Up to 40 guests"]
+        },
+        {
+          "title": "ARNOLD PALMER PACKAGE - $480",
+          "details": [
+            "2 hours",
+            "VIP suite + Plainsmen Room (3 golf bays)",
+            "Up to 50 guests"
+          ]
+        },
+        {
+          "title": "THE ULTIMATE PATIO PARTY - $150",
+          "details": [
+            "Price per hour",
+            "Includes bay 5 for party set up",
+            "Bartender service",
+            "Dining tables and lounge sating with fire table",
+            "30-50 guests (32 seated)"
+          ]
+        },
+        {
+          "title": "BUNKER TAKEOVER PACKAGE - Call for picing",
+          "details": [
+            "Full facility, 6 total golf bays, including 2 enclosed suites, and indoor/outdoor seating areas",
+            "Closed to the public",
+            "Up to 175 guests"
+          ]
+        }
       ]
     },
     {
@@ -23,6 +83,66 @@
       "images": [
         "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg",
         "https://source.unsplash.com/random/1600x900"
+      ],
+      "eventPackages": [
+        {
+          "title": "PLAINSMEN PACKAGE - $280",
+          "details": [
+            "2 hours",
+            "Private spaces with 2 screens",
+            "If golfing, up to 14 guests",
+            "If not golfing, up to 30 guests"
+          ]
+        },
+        {
+          "title": "VIP PACKAGE - $320",
+          "details": [
+            "2 hours",
+            "Private VIP suite",
+            "Adjacent Bay 3",
+            "Up to 30 guests"
+          ]
+        },
+        {
+          "title": "KIDS PACKAGE — $350",
+          "details": [
+            "2 hours",
+            "Plainsmen Room, includes 2 golf bays with extra seating ",
+            "4 flatbreads and soda",
+            "Up to 12 kids",
+            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
+          ]
+        },
+        {
+          "title": "CORPORATE PACKAGE - $360",
+          "details": ["2 hours", "Bays 3, 4 & 5", "Up to 40 guests"]
+        },
+        {
+          "title": "ARNOLD PALMER PACKAGE - $480",
+          "details": [
+            "2 hours",
+            "VIP suite + Plainsmen Room (3 golf bays)",
+            "Up to 50 guests"
+          ]
+        },
+        {
+          "title": "THE ULTIMATE PATIO PARTY - $150",
+          "details": [
+            "Price per hour",
+            "Includes bay 5 for party set up",
+            "Bartender service",
+            "Dining tables and lounge sating with fire table",
+            "30-50 guests (32 seated)"
+          ]
+        },
+        {
+          "title": "BUNKER TAKEOVER PACKAGE - Call for picing",
+          "details": [
+            "Full facility, 6 total golf bays, including 2 enclosed suites, and indoor/outdoor seating areas",
+            "Closed to the public",
+            "Up to 175 guests"
+          ]
+        }
       ]
     },
     {
@@ -35,6 +155,66 @@
       "images": [
         "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg",
         "https://source.unsplash.com/random/1600x900"
+      ],
+      "eventPackages": [
+        {
+          "title": "PLAINSMEN PACKAGE - $280",
+          "details": [
+            "2 hours",
+            "Private spaces with 2 screens",
+            "If golfing, up to 14 guests",
+            "If not golfing, up to 30 guests"
+          ]
+        },
+        {
+          "title": "VIP PACKAGE - $320",
+          "details": [
+            "2 hours",
+            "Private VIP suite",
+            "Adjacent Bay 3",
+            "Up to 30 guests"
+          ]
+        },
+        {
+          "title": "KIDS PACKAGE — $350",
+          "details": [
+            "2 hours",
+            "Plainsmen Room, includes 2 golf bays with extra seating ",
+            "4 flatbreads and soda",
+            "Up to 12 kids",
+            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
+          ]
+        },
+        {
+          "title": "CORPORATE PACKAGE - $360",
+          "details": ["2 hours", "Bays 3, 4 & 5", "Up to 40 guests"]
+        },
+        {
+          "title": "ARNOLD PALMER PACKAGE - $480",
+          "details": [
+            "2 hours",
+            "VIP suite + Plainsmen Room (3 golf bays)",
+            "Up to 50 guests"
+          ]
+        },
+        {
+          "title": "THE ULTIMATE PATIO PARTY - $150",
+          "details": [
+            "Price per hour",
+            "Includes bay 5 for party set up",
+            "Bartender service",
+            "Dining tables and lounge sating with fire table",
+            "30-50 guests (32 seated)"
+          ]
+        },
+        {
+          "title": "BUNKER TAKEOVER PACKAGE - Call for picing",
+          "details": [
+            "Full facility, 6 total golf bays, including 2 enclosed suites, and indoor/outdoor seating areas",
+            "Closed to the public",
+            "Up to 175 guests"
+          ]
+        }
       ]
     },
     {
@@ -47,6 +227,66 @@
       "images": [
         "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg",
         "https://source.unsplash.com/random/1600x900"
+      ],
+      "eventPackages": [
+        {
+          "title": "PLAINSMEN PACKAGE - $280",
+          "details": [
+            "2 hours",
+            "Private spaces with 2 screens",
+            "If golfing, up to 14 guests",
+            "If not golfing, up to 30 guests"
+          ]
+        },
+        {
+          "title": "VIP PACKAGE - $320",
+          "details": [
+            "2 hours",
+            "Private VIP suite",
+            "Adjacent Bay 3",
+            "Up to 30 guests"
+          ]
+        },
+        {
+          "title": "KIDS PACKAGE — $350",
+          "details": [
+            "2 hours",
+            "Plainsmen Room, includes 2 golf bays with extra seating ",
+            "4 flatbreads and soda",
+            "Up to 12 kids",
+            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
+          ]
+        },
+        {
+          "title": "CORPORATE PACKAGE - $360",
+          "details": ["2 hours", "Bays 3, 4 & 5", "Up to 40 guests"]
+        },
+        {
+          "title": "ARNOLD PALMER PACKAGE - $480",
+          "details": [
+            "2 hours",
+            "VIP suite + Plainsmen Room (3 golf bays)",
+            "Up to 50 guests"
+          ]
+        },
+        {
+          "title": "THE ULTIMATE PATIO PARTY - $150",
+          "details": [
+            "Price per hour",
+            "Includes bay 5 for party set up",
+            "Bartender service",
+            "Dining tables and lounge sating with fire table",
+            "30-50 guests (32 seated)"
+          ]
+        },
+        {
+          "title": "BUNKER TAKEOVER PACKAGE - Call for picing",
+          "details": [
+            "Full facility, 6 total golf bays, including 2 enclosed suites, and indoor/outdoor seating areas",
+            "Closed to the public",
+            "Up to 175 guests"
+          ]
+        }
       ]
     }
   ]
