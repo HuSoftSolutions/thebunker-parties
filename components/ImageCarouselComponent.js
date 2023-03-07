@@ -35,7 +35,7 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <div className="relative h-[200px] md:h-[400px] overflow-hidden">
+    <div className="relative h-[200px] md:h-[400px] overflow-hidden m-1">
       <div
         className={`absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-500 ${
           isSliding

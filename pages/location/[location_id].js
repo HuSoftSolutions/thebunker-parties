@@ -8,6 +8,7 @@ import { CgPin } from 'react-icons/cg';
 import { GiKnifeFork } from 'react-icons/gi';
 import IconComponent from '@/components/IconComponent';
 import EventPackageComponent from '@/components/EventPackageComponent';
+import BayCardComponent from '@/components/BayCardComponent';
 
 const LocationDetails_ = () => {
   return <div></div>;
@@ -69,7 +70,7 @@ function LocationDetails() {
         </div>
       </div>
       {/* Location Details */}
-      <div className="my-10 p-8 pt-0 w-full">
+      <div className="my-10 p-8 md:px-20 pt-0 w-full">
         {/* Icons & Hours */}
         {/* Event Packages */}
         <div className="m-1 flex justify-center flex-col w-full mx-auto">
@@ -92,9 +93,11 @@ function LocationDetails() {
         {/* Contact Us */}
       </div>
       <hr />
-      <div className="m-2">
-        <p className="font-bold">FOR PARTIES WITH 10 OR MORE PEOPLE</p>
-        <ul className="list-disc ml-5">
+      <div className="p-2 px-5 md:px-20 py-10 bg-gray-200 text-2xl">
+        <p className="font-bold text-primary">
+          FOR PARTIES WITH 10 OR MORE PEOPLE
+        </p>
+        <ul className="list-disc ml-5 text-lg">
           <li>Food must be pre-ordered 10 days prior to event</li>
           <li>
             A 5% service fee and 15% gratuity will be included in the total
@@ -102,7 +105,28 @@ function LocationDetails() {
         </ul>
       </div>
       <hr />
-      <div className="mb-20"></div>
+      <div className="my-20 px-8 md:px-20">
+        <h1 className="text-primary font-bold text-4xl mb-4">
+          SUITE & BAY PRICING:
+        </h1>{' '}
+        {locObj?.bays?.map((bay, index) => {
+          return (
+            <BayCardComponent
+              title={bay.name}
+              imageUrl={bay.imageUrl}
+              list={bay.details}
+              rate={bay.rate}
+            />
+          );
+        })}
+      </div>
+      <hr />
+      <div className="p-2 px-5 md:px-20 py-10 bg-white text-black text-xl">
+        <p className="font-bold">
+          Questions? Email us at{' '}
+          <span className="text-primary"> events@getinthebunker.golf</span>
+        </p>
+      </div>
     </Layout>
   );
 }
