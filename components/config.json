@@ -184,6 +184,47 @@
             "Up to 175 guests"
           ]
         }
+      ],
+      "bays": [
+        {
+          "id": 0,
+          "name": "VIP SUITE",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 1,
+          "name": "PLAINSMEN ROOM",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 2,
+          "name": "BAY 3",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        }
       ]
     },
     {
@@ -256,6 +297,47 @@
             "Up to 175 guests"
           ]
         }
+      ],
+      "bays": [
+        {
+          "id": 0,
+          "name": "VIP SUITE",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 1,
+          "name": "PLAINSMEN ROOM",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 2,
+          "name": "BAY 3",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        }
       ]
     },
     {
@@ -327,6 +409,47 @@
             "Closed to the public",
             "Up to 175 guests"
           ]
+        }
+      ],
+      "bays": [
+        {
+          "id": 0,
+          "name": "VIP SUITE",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 1,
+          "name": "PLAINSMEN ROOM",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 2,
+          "name": "BAY 3",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         }
       ]
     }
