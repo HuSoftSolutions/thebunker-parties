@@ -22,12 +22,12 @@ function Menu() {
         <div className="border border-b-0 border-gray-200">
           <ImageCarousel images={config?.menu?.images || []} />
         </div>
-        <div className="flex flex-col md:max-h-[600px] md:flex-wrap p-4 border border-t-0 border-gray-200 rounded-b-xl">
+        <div className="flex flex-col md:max-h-[700px] lg:flex-wrap p-4 border border-t-0 border-gray-200 rounded-b-xl">
           {config?.menu?.options.map((option, index) => {
             return (
               <div
                 key={index}
-                className="flex flex-col p-2 w-full md:w-1/2 mb-2"
+                className="flex flex-col p-2 w-full md:w-1/2 xl:w-1/3 mb-2"
               >
                 <h1 className="text-primary font-bold mb-2">{option.title}</h1>
                 <ul>
@@ -35,11 +35,11 @@ function Menu() {
                     return (
                       <div className="py-1" key={index}>
                         {item.title && (
-                          <span className="font-bold text-xs md:text-sm mr-2">
+                          <span className="font-bold text-xs lg:text-sm mr-2">
                             {item.title}
                           </span>
                         )}
-                        <span className="font-normal text-xs md:text-sm">
+                        <span className="font-normal text-xs lg:text-sm">
                           {item.qty}
                         </span>
                       </div>
