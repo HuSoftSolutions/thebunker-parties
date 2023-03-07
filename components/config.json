@@ -453,5 +453,69 @@
         }
       ]
     }
-  ]
+  ],
+  "menu": {
+    "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/three.png",
+    "images": [
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Food%20Wings%20Close%20Up.jpg"
+    ],
+    "options": [
+      {
+        "id": 0,
+        "title": "SALADS",
+        "items": [
+          { "title": "Field Green Salad", "qty": null },
+          { "title": "Caesar Salad", "qty": null }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "PLATTERS",
+        "items": [
+          { "title": "Angus Sliders with Fries", "qty": "(24 each)" },
+          { "title": "Pretzels", "qty": "(16 each)" },
+          { "title": "Meatballs", "qty": "(24 each)" },
+          { "title": "Pan-fried Pork Potstickers", "qty": "(24 each)" },
+          { "title": "Loaded Fries", "qty": null },
+          { "title": "Roasted Red Pepper Hummus", "qty": null },
+          { "title": "Black Bean and Corn Salad", "qty": null },
+          { "title": "Bone-in Chicken Wings", "qty": "(24 each)" },
+          { "title": "Boneless Chicken Wings", "qty": "(24 each)" },
+          {
+            "title": null,
+            "qty": "Wing flavors: Garlic parm, Thai chili, BBQ, Stinger, Bourbon Brown Sugar, Mango Habanero and Buffalo"
+          },
+          { "title": "Bucket of Range Balls", "qty": null }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "DRINKS",
+        "items": [
+          {
+            "title": "Domestic Bucket",
+            "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
+          },
+          { "title": "Import Bucket", "qty": "(Heineken, Corona, Amstel)" },
+          { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
+          {
+            "title": "Beer Tower",
+            "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
+          },
+          {
+            "title": "Cocktail Towers",
+            "qty": null
+          },
+          {
+            "title": "Bottle of Wine",
+            "qty": null
+          },
+          {
+            "title": "Full bar available based on consumption",
+            "qty": null
+          }
+        ]
+      }
+    ]
+  }
 }
