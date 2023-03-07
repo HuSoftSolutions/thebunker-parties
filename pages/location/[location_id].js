@@ -14,7 +14,7 @@ const LocationDetails_ = () => {
   return <div></div>;
 };
 
-const IconsAndHours = () => {
+const IconsAndHours = ({ locObj }) => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between">
       <div className="flex">
@@ -28,14 +28,18 @@ const IconsAndHours = () => {
         />
       </div>
 
-      <div className="">
+      <div className="font-normal text-black">
         <div>
           <span className="text-primary font-bold">HOURS:</span>{' '}
-          <span>Monday - Sunday 9am-11pm</span>
+          <span>{locObj?.hours}</span>
         </div>
         <div>
           <span className="text-primary font-bold">PHONE:</span>{' '}
-          <span>(518) 280-6347</span>
+          <span>{locObj?.phone}</span>
+        </div>
+        <div>
+          <span className="text-primary font-bold">ADDRESS:</span>{' '}
+          <span>{locObj?.address}</span>
         </div>
       </div>
     </div>
@@ -66,7 +70,7 @@ function LocationDetails() {
           <ImageCarousel images={locObj?.images || []} />
         </div>
         <div className="flex flex-col p-4 border border-t-0 border-gray-200 rounded-b-xl">
-          <IconsAndHours />
+          <IconsAndHours locObj={locObj} />
         </div>
       </div>
       {/* Location Details */}
