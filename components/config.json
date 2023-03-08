@@ -562,5 +562,13 @@
         ]
       }
     ]
-  }
+  },
+  "gallery": [
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park_jlhj76.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park-2_nvux6g.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232423/thebunkerparties/locations/cp-gallery-Bunker_LOGO_And_Bar_Medium_etanpr.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232424/thebunkerparties/locations/cp-gallery-Patio_With_Guests_Alt_Wide_a3ki0u.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232449/thebunkerparties/locations/IMG_1669_yrdrue.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232450/thebunkerparties/locations/cp-header-DSCF4635-select_j6ue7x.jpg"
+  ]
 }
