@@ -2,11 +2,11 @@ import React from 'react';
 
 const BayCardComponent = ({ imageUrl, title, list, rate }) => {
   return (
-    <div className="flex flex-col lg:flex-row h-fit lg:h-[275px] m-1 mb-10 border rounded-b-xl lg:rounded-bl-none lg:rounded-r-xl  font-bold shadow-xl">
+    <div className="flex flex-col lg:flex-row h-fit lg:h-[400px] m-1 mb-10 border rounded-b-xl lg:rounded-bl-none lg:rounded-r-xl  font-bold shadow-xl">
       <div className="w-full lg:w-2/3 flex items-center">
         <img
           src={imageUrl}
-          className="h-[275px] w-full object-cover p-1"
+          className="h-[400px] w-full object-cover p-1"
           alt={title}
         />
       </div>

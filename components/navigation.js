@@ -12,7 +12,7 @@ export const navigationItems = [
       },
       {
         title: 'Guilderland',
-        to: '/location/guilderland',
+        to: '/menu',
         id: 8,
       },
       {

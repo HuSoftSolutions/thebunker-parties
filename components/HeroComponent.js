@@ -20,7 +20,9 @@ function Hero({ imageUrl, title, message, btnTitle, btnClick, size, address }) {
         height: h,
       }}
     >
-      <div className="p-10 bg-black bg-opacity-70 h-full w-full flex items-center justify-center flex-col">
+      <div
+        className={`p-10 bg-black bg-opacity-50 h-full w-full flex items-center justify-center flex-col`}
+      >
         <h1 className="text-[35px] md:text-[50px] font-bold text-center my-2">
           {title}
         </h1>

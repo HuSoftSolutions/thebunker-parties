@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { MdKeyboardArrowDown } from 'react-icons/md';
@@ -44,10 +44,10 @@ const getDropdownComponent = (navitem) => {
           return (
             <Link
               href={dropdownitem.to}
-              className="block py-2 text-lg"
+              className="block py-2 text-lg hover:text-primary"
               key={dropdownitem.id + 'desktop'}
             >
-              <span className="hover:text-primary">{dropdownitem.title}</span>
+              {dropdownitem.title}
             </Link>
           );
         })}
@@ -78,7 +78,7 @@ const Sidebar = () => {
             case 'dropdown':
               return (
                 <div key={navitem.id + 'mbl'}>
-                  {getDropdownComponent(navitem)}
+                  {getDropdownComponent(navitem, null)}
                 </div>
               );
           }
@@ -164,6 +164,12 @@ const Layout = ({ children }) => {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
+
+  const { asPath } = useRouter();
+
+  useEffect(() => {
+    setIsNavOpen(false);
+  }, [asPath]);
 
   return (
     <div className="flex h-full">

@@ -1,7 +1,7 @@
 {
   "locations": [
     {
-      "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/CP_VIP_League.jpg",
+      "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232450/thebunkerparties/locations/cp-header-DSCF4635-select_j6ue7x.jpg",
       "title": "CLIFTON PARK",
       "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
       "hours": "Monday - Sunday 9am-11pm",
@@ -10,7 +10,10 @@
       "to": "/location/cliftonpark",
       "id": "cliftonpark",
       "images": [
-        "https://storage.googleapis.com/thebunker-assets/thebunker/clifton-park/three.jpg"
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park_jlhj76.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park-2_nvux6g.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232423/thebunkerparties/locations/cp-gallery-Bunker_LOGO_And_Bar_Medium_etanpr.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232424/thebunkerparties/locations/cp-gallery-Patio_With_Guests_Alt_Wide_a3ki0u.jpg"
       ],
       "eventPackages": [
         {
@@ -84,7 +87,7 @@
             "List features and information"
           ],
           "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232449/thebunkerparties/locations/IMG_1678_nj9wuh.jpg"
         },
         {
           "id": 1,
@@ -97,7 +100,7 @@
             "List features and information"
           ],
           "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232451/thebunkerparties/locations/IMG_1685_k3bb6b.jpg"
         },
         {
           "id": 2,
@@ -110,7 +113,46 @@
             "List features and information"
           ],
           "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232452/thebunkerparties/locations/IMG_1668_gw0i53.jpg"
+        },
+        {
+          "id": 3,
+          "name": "BAY 4",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 60,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232449/thebunkerparties/locations/IMG_1669_yrdrue.jpg"
+        },
+        {
+          "id": 4,
+          "name": "BAY 5",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 60,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232451/thebunkerparties/locations/IMG_1670_jnng5z.jpg"
+        },
+        {
+          "id": 5,
+          "name": "DART ROOM",
+          "details": [
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information",
+            "List features and information"
+          ],
+          "rate": 40,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232428/thebunkerparties/locations/cp-gallery-dart-room_ypej8v.png"
         }
       ]
     },

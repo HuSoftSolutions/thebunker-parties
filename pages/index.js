@@ -34,7 +34,7 @@ export default function Home() {
               BOOK YOUR EVENT
             </h1>
             <Card
-              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Party_Placeholder.png"
+              imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232145/thebunkerparties/Dining_Room_Patrons_Toast_Wide_zfdif4.jpg"
               title="STEP 1: WHERE TO PARTY?"
               message="All of our locations offer a variety of unique party packages and options to create the best event experience for any occasion. Visit our locations page for more information. If you already know the space you want, you're ready for Step 2!"
               onClick={() => {
@@ -43,14 +43,14 @@ export default function Home() {
               btnTitle="SEE LOCATIONS & SPACES"
             />
             <Card
-              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/one.png"
+              imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232141/thebunkerparties/nh-png_pyj7nx.jpg"
               title="STEP 2: SCHEDULE YOUR PARTY"
               message="Let's get your party scheduled! Start the process by clicking the button below. This will lead you through a series of questions and event options regarding location, number of guests, date and more. Once submitted, our events coordinator will reach out to finalize the booking process."
               onClick={() => {}}
               btnTitle="BOOK NOW"
             />
             <Card
-              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Food%20Wings%20Close%20Up.jpg"
+              imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232141/thebunkerparties/IMG_1368_nl3mja.jpg"
               title="STEP 3: FOOD & DRINKS"
               message="Ten days before your event, you'll receive a notification to order the food and drinks for your party. Follow the prompts to make your final selections and let us take care of the rest!"
               onClick={() => {}}

@@ -8,7 +8,7 @@ function Locations() {
   return (
     <Layout>
       <Hero
-        imageUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Holzhausern%20Driving%20Range.jpg"
+        imageUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232723/thebunkerparties/locations/IMG_7028_bmbry0.jpg"
         title="OUR LOCATIONS"
       />
       <div className="flex justify-center my-10">
