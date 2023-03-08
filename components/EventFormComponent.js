@@ -45,7 +45,7 @@ function EventForm() {
       <h1 className="mb-4 text-2xl text-primary">Event Booking Form</h1>
 
       <form
-        className="p-6 bg-gray-200 rounded-lg shadow-md"
+        className="p-6 bg-white rounded-lg shadow-md"
         onSubmit={handleSubmit}
       >
         {Object.keys(formData).map((fieldName) => {
