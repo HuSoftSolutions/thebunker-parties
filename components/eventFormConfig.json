@@ -1,0 +1,86 @@
+{
+  "firstName": {
+    "label": "First Name",
+    "type": "text"
+  },
+  "lastName": {
+    "label": "Last Name",
+    "type": "text"
+  },
+  "phone": {
+    "label": "Phone",
+    "type": "tel"
+  },
+  "email": {
+    "label": "Email Address",
+    "type": "email"
+  },
+  "eventPackage": {
+    "label": "Event Package",
+    "type": "select",
+    "options": [
+      { "label": "Option 1", "value": "option1" },
+      { "label": "Option 2", "value": "option2" },
+      { "label": "Option 3", "value": "option3" }
+    ]
+  },
+  "guestCount": {
+    "label": "Guest Count",
+    "type": "number"
+  },
+  "preferredStartTime": {
+    "label": "Preferred Start Time",
+    "type": "time"
+  },
+  "preferredBookingDuration": {
+    "label": "Preferred Booking Duration (in 15 minute intervals)",
+    "type": "number",
+    "step": "15"
+  },
+  "message": {
+    "label": "Message",
+    "type": "textarea"
+  },
+  "preferredLocation": {
+    "label": "What is your preferred location?",
+    "type": "select",
+    "options": [
+      { "label": "Clifton Park", "value": "cliftonpark" },
+      { "label": "Guilderland", "value": "guilderland" },
+      { "label": "New Hartford", "value": "newhartford" },
+      { "label": "North Greenbush", "value": "northgreenbush" }
+    ]
+  },
+  "guestsAttending": {
+    "label": "How many guests will be attending?",
+    "type": "number"
+  },
+  "guestsGolfing": {
+    "label": "How many guests will be golfing?",
+    "type": "number"
+  },
+  "menuOrdering": {
+    "label": "Will you be ordering off our Regular or Catering menu?",
+    "type": "select",
+    "options": [
+      { "label": "Regular Menu", "value": "regular" },
+      { "label": "Catering Menu", "value": "catering" }
+    ]
+  },
+  "isSurpriseParty": {
+    "label": "Is the event a surprise party?",
+    "type": "checkbox"
+  },
+  "surpriseDetails": {
+    "label": "If yes, please provide details",
+    "type": "textarea"
+  },
+  "decorations": {
+    "label": "Will you be bringing decorations? (banners and balloons only)",
+    "type": "checkbox"
+  },
+  "proposedDates": {
+    "label": "Proposed date or dates of your event",
+    "type": "date"
+  }
+}

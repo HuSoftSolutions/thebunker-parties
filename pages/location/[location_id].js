@@ -22,7 +22,9 @@ function LocationDetails() {
         title={locObj?.title}
         address={locObj?.address}
         btnTitle="BOOK NOW"
-        btnClick={() => {}}
+        btnClick={() => {
+          router.push('/event');
+        }}
         size="md"
       />
 
