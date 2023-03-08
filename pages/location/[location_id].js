@@ -4,47 +4,9 @@ import { useRouter } from 'next/router';
 import Hero from '@/components/HeroComponent';
 import config from '@/components/config';
 import ImageCarousel from '@/components/ImageCarouselComponent';
-import { CgPin } from 'react-icons/cg';
-import { GiKnifeFork } from 'react-icons/gi';
-import IconComponent from '@/components/IconComponent';
 import EventPackageComponent from '@/components/EventPackageComponent';
 import BayCardComponent from '@/components/BayCardComponent';
-
-const LocationDetails_ = () => {
-  return <div></div>;
-};
-
-const IconsAndHours = ({ locObj }) => {
-  return (
-    <div className="flex flex-col md:flex-row items-center justify-between">
-      <div className="flex">
-        <IconComponent
-          title="DIRECTIONS"
-          icon={<CgPin className="w-full h-full" />}
-        />
-        <IconComponent
-          title="MENU"
-          icon={<GiKnifeFork className="w-full h-full" />}
-        />
-      </div>
-
-      <div className="font-normal text-black">
-        <div>
-          <span className="text-primary font-bold">HOURS:</span>{' '}
-          <span>{locObj?.hours}</span>
-        </div>
-        <div>
-          <span className="text-primary font-bold">PHONE:</span>{' '}
-          <span>{locObj?.phone}</span>
-        </div>
-        <div>
-          <span className="text-primary font-bold">ADDRESS:</span>{' '}
-          <span>{locObj?.address}</span>
-        </div>
-      </div>
-    </div>
-  );
-};
+import IconsAndHours from '@/components/IconsAndHoursComponent';
 
 function LocationDetails() {
   const router = useRouter();
@@ -73,10 +35,7 @@ function LocationDetails() {
           <IconsAndHours locObj={locObj} />
         </div>
       </div>
-      {/* Location Details */}
       <div className="my-10 p-8 md:px-20 pt-0 w-full">
-        {/* Icons & Hours */}
-        {/* Event Packages */}
         <div className="m-1 flex justify-center flex-col w-full mx-auto">
           <h1 className="text-primary font-bold text-4xl mb-2">
             EVENT PACKAGES:
@@ -91,10 +50,6 @@ function LocationDetails() {
             })}
           </div>
         </div>
-
-        {/* Party Notice */}
-        {/* Suite & Bay Pricing */}
-        {/* Contact Us */}
       </div>
       <hr />
       <div className="p-2 px-5 md:px-20 py-10 bg-gray-200 text-2xl">
