@@ -18,6 +18,7 @@
 
 body {
   font-family: 'Aller', sans-serif;
+  overscroll-behavior: none;
 }
 
 h1,
