@@ -80,7 +80,7 @@
     "type": "checkbox"
   },
   "proposedDates": {
-    "label": "Proposed date or dates of your event",
+    "label": "Proposed date of your event",
     "type": "date"
   }
 }
