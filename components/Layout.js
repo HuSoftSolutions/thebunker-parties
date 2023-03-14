@@ -7,9 +7,15 @@ import { navigationItems } from './navigation';
 import { useRouter } from 'next/router';
 
 const getLinkComponent = (navitem) => {
+  const { pathname } = useRouter();
+
+  const style = pathname === navitem.to ? 'text-secondary' : '';
+
   return (
     <Link href={navitem.to} className="block py-2">
-      <span className="block py-2 hover:text-primary">{navitem.title}</span>
+      <span className={`block py-2 hover:text-primary ${style}`}>
+        {navitem.title}
+      </span>
     </Link>
   );
 };
@@ -18,6 +24,8 @@ const getDropdownComponent = (navitem) => {
   const [show, setShow] = useState(false);
   const router = useRouter();
 
+  const style = router.pathname === navitem.to ? 'text-secondary' : '';
+
   const toggle = () => {
     setShow(!show);
   };
@@ -25,7 +33,7 @@ const getDropdownComponent = (navitem) => {
   return (
     <div className="w-full">
       <div className="py-2 text-left focus:outline-none flex items-center w-full justify-center ml-3 md:ml-0 md:justify-start cursor-pointer hover:text-primary">
-        <span className="" onClick={() => router.push(navitem.to)}>
+        <span className={`${style}`} onClick={() => router.push(navitem.to)}>
           {navitem.title}
         </span>
         <MdKeyboardArrowDown
@@ -34,7 +42,7 @@ const getDropdownComponent = (navitem) => {
         />
       </div>
       <div
-        className={`text-secondary overflow-hidden transition-all ${
+        className={`${style} overflow-hidden transition-all ${
           show
             ? 'h-auto ease-in-out duration-300'
             : 'h-0 ease-in-out duration-200'
@@ -87,14 +95,14 @@ const Sidebar = () => {
       </div>
       <div className="p-4 w-full justify-start flex ml-8">
         <a
-          href="https://www.facebook.com/"
+          href="https://www.facebook.com/getinthebunkerNY"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaFacebook className="hover:text-blue-600 w-8 h-8 inline-block mr-3" />
         </a>
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/getinthebunker/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -158,7 +166,7 @@ const MobileNavBarNavigation = ({ open, toggle }) => {
   );
 };
 
-const Layout = ({ children }) => {
+const Layout = ({ children, bg }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -172,8 +180,9 @@ const Layout = ({ children }) => {
   }, [asPath]);
 
   return (
-    <div className="flex h-full">
-      <Sidebar />
+    <div className={`flex h-full ${bg || ''}`}>
+      {/* <Sidebar /> */}
+      {Sidebar()}
       <div className="w-full h-full">
         <MobileNavBar open={isNavOpen} toggle={toggleNav} />
         <div className="p-0">{children}</div>

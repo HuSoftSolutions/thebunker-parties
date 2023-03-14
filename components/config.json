@@ -1,7 +1,8 @@
 {
   "locations": [
     {
-      "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232450/thebunkerparties/locations/cp-header-DSCF4635-select_j6ue7x.jpg",
+      "businessCardImgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678735622/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park_poj4v5.jpg",
+      "locationHeaderImgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232450/thebunkerparties/locations/cp-header-DSCF4635-select_j6ue7x.jpg",
       "title": "CLIFTON PARK",
       "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
       "hours": "Monday - Sunday 9am-11pm",
@@ -80,11 +81,10 @@
           "id": 0,
           "name": "VIP SUITE",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to up to 10 people if anyone is golfing; or up to 20 if no one is golfing",
+            "Our biggest private room at over 800sq feet with 18’ wide screen and an extra-large lounge space with two plush couches, a table, two comfy chairs, and bar-style seating with six stools",
+            "Two 75” LED TVs and choice of music genre",
+            "Call button for bar service"
           ],
           "rate": 100,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232449/thebunkerparties/locations/IMG_1678_nj9wuh.jpg"
@@ -92,12 +92,14 @@
         {
           "id": 1,
           "name": "PLAINSMEN ROOM",
+          "detail": "Large private room with two golf bays!",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to 12 people if anyone is golfing; up to 24 if no one is golfing; a perfect space for large parties",
+            "You can dedicate one bay for golfers and use the other bay for party space",
+            "Features two widescreen hitting bays and two comfortable lounge spaces, each with a plush couch, table, and two comfy chairs",
+            "Each bay has its own 75” LED TV",
+            "Choice of music genre",
+            "Each bay can also be booked by itself for a semi-private party"
           ],
           "rate": 100,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232451/thebunkerparties/locations/IMG_1685_k3bb6b.jpg"
@@ -106,11 +108,11 @@
           "id": 2,
           "name": "BAY 3",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
+            "This is a “social” bay open to the bar and near the action",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "Two 75” LED TVs are in view",
+            "For large parties, Bay 3 can be combined with Bay 4 or the VIP Suite"
           ],
           "rate": 60,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232452/thebunkerparties/locations/IMG_1668_gw0i53.jpg"
@@ -119,11 +121,11 @@
           "id": 3,
           "name": "BAY 4",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
+            "This is a “social” bay open to the bar area and right in the middle of the action",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "Two 75” LED TVs are in view",
+            "For large parties, Bay 4 can be combined with Bay 3 and/or Bay 5"
           ],
           "rate": 60,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232449/thebunkerparties/locations/IMG_1669_yrdrue.jpg"
@@ -132,12 +134,14 @@
           "id": 4,
           "name": "BAY 5",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing.",
+            "This is a “social” bay with a direct view of the bar area",
+            "Bay 5 also features a private outdoor patio with a firepit; the garage door goes up when weather permits",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "Two 75” TVs in the bar are in view",
+            "For large parties, Bay 5 can be combined with Bay 4"
           ],
+          "detail": "Patio Bay!",
           "rate": 60,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232451/thebunkerparties/locations/IMG_1670_jnng5z.jpg"
         },
@@ -145,11 +149,13 @@
           "id": 5,
           "name": "DART ROOM",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to 10 people (even if people are playing darts)",
+            "Interactive darts (steel tips) make this space fun for everyone. Get ready to share the video of each game winner on your social media!",
+            "Features one Interactive Darts Bay, plus bar style seating for 5 and cocktail seating for 5",
+            "Two 75” LED TVs",
+            "Choose your own music genre",
+            "Call button for bar service",
+            "The Dart Room can also be booked with any other Private Room or Bay to create awesome hospitality room for your party guests"
           ],
           "rate": 40,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232428/thebunkerparties/locations/cp-gallery-dart-room_ypej8v.png"
@@ -157,7 +163,8 @@
       ]
     },
     {
-      "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/main.png",
+      "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/main.png",
+      "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/main.png",
       "title": "GUILDERLAND",
       "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
       "hours": "Monday - Sunday 9am-11pm",
@@ -231,33 +238,34 @@
       "bays": [
         {
           "id": 0,
-          "name": "VIP SUITE",
+          "name": "BAY 1",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
+            "RIGHT-HANDED PLAYERS ONLY",
+            "This is a “social” bay open to the bar and near the action, but curtain can be closed for semi-private space",
+            "Features a 16’ widescreen hitting bay and lounge seating including a loveseat, a table, and two chairs",
+            "75” TV",
+            "Bay 1 can be converted to a band stage"
           ],
           "rate": 100,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         },
         {
           "id": 1,
-          "name": "PLAINSMEN ROOM",
+          "name": "BAY 10",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to 4 people if anyone is golfing; or up to 8 if no one is golfing",
+            "This is a “social” bay open to the bar, but semi-private because it is tucked around the corner",
+            "Features an 18’ widescreen hitting bay and bar-style seating for 4",
+            "75” TV",
+            "For large parties, Bay 10 can be combined with neighboring Bay 18"
           ],
           "rate": 100,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         },
         {
           "id": 2,
-          "name": "BAY 3",
+          "name": "VIP Room",
           "details": [
             "List features and information",
             "List features and information",
@@ -271,7 +279,8 @@
       ]
     },
     {
-      "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
+      "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
+      "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
       "title": "NORTH GREENBUSH",
       "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
       "hours": "Monday - Sunday 9am-11pm",
@@ -385,7 +394,8 @@
       ]
     },
     {
-      "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/main.png",
+      "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/main.png",
+      "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/main.png",
       "title": "NEW HARTFORD",
       "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
       "hours": "Monday - Sunday 9am-11pm",
@@ -500,75 +510,118 @@
     }
   ],
   "menu": {
-    "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/three.png",
+    "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_3720_g2o7je.jpg",
     "images": [
-      "https://storage.googleapis.com/thebunker-assets/thebunker/Food%20Wings%20Close%20Up.jpg"
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/DSCF4892_nfdge1.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3460_c2t4nb.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
     ],
-    "options": [
+    "items": [
       {
-        "id": 0,
-        "title": "SALADS",
-        "items": [
-          { "title": "Field Green Salad", "qty": null },
-          { "title": "Caesar Salad", "qty": null }
-        ]
+        "title": "Field Green Salad",
+        "qty": null,
+        "cost": "XX",
+        "imgUrl": ""
+      },
+      { "title": "Caesar Salad", "qty": null, "cost": "XX", "imgUrl": "" },
+      {
+        "title": "Angus Sliders with Fries",
+        "qty": "(24 each)",
+        "cost": "XX",
+        "imgUrl": ""
       },
       {
-        "id": 1,
-        "title": "PLATTERS",
-        "items": [
-          { "title": "Angus Sliders with Fries", "qty": "(24 each)" },
-          { "title": "Pretzels", "qty": "(16 each)" },
-          { "title": "Meatballs", "qty": "(24 each)" },
-          { "title": "Pan-fried Pork Potstickers", "qty": "(24 each)" },
-          { "title": "Loaded Fries", "qty": null },
-          { "title": "Roasted Red Pepper Hummus", "qty": null },
-          { "title": "Black Bean and Corn Salad", "qty": null },
-          { "title": "Bone-in Chicken Wings", "qty": "(24 each)" },
-          { "title": "Boneless Chicken Wings", "qty": "(24 each)" },
-          {
-            "title": null,
-            "qty": "Wing flavors: Garlic parm, Thai chili, BBQ, Stinger, Bourbon Brown Sugar, Mango Habanero and Buffalo"
-          },
-          { "title": "Bucket of Range Balls", "qty": null }
-        ]
+        "title": "Pretzels",
+        "qty": "(16 each)",
+        "cost": "XX",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_3720_g2o7je.jpg"
       },
       {
-        "id": 2,
-        "title": "DRINKS",
-        "items": [
-          {
-            "title": "Domestic Bucket",
-            "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
-          },
-          { "title": "Import Bucket", "qty": "(Heineken, Corona, Amstel)" },
-          { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
-          {
-            "title": "Beer Tower",
-            "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
-          },
-          {
-            "title": "Cocktail Towers",
-            "qty": null
-          },
-          {
-            "title": "Bottle of Wine",
-            "qty": null
-          },
-          {
-            "title": "Full bar available based on consumption",
-            "qty": null
-          }
-        ]
+        "title": "Meatballs",
+        "qty": "(24 each)",
+        "cost": "XX",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736790/thebunkerparties/menu/IMG_3753_j3tv1w.jpg"
+      },
+      {
+        "title": "Pan-fried Pork Potstickers",
+        "qty": "(24 each)",
+        "cost": "XX",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3731_x2umfk.jpg"
+      },
+      {
+        "title": "Loaded Fries",
+        "qty": null,
+        "cost": "XX",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3734_yy7luj.jpg"
+      },
+      {
+        "title": "Roasted Red Pepper Hummus",
+        "qty": null,
+        "cost": "XX",
+        "imgUrl": ""
+      },
+      {
+        "title": "Black Bean and Corn Salad",
+        "qty": null,
+        "cost": "XX",
+        "imgUrl": ""
+      },
+      {
+        "title": "Bucket of Range Balls",
+        "qty": null,
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_6930_yeli58.jpg"
+      },
+      {
+        "title": "Bone-in Chicken Wings",
+        "qty": "(24 each)",
+        "cost": "XX",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678759931/thebunkerparties/menu/IMG_3742_gqmzxm.jpg"
+      },
+      {
+        "title": "Boneless Chicken Wings",
+        "qty": "(24 each)",
+        "cost": "XX",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3761_ukqpcu.jpg"
+      }
+    ],
+    "drinks": [
+      {
+        "title": "Domestic Bucket",
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
+      },
+      { "title": "Import Bucket", "qty": "(Heineken, Corona, Amstel)" },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
+      {
+        "title": "Beer Tower",
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
+      },
+      {
+        "title": "Cocktail Towers",
+        "qty": null
+      },
+      {
+        "title": "Bottle of Wine",
+        "qty": null
+      },
+      {
+        "title": "Full bar available based on consumption",
+        "qty": null
       }
     ]
   },
   "gallery": [
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park_jlhj76.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park-2_nvux6g.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232423/thebunkerparties/locations/cp-gallery-Bunker_LOGO_And_Bar_Medium_etanpr.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232424/thebunkerparties/locations/cp-gallery-Patio_With_Guests_Alt_Wide_a3ki0u.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232449/thebunkerparties/locations/IMG_1669_yrdrue.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232450/thebunkerparties/locations/cp-header-DSCF4635-select_j6ue7x.jpg"
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736681/thebunkerparties/gallery/DSCF4892_wkyglu.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736643/thebunkerparties/gallery/four.png_namrld.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736640/thebunkerparties/gallery/IMG_3742_gpp7uz.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736643/thebunkerparties/gallery/IMG_1136_xzge0i.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736639/thebunkerparties/gallery/IMG_1332_f54hc9.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736639/thebunkerparties/gallery/IMG_3925_vs2dqt.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736684/thebunkerparties/gallery/DSCF4829_cpzaa2.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/DSCF4890_elevkh.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/nh-fb_gcmarg.jpg",
+
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736630/thebunkerparties/gallery/cp-fb-patio_abotbi.jpg"
   ]
 }

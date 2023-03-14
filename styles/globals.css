@@ -26,3 +26,13 @@ h2,
 h3 {
   font-family: 'Aller Bd', sans-serif;
 }
+
+/* Add font-weight utilities */
+
+.font-bold {
+  font-family: 'Aller Bd', sans-serif;
+}
+
+.font-thin {
+  font-family: 'Aller', sans-serif;
+}

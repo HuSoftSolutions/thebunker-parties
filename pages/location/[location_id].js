@@ -18,7 +18,7 @@ function LocationDetails() {
   return (
     <Layout>
       <Hero
-        imageUrl={locObj?.imageUrl}
+        imageUrl={locObj?.locationHeaderImgUrl}
         title={locObj?.title}
         address={locObj?.address}
         btnTitle="BOOK NOW"
@@ -77,6 +77,7 @@ function LocationDetails() {
               imageUrl={bay.imageUrl}
               list={bay.details}
               rate={bay.rate}
+              detail={bay.detail}
             />
           );
         })}

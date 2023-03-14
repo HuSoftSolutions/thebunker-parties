@@ -1,24 +1,27 @@
 import React from 'react';
 
-const BayCardComponent = ({ imageUrl, title, list, rate }) => {
+const BayCardComponent = ({ imageUrl, title, list, rate, detail }) => {
   return (
-    <div className="flex flex-col lg:flex-row h-fit lg:h-[400px] m-1 mb-10 border rounded-b-xl lg:rounded-bl-none lg:rounded-r-xl  font-bold shadow-xl">
-      <div className="w-full lg:w-2/3 flex items-center">
+    <div className="flex flex-col xl:flex-row h-fit xl:h-[400px] m-1 mb-10 border rounded-b-xl xl:rounded-bl-none xl:rounded-r-xl  font-bold shadow-xl">
+      <div className="w-full xl:w-2/3 flex items-center">
         <img
           src={imageUrl}
           className="h-[400px] w-full object-cover p-1"
           alt={title}
         />
       </div>
-      <div className="w-full lg:w-1/3 lg:p-4 break-all	flex flex-col justify-between p-5">
-        <h2 className="text-xl xl:text-2xl font-bold mb-2 text-primary">
+      <div className="w-full xl:w-1/3 xl:p-4 flex flex-col justify-between p-5">
+        <h2 className="text-xl xl:text-2xl font-bold mb-0 text-primary">
           {title}
         </h2>
-        <ul className="list-disc ml-5">
+        {detail !== null && (
+          <p className="text-sm text-black font-bold">{detail}</p>
+        )}
+        <ul className="list-disc ml-5  xl:h-full flex flex-col my-4">
           {list?.map((item, index) => {
             return (
               <li key={index}>
-                <p className="font-normal text-[12px] xl:text-lg">{item}</p>
+                <p className="font-normal text-xs xl:text-sm">{item}</p>
               </li>
             );
           })}
