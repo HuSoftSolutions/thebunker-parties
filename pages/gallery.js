@@ -25,7 +25,7 @@ const Gallery = () => {
         {config?.gallery?.map((image, index) => (
           <div
             key={index}
-            className={`bg-gray-200 h-fit sm:h-96 flex items-center justify-center overflow-hidden m-2 gap-2 ${
+            className={`bg-gray-200 h-fit sm:h-96 flex items-center justify-center overflow-hidden ${
               [0, 3, 4, 7, 8, 10, 11, 13, 14].includes(index)
                 ? 'col-span-3 sm:col-span-2'
                 : 'col-span-3 sm:col-span-1'
