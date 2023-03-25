@@ -81,7 +81,7 @@
           "id": 0,
           "name": "VIP SUITE",
           "details": [
-            "Accommodates up to up to 10 people if anyone is golfing; or up to 20 if no one is golfing",
+            "Accommodates up to up to 20 guests (8 golfers)",
             "Our biggest private room at over 800sq feet with 18’ wide screen and an extra-large lounge space with two plush couches, a table, two comfy chairs, and bar-style seating with six stools",
             "Two 75” LED TVs and choice of music genre",
             "Call button for bar service"
@@ -94,7 +94,7 @@
           "name": "PLAINSMEN ROOM",
           "detail": "Large private room with two golf bays!",
           "details": [
-            "Accommodates up to 12 people if anyone is golfing; up to 24 if no one is golfing; a perfect space for large parties",
+            "Accommodates up to 12 guests if anyone is golfing; up to 24 if no one is golfing; a perfect space for large parties",
             "You can dedicate one bay for golfers and use the other bay for party space",
             "Features two widescreen hitting bays and two comfortable lounge spaces, each with a plush couch, table, and two comfy chairs",
             "Each bay has its own 75” LED TV",
@@ -108,7 +108,7 @@
           "id": 2,
           "name": "BAY 3",
           "details": [
-            "Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
+            "Accommodates up to 4 guests",
             "This is a “social” bay open to the bar and near the action",
             "Features a widescreen hitting bay and bar-style seating for golfers",
             "Two 75” LED TVs are in view",
@@ -121,7 +121,7 @@
           "id": 3,
           "name": "BAY 4",
           "details": [
-            "Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
+            "Accommodates up to 4 guests",
             "This is a “social” bay open to the bar area and right in the middle of the action",
             "Features a widescreen hitting bay and bar-style seating for golfers",
             "Two 75” LED TVs are in view",
@@ -134,9 +134,9 @@
           "id": 4,
           "name": "BAY 5",
           "details": [
-            "Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing.",
+            "Accommodates up to 4 guests",
             "This is a “social” bay with a direct view of the bar area",
-            "Bay 5 also features a private outdoor patio with a firepit; the garage door goes up when weather permits",
+            "Bay 5 also features a private outdoor patio (Accommodates up to 25 guests) with a firepit; the garage door goes up when weather permits",
             "Features a widescreen hitting bay and bar-style seating for golfers",
             "Two 75” TVs in the bar are in view",
             "For large parties, Bay 5 can be combined with Bay 4"
@@ -149,7 +149,7 @@
           "id": 5,
           "name": "DART ROOM",
           "details": [
-            "Accommodates up to 10 people (even if people are playing darts)",
+            "Accommodates up to 10 guests",
             "Interactive darts (steel tips) make this space fun for everyone. Get ready to share the video of each game winner on your social media!",
             "Features one Interactive Darts Bay, plus bar style seating for 5 and cocktail seating for 5",
             "Two 75” LED TVs",
@@ -173,7 +173,10 @@
       "to": "/location/guilderland",
       "id": "guilderland",
       "images": [
-        "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg"
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
       ],
       "eventPackages": [
         {
@@ -240,41 +243,65 @@
           "id": 0,
           "name": "BAY 1",
           "details": [
-            "Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
+            "Accommodates up to 4 guests",
             "RIGHT-HANDED PLAYERS ONLY",
-            "This is a “social” bay open to the bar and near the action, but curtain can be closed for semi-private space",
+            "This is a “social” bay open to the bar and near the action, but curtain can be closed for semi- private space",
             "Features a 16’ widescreen hitting bay and lounge seating including a loveseat, a table, and two chairs",
             "75” TV",
             "Bay 1 can be converted to a band stage"
           ],
           "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 1,
           "name": "BAY 10",
           "details": [
-            "Accommodates up to 4 people if anyone is golfing; or up to 8 if no one is golfing",
+            "Accommodates up to 4 guests",
             "This is a “social” bay open to the bar, but semi-private because it is tucked around the corner",
             "Features an 18’ widescreen hitting bay and bar-style seating for 4",
             "75” TV",
             "For large parties, Bay 10 can be combined with neighboring Bay 18"
           ],
           "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 2,
-          "name": "VIP Room",
+          "name": "Bay 18",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to 6 guests",
+            "This is a “social” bay open to the bar and right in the middle of the action",
+            "Features an 18’ widescreen hitting bay and bar-style seating for 4",
+            "Two 75” TVs in the bar are in view",
+            "For large parties, Bay 18 can be combined with neighboring Bay 10"
           ],
           "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        },
+        {
+          "id": 3,
+          "name": "VIP Room",
+          "details": [
+            "Accommodates up to up to 8 guests",
+            "Our biggest private room with 18’ wide screen features bar-style seating for 4 plus an additional 600sq. ft connected lounge space with two couches.",
+            "Two 75” LED TVs and choice of music genre",
+            "Call button for bar service"
+          ],
+          "rate": 60,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Dutchmen Room",
+          "details": [
+            "Accommodates up to up to 6 guests",
+            "Private room with 16’ wide screen features lounge-style seating for 6",
+            "Two 75” LED TVs and choice of music genre",
+            "Call button for bar service"
+          ],
+          "rate": 60,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         }
       ]
     },
@@ -289,7 +316,10 @@
       "to": "/location/northgreenbush",
       "id": "northgreenbush",
       "images": [
-        "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg"
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
       ],
       "eventPackages": [
         {
@@ -356,40 +386,95 @@
           "id": 0,
           "name": "VIP SUITE",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to up to 20 guests, 8 golfers",
+            "Our biggest private room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with two couches, a table, two chairs, and a bar seating with six stools",
+            "The VIP Suite is on the upper floor near the bar area, so everyone gets a peek at the high-rollers!",
+            "Two 75” LED TVs and choice of music genre",
+            "Call button for bar service"
           ],
           "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 1,
-          "name": "PLAINSMEN ROOM",
+          "name": "Blue Devil Room",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to up to 6 guests",
+            "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
+            "The Blue Devil Room is on the upper floor near the upper bar area, so everyone gets a peek at the high rollers!",
+            "75” LED TVs and choice of music genre",
+            "Call button for bar service"
           ],
-          "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "rate": 70,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 2,
-          "name": "BAY 3",
+          "name": "VIKING ROOM",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to up to 6 guests",
+            "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
+            "The Viking Room is located on the lower floor and behind the bar area, so this is our most private event space available",
+            "Two 75” LED TVs and choice of music genre",
+            "Call button for bar service"
+          ],
+          "rate": 100,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        },
+        {
+          "id": 3,
+          "name": "BAY 1",
+          "details": [
+            "Accommodates up to six guests",
+            "Located on the lower floor, this is our larger semi-private “social” bay open to the lower bar, and near the action",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "Two 75” LED TVs are in view",
+            "Bay1 includes interactive games including Bowling, Baseball, Soccer, and Disc Golf",
+            "For large parties, when Bay 1 is combined with neighboring Bay 5, the area between the two bays with a poker table becomes your space too"
           ],
           "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        },
+        {
+          "id": 4,
+          "name": "BAY 3",
+          "details": [
+            "Accommodates up to 6 guests",
+            "Located on the lower floor, this is a larger “social” bay open to the lower bar, and near the action",
+            "Features a widescreen hitting bay and comfortable lounge space with a plush couch, table, and two comfy chairs",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "75” TVs are in view",
+            "For large parties, Bay 3 can be combined with neighboring Bay 4 or the nearby Viking Room"
+          ],
+          "rate": 60,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        },
+        {
+          "id": 5,
+          "name": "BAY 4",
+          "details": [
+            "Accommodates up to six guests",
+            "Located on the lower floor, this is a larger “social” bay open to the lower bar, closest to the bar, and in the middle of the action",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "Two 75” TVs in the bar are in view",
+            "For large parties, Bay 4 can be combined with neighboring Bay 3 and/or Bay 5"
+          ],
+          "rate": 60,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        },
+        {
+          "id": 6,
+          "name": "BAY 5",
+          "details": [
+            "Accommodates up to six guests",
+            "Located on the lower floor, this is a larger “social” bay open to the lower bar, and near the action",
+            "This is a “social” bay open to the bar and near the action",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "75” TV",
+            "For large parties, Bay 5 can be combined with neighboring Bay 1 and/or Bay 4"
+          ],
+          "rate": 60,
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         }
       ]
     },
@@ -404,7 +489,10 @@
       "to": "/location/newhartford",
       "id": "newhartford",
       "images": [
-        "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-imgs-2.jpg"
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
       ],
       "eventPackages": [
         {
@@ -471,37 +559,102 @@
           "id": 0,
           "name": "VIP SUITE",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to up to 10 guests",
+            "Our biggest private golf room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with a couch, a table, two chairs, and a bar-style seating with six stools",
+            "Two 75” LED TVs and choice of music genre",
+            "Call button for bar service",
+            "For large parties, The VIP Suite can be combined with neighboring Hole 3 by opening the sliding door"
           ],
           "rate": 100,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         },
         {
           "id": 1,
-          "name": "PLAINSMEN ROOM",
+          "name": "HOLE 1",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to 6 guests",
+            "This is a “social” bay open to the dining room and bar, it is the bay closest to the bar and the action",
+            "Hole 1 also features a garage door goes up when weather permits",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "75” TV",
+            "For large parties, Hole 1 can be combined with neighboring Hole 2"
           ],
           "rate": 100,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         },
         {
           "id": 2,
-          "name": "BAY 3",
+          "name": "HOLE 2",
           "details": [
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information",
-            "List features and information"
+            "Accommodates up to 6 guests",
+            "This is a “social” bay open to the dining room and bar area, and is near the action",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "75” TV",
+            "For large parties, Hole 2 can be combined with neighboring Hole 1 and/or Hole 3"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 3,
+          "name": "HOLE 3",
+          "details": [
+            "Accommodates up to up to 4 guests",
+            "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
+            "75” LED TV and choice of music genre",
+            "For large parties, Hole 3 can be combined with neighboring Hole 2 and/or the VIP Room"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 4,
+          "name": "HOLE 4",
+          "details": [
+            "Accommodates up to up to 4 guests",
+            "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
+            "75” LED TV and choice of music genre",
+            "For large parties, Hole 4 can be combined with neighboring Hole 5"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 5,
+          "name": "HOLE 5",
+          "details": [
+            "Accommodates up to up to 4 guests",
+            "Private room features a wide screen bay and plush lounge space with bar-style seating for 4",
+            "75” LED TV and choice of music genre",
+            "For large parties, Hole 5 can be combined with neighboring Hole 4 and/or Hole 6 by opening the sliding doors"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 6,
+          "name": "HOLE 6",
+          "details": [
+            "Accommodates up to up to 4 guests",
+            "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
+            "Hole 6 also features a garage door goes up when weather permits",
+            "75” LED TV and choice of music genre",
+            "For large parties, Hole 6 can be combined with neighboring Hole 5 by opening the sliding door"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 7,
+          "name": "DARTS/EVENT ROOM",
+          "details": [
+            "Accommodates up to 15 guests",
+            "Our biggest event room features three bays of Interactive darts (steel tips) making this space fun for everyone. (Get ready to share the video of each game winner on your social media!)",
+            "Features a leather couch, several plush chairs, and bar-style seating with 6 bar stools",
+            "Three 75” LED TVs",
+            "Choose your own music genre",
+            "Call button for bar service",
+            "The Dart Room can also be booked with the VIP Suite or any other Hole to create an awesome hospitality room for your party guests"
           ],
           "rate": 60,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
@@ -522,67 +675,73 @@
       {
         "title": "Field Green Salad",
         "qty": null,
-        "cost": "XX",
-        "imgUrl": ""
+        "cost": "32",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
       },
-      { "title": "Caesar Salad", "qty": null, "cost": "XX", "imgUrl": "" },
+      {
+        "title": "Caesar Salad",
+        "qty": null,
+        "cost": "32",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+      },
       {
         "title": "Angus Sliders with Fries",
         "qty": "(24 each)",
-        "cost": "XX",
-        "imgUrl": ""
+        "cost": "28",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697739/thebunkerparties/menu/DSCF5230-sliders_tg4lio.jpg"
       },
       {
         "title": "Pretzels",
         "qty": "(16 each)",
-        "cost": "XX",
+        "cost": "48",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_3720_g2o7je.jpg"
       },
       {
         "title": "Meatballs",
         "qty": "(24 each)",
-        "cost": "XX",
+        "cost": "42",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736790/thebunkerparties/menu/IMG_3753_j3tv1w.jpg"
       },
       {
         "title": "Pan-fried Pork Potstickers",
         "qty": "(24 each)",
-        "cost": "XX",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3731_x2umfk.jpg"
+        "cost": "46",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5226-potstickers_gy79s2.jpg"
       },
       {
         "title": "Loaded Fries",
         "qty": null,
-        "cost": "XX",
+        "cost": "42",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3734_yy7luj.jpg"
       },
       {
         "title": "Roasted Red Pepper Hummus",
         "qty": null,
-        "cost": "XX",
-        "imgUrl": ""
+        "cost": "32",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
       },
       {
         "title": "Black Bean and Corn Salad",
         "qty": null,
-        "cost": "XX",
-        "imgUrl": ""
+        "cost": "28",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
       },
       {
         "title": "Bucket of Range Balls",
         "qty": null,
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_6930_yeli58.jpg"
+        "cost": "30",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5258-range-balls_vpm3mh.jpg"
       },
       {
         "title": "Bone-in Chicken Wings",
         "qty": "(24 each)",
-        "cost": "XX",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678759931/thebunkerparties/menu/IMG_3742_gqmzxm.jpg"
+        "cost": "30",
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697735/thebunkerparties/menu/DSCF5242-wings_qykmtk.jpg"
       },
       {
         "title": "Boneless Chicken Wings",
         "qty": "(24 each)",
-        "cost": "XX",
+        "cost": "30",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3761_ukqpcu.jpg"
       }
     ],
@@ -612,16 +771,181 @@
     ]
   },
   "gallery": [
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736681/thebunkerparties/gallery/DSCF4892_wkyglu.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736643/thebunkerparties/gallery/four.png_namrld.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736640/thebunkerparties/gallery/IMG_3742_gpp7uz.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736643/thebunkerparties/gallery/IMG_1136_xzge0i.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736639/thebunkerparties/gallery/IMG_1332_f54hc9.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736639/thebunkerparties/gallery/IMG_3925_vs2dqt.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736684/thebunkerparties/gallery/DSCF4829_cpzaa2.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/DSCF4890_elevkh.jpg",
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/nh-fb_gcmarg.jpg",
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736681/thebunkerparties/gallery/DSCF4892_wkyglu.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736643/thebunkerparties/gallery/four.png_namrld.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736640/thebunkerparties/gallery/IMG_3742_gpp7uz.jpg"
+    },
+    {
+      "type": "text",
+      "value": "We had a great time! The guys that helped us all night were amazing! We wouldn’t change a thing and will definitely be back! Great job!"
+    },
 
-    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736630/thebunkerparties/gallery/cp-fb-patio_abotbi.jpg"
-  ]
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736639/thebunkerparties/gallery/IMG_1332_f54hc9.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736686/thebunkerparties/gallery/IMG_1136_zzlkkm.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736639/thebunkerparties/gallery/IMG_3925_vs2dqt.jpg"
+    },
+
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736684/thebunkerparties/gallery/DSCF4829_cpzaa2.jpg"
+    },
+
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/DSCF4890_elevkh.jpg"
+    },
+    {
+      "type": "text",
+      "value": "Everything was perfect. Your staff were very helpful and professional. It was a fun afternoon of team building for our group. We will definitely keep you in mind for future events."
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/nh-fb_gcmarg.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736630/thebunkerparties/gallery/cp-fb-patio_abotbi.jpg"
+    },
+    {
+      "type": "text",
+      "value": "We had a blast at the bunker last night. Everyone was very kind and helpful. You have lovely staff. Please let them know that we appreciated everything they did. We can’t wait to come back and enjoy again."
+    },
+
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697177/thebunkerparties/gallery/IMG_6337_p7bluj.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697176/thebunkerparties/gallery/IMG_3456_hfoznl.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697175/thebunkerparties/gallery/IMG_2453_i4wun8.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697175/thebunkerparties/gallery/279292396_398180788982088_2686885763932045189_n_gld67w.jpg"
+    },
+
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697174/thebunkerparties/gallery/279513660_398180865648747_2618547601655810406_n_gl9ddz.jpg"
+    },
+
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697174/thebunkerparties/gallery/IMG_2428_rzna0d.jpg"
+    },
+    {
+      "type": "text",
+      "value": "I can’t find enough words to tell you how wonderful last night was. The space was incredible but even more important - your staff was remarkable. Please know how wonderful each of them were to us. I would recommend this to everyone for their events. Our 50 guests raved about it and I think you can count on some brand new customers returning soon."
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697172/thebunkerparties/gallery/6062CE76-1551-4214-834C-571363DDE89A_cqctfo.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697173/thebunkerparties/gallery/287723830_429707095829457_8638813865582915076_n_fsu2fu.jpg"
+    },
+    {
+      "type": "img",
+
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg"
+    },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697171/thebunkerparties/gallery/IMG_3929_n8n4vl.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "category": ["home"],
+      "quote": "We had a fantastic time, everything was well organized and the food was delicious! Our servers were extremely helpful as well. We will definitely consider The Bunker going forward for any employee events. it was a areat time!"
+    },
+    {
+      "id": 2,
+      "category": ["home"],
+      "quote": "Your team was phenomenal!!!! The service, the food, the experience - all top notch. I look forward to having more events there."
+    },
+    {
+      "id": 3,
+      "category": ["home"],
+      "quote": "We had a great time and your staff was amazing as always. It was my second time hosting a party in that space and I just love it."
+    },
+    {
+      "id": 4,
+      "category": ["home"],
+      "quote": "I couldn't have asked for a better experience for my family. The facility is clean and comfortable. The staff was very friendly and accommodating. The food was great!"
+    },
+
+    {
+      "id": 5,
+      "category": ["menu"],
+      "quote": "We had such a good time last night, everyone loved the food, and the staff was phenomenal. We will definitely be coming back!"
+    },
+    {
+      "id": 6,
+      "category": ["menu"],
+      "quote": "The wait staff was amazing and so kind and available to help in any way. The food was so delicious and perfect!"
+    }
+  ],
+  "contact": {
+    "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679717769/thebunkerparties/Bar_Patron_And_Bartender_Medium_vvgc25.jpg"
+  },
+  "faqs": {
+    "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679713860/thebunkerparties/The_Bunker_LOGO_And_Bar_Medium_ccfm5w.jpg",
+    "questions": [
+      {
+        "question": "Do you have any restrictions with decorations?",
+        "answer": "You are welcome to bring decorations; larger decorations need to be taken at the end of the event. We don't allow anything to be attached to the walls."
+      },
+      {
+        "question": "Do you have any restrictions on types of decorations?",
+        "answer": "We don't allow any streamers or confetti to be brought in."
+      },
+      {
+        "question": "Does Guilderland location offer catering?",
+        "answer": "Our Guilderland location does not offer catering options but you are welcome to bring in outside food."
+      },
+      {
+        "question": "Can the wing platters have multiple flavors?",
+        "answer": "Wing platters can be split into 2 flavors."
+      },
+      {
+        "question": "Can we bring in cake/dessert?",
+        "answer": "Yes, we allow dessert to be brought in."
+      },
+      {
+        "question": "Is gratuity added to our final bill?",
+        "answer": "Yes, parties of 10 or more 15% gratuity and a 5% service fee for blocked time to set up and break down the party."
+      },
+      {
+        "question": "Are linens and paper products provided?",
+        "answer": "Yes all of our locations provide cloth table covering, plates and silverware except Guilderland location."
+      },
+      {
+        "question": "Can we arrive early to set up?",
+        "answer": "Yes, If the room is available a few minutes early but it isn't guaranteed. If you'd like guaranteed time to decorate we suggest adding it to your booking."
+      }
+    ]
+  }
 }

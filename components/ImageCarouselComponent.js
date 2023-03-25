@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import Image from 'next/image';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const ImageCarousel = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -36,34 +38,14 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <div className="relative h-[200px] md:h-[400px] overflow-hidden m-1">
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className={`absolute inset-0 transition-opacity duration-500 ${
-            index === currentImageIndex ? 'opacity-100' : 'opacity-0'
-          }`}
-        >
-          <Image
-            src={image}
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
-          />
-        </div>
-      ))}
-      <button
-        className="absolute top-0 bottom-0 left-0 w-[50px] bg-black opacity-50 hover:opacity-75 flex justify-center items-center text-white text-2xl"
-        onClick={handlePrevClick}
-      >
-        <FiChevronLeft />
-      </button>
-      <button
-        className="absolute top-0 bottom-0 right-0 w-[50px] bg-black opacity-50 hover:opacity-75 flex justify-center items-center text-white text-2xl"
-        onClick={handleNextClick}
-      >
-        <FiChevronRight />
-      </button>
+    <div className="w-full h-fit">
+      <Carousel infiniteLoop>
+        {images.map((image, index) => (
+          <div className="h-[300px] md:h-[400px] lg:h-[600px] xl:h-[700px] object-cover">
+            <img src={image} className=" h-full w-full" />
+          </div>
+        ))}
+      </Carousel>
     </div>
   );
 };

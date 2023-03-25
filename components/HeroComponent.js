@@ -17,6 +17,7 @@ function Hero({ imageUrl, title, message, btnTitle, btnClick, size, address }) {
       className="bg-cover bg-center flex flex-col justify-center items-center text-white w-full"
       style={{
         backgroundImage: `url(${imageUrl})`,
+        // backgroundImage: ``,
         height: h,
       }}
     >

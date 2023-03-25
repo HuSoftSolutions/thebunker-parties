@@ -66,7 +66,7 @@ const getDropdownComponent = (navitem) => {
 
 const Sidebar = () => {
   return (
-    <div className="hidden md:flex flex-col max-w-[240px] bg-black text-white font-extrabold text-xl sticky top-0 h-screen overflow-y-auto">
+    <div className="hidden md:flex flex-col max-w-[240px] bg-black text-white font-extrabold text-xl sticky top-0 h-screen overflow-y-auto overflow-x-hidden">
       <div className="p-4">
         <Link href="/" className="text-xl font-bold">
           <img

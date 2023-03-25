@@ -1,160 +1,64 @@
-VIP Suite
-"Accommodates up to up to 10 people if anyone is golfing; or up to 20 if no one is golfing",
-"Our biggest private room at over 800sq feet with 18’ wide screen and an extra-large lounge space with two plush couches, a table, two comfy chairs, and bar-style seating with six stools",
-"Two 75” LED TVs and choice of music genre",
-"Call button for bar service",
-
-Plainsmen Room (Large private room with two golf bays!)
-
-
-BAY 3
-
-
-BAY 4
-
-
-BAY 5 (Patio Bay)
-
-
-Darts/Event Room
-
+Clifton Park
+	VIP Suite
+	Plainsmen Room (Large private room with two golf bays!)
+	BAY 3
+	BAY 4
+	BAY 5 (Patio Bay)
+	Darts/Event Room
 
 North Greenbush
-
-VIP Suite
-"Accommodates up to up to 10 people if anyone is golfing; or up to 20 if no one is golfing",
-"Our biggest private room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with two couches, a table, two chairs, and a bar seating with six stools",
-"The VIP Suite is on the upper floor near the bar area, so everyone gets a peek at the high-rollers!",
-"Two 75” LED TVs and choice of music genre",
-"Call button for bar service",
-
-Blue Devil Room
-"Accommodates up to up to 6 people if anyone is golfing; or up to 12 if no one is golfing",
-"Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
-"The Blue Devil Room is on the upper floor near the upper bar area, so everyone gets a peek at the high rollers!",
-"75” LED TVs and choice of music genre",
-"Call button for bar service",
-
-Viking Room
-"Accommodates up to up to 6 people if anyone is golfing; or up to 12 if no one is golfing",
-"Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
-"The Viking Room is located on the lower floor and behind the bar area, so this is our most private event space available",
-"Two 75” LED TVs and choice of music genre",
-"Call button for bar service",
-
-Bay 1
-"Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
-"Located on the lower floor, this is our larger semi-private “social” bay open to the lower bar, and near the action",
-"Features a widescreen hitting bay and bar-style seating for golfers",
-"Two 75” LED TVs are in view",
-"Bay1 includes interactive games including Bowling, Baseball, Soccer, and Disc Golf",
-
-"For large parties, when Bay 1 is combined with neighboring Bay 5, the area between the two bays with a poker table becomes your space too",
-
-Bay 3
-"Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
-"Located on the lower floor, this is a larger “social” bay open to the lower bar, and near the action",
-"Features a widescreen hitting bay and comfortable lounge space with a plush couch, table, and two comfy chairs",
-"Features a widescreen hitting bay and bar-style seating for golfers",
-"75” TVs are in view",
-"For large parties, Bay 3 can be combined with neighboring Bay 4 or the nearby Viking Room",
-
-Bay 4
-"Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
-"Located on the lower floor, this is a larger “social” bay open to the lower bar, closest to the bar, and in the middle of the action",
-"Features a widescreen hitting bay and bar-style seating for golfers",
-"Two 75” TVs in the bar are in view",
-"For large parties, Bay 4 can be combined with neighboring Bay 3 and/or Bay 5",
-
-Bay 5
-"Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
-"Located on the lower floor, this is a larger “social” bay open to the lower bar, and near the action",
-"This is a “social” bay open to the bar and near the action",
-"Features a widescreen hitting bay and bar-style seating for golfers",
-"75” TV",
-"For large parties, Bay 5 can be combined with neighboring Bay 1 and/or Bay 4",
+	VIP Suite
+	Blue Devil Room
+	Viking Room
+	Bay 1
+	Bay 3
+	Bay 4
+	Bay 5
 
 Guilderland
-
-Bay 1
-
-
-Bay 10
-
-
-Bay 18
-"Accommodates up to 6 people if anyone is golfing; or up to 12 if no one is golfing",
-"This is a “social” bay open to the bar and right in the middle of the action",
-"Features an 18’ widescreen hitting bay and bar-style seating for 4",
-"Two 75” TVs in the bar are in view",
-"For large parties, Bay 18 can be combined with neighboring Bay 10",
-
-VIP Room
-"Accommodates up to up to 8 people if anyone is golfing; or up to 16 if no one is golfing",
-"Our biggest private room with 18’ wide screen features bar-style seating for 4 plus an additional 600sq. ft connected lounge space with two couches.",
-"Two 75” LED TVs and choice of music genre",
-"Call button for bar service",
-
-Dutchmen Room
-"Accommodates up to up to 6 people if anyone is golfing; or up to 12 if no one is golfing",
-"Private room with 16’ wide screen features lounge-style seating for 6",
-"Two 75” LED TVs and choice of music genre",
-"Call button for bar service",
+	Bay 1
+	Bay 10
+	Bay 18
+	VIP Room
+	Dutchmen Room
 
 New Hartford
+	VIP Suite
 
-VIP Suite
-"Accommodates up to up to 10 people if anyone is golfing; or up to 20 if no one is golfing",
-"Our biggest private golf room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with a couch, a table, two chairs, and a bar-style seating with six stools",
-"Two 75” LED TVs and choice of music genre",
-"Call button for bar service",
-"For large parties, The VIP Suite can be combined with neighboring Hole 3 by opening the sliding door",
+	Hole 1 (Garage Door Bay)
 
-Hole 1 (Patio Bay)
-"Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
-"This is a “social” bay open to the dining room and bar, it is the bay closest to the bar and the action",
-"Hole 1 also features a private outdoor patio; the garage door goes up when weather permits",
-"Features a widescreen hitting bay and bar-style seating for golfers",
-"75” TV",
-"For large parties, Hole 1 can be combined with neighboring Hole 2",
+	Hole 2
 
-Hole 2
-"Accommodates up to six people if anyone is golfing; or up to 12 if no one is golfing",
-"This is a “social” bay open to the dining room and bar area, and is near the action",
-"Features a widescreen hitting bay and bar-style seating for golfers",
-"75” TV",
-"For large parties, Hole 2 can be combined with neighboring Hole 1 and/or Hole 3",
+	Hole 3
 
-Hole 3
-"Accommodates up to up to 6 people if anyone is golfing; or up to 12 if no one is golfing",
-"Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
-"75” LED TV and choice of music genre",
-"For large parties, Hole 3 can be combined with neighboring Hole 2 and/or the VIP Room",
+	Hole 4
 
-Hole 4
-"Accommodates up to up to 6 people if anyone is golfing; or up to 12 if no one is golfing",
-"Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
-"75” LED TV and choice of music genre",
-"For large parties, Hole 4 can be combined with neighboring Hole 5",
+	Hole 5
 
-Hole 5
-"Accommodates up to up to 6 people if anyone is golfing; or up to 12 if no one is golfing",
-"Private room features a wide screen bay and plush lounge space with bar-style seating for 4",
-"75” LED TV and choice of music genre",
-"For large parties, Hole 5 can be combined with neighboring Hole 4 and/or Hole 6 by opening the sliding doors",
+	Hole 6 (garage door)
 
-Hole 6 (Patio Bay)
-"Accommodates up to up to 6 people if anyone is golfing; or up to 12 if no one is golfing",
-"Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
-"Hole 6 also features a private outdoor patio; the garage door goes up when weather permits",
-"75” LED TV and choice of music genre",
-"For large parties, Hole 6 can be combined with neighboring Hole 5 by opening the sliding door",
+	Darts/Event Room
 
-Darts/Event Room
-"Accommodates up to 15 people if darts are being played; or up to 30 if no one is playing darts",
-"Our biggest event room features three bays of Interactive darts (steel tips) making this space fun for everyone. (Get ready to share the video of each game winner on your social media!)",
-"Features a leather couch, several plush chairs, and bar-style seating with 6 bar stools",
-"Three 75” LED TVs",
-"Choose your own music genre",
-"Call button for bar service",
-"The Dart Room can also be booked with the VIP Suite or any other Hole to create an awesome hospitality room for your party guests",
+{
+"question":"Do you have any restrictions with decorations?",
+"answer": "You are welcome to bring decorations; larger decorations need to be taken at the end of the event. We don't allow anything to be attached to the walls."
+},
+"Do you have any restrictions on types of decorations?"
+"We don't allow any streamers or confetti to be brought in."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
