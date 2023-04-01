@@ -1,7 +1,7 @@
 // components/DynamicForm.js
 
 import { useState, useEffect } from 'react';
-import formConfig from '@/components/preorderFormConfig.json';
+import formConfig from '@/components/preOrderFormConfig.json';
 import { sendEmail } from '../firebase';
 
 const PreOrderFormComponent = () => {
