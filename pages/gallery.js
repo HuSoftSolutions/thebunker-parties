@@ -43,7 +43,7 @@ const Gallery = () => {
           ) : (
             <div
               key={index}
-              className={`bg-black bg-opacity-80 text-white text-lg sm:text-xl px-10 sm:px-20 italic h-fit sm:h-96 flex items-center justify-center overflow-hidden min-h-[300px] ${
+              className={`bg-black bg-opacity-80 text-white text-lg sm:text-lg px-10 sm:px-20 italic h-fit sm:h-96 flex items-center justify-center overflow-hidden min-h-[300px] ${
                 LAYOUT.includes(index)
                   ? 'col-span-3 sm:col-span-2'
                   : 'col-span-3 sm:col-span-1'

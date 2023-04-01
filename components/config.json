@@ -7,7 +7,7 @@
       "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(518) 280-6347",
-      "btnTitle": "BOOK NOW",
+      "btnTitle": "START PLANNING",
       "to": "/location/cliftonpark",
       "id": "cliftonpark",
       "coordinates": { "lat": 42.85883117180785, "lng": -73.78237199029 },
@@ -40,7 +40,7 @@
         {
           "title": "KIDS PACKAGE — $350",
           "details": [
-            "2 hours",
+            "Available during select hours, contact us for availability",
             "Plainsmen Room, includes 2 golf bays with extra seating ",
             "4 flatbreads and soda",
             "Up to 12 kids",
@@ -172,7 +172,7 @@
       "address": "2390 Western Ave, Guilderland, NY 12084",
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(518) 867-3008",
-      "btnTitle": "BOOK NOW",
+      "btnTitle": "START PLANNING",
       "to": "/location/guilderland",
       "coordinates": { "lat": 42.70660985151098, "lng": -73.91846325308022 },
       "matterportUrl": "https://mpembed.com/show/?m=mzckD3kkPhy&mpu=1854",
@@ -191,7 +191,7 @@
         {
           "title": "KIDS VIP PACKAGE - $225",
           "details": [
-            "2 hours",
+            "Available during select hours, contact us for availability",
             "VIP suite with lounge",
             "4 pizzas and soda",
             "Up to 10 kids",
@@ -202,11 +202,11 @@
           "title": "JOHN DALY PACKAGE — $700",
           "details": [
             "2 hours",
-            "Available for $350 if booking May 1 - Oct 1",
             "Lounge including Bays 1, 10 & 18",
             "Additional seating areas",
             "Room for table set-up & party favors",
-            "25-50 guests"
+            "25-50 guests",
+            "Main area closed to public"
           ]
         },
         {
@@ -292,7 +292,7 @@
       "address": "490 North Greenbush RD, Rensselaer, NY 12144",
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(518) 874 4018",
-      "btnTitle": "BOOK NOW",
+      "btnTitle": "START PLANNING",
       "to": "/location/northgreenbush",
       "coordinates": { "lat": 42.658434902970534, "lng": -73.69341027159967 },
       "matterportUrl": "https://mpembed.com/show/?m=uzLoCgELmYD&mpu=1854",
@@ -316,7 +316,7 @@
           "title": "KIDS VIP PACKAGE - $300",
           "details": [
             "VIP suite",
-            "2 hours",
+            "Available during select hours, contact us for availability",
             "4 flatbreads and soda",
             "Up to 10 kids",
             "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
@@ -328,7 +328,8 @@
             "5 golf bays, including 1 enclosed suite",
             "4 hours",
             "Up to 150 people",
-            "Private bar"
+            "Private bar",
+            "Closed to the public"
           ]
         },
         {
@@ -337,7 +338,8 @@
             "7 golf bays, including 3 private suites",
             "Indoor and outdoor seating",
             "Up to 250 people",
-            "2 bars"
+            "2 bars",
+            "Closed to the public"
           ]
         }
       ],
@@ -446,7 +448,7 @@
       "address": "8653 Clinton St, New Hartford, NY 13413",
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(315) 864 3108",
-      "btnTitle": "BOOK NOW",
+      "btnTitle": "START PLANNING",
       "to": "/location/newhartford",
       "coordinates": { "lat": 43.090492845567816, "lng": -75.31534266256405 },
       "matterportUrl": "https://mpembed.com/show/?m=Bq2s5sJvK4q&mpu=1854",
@@ -463,7 +465,7 @@
           "details": ["2 hours", "2 golf bays", "Up to 14 players"]
         },
         {
-          "title": "DARTS - $288",
+          "title": "DARTS - $240",
           "details": ["2 hours", "3 dart boards", "Up to 15 guests"]
         },
         {
@@ -477,7 +479,7 @@
         {
           "title": "KIDS VIP PACKAGE - $300",
           "details": [
-            "2 hours",
+            "Available during select hours, contact us for availability",
             "VIP suite",
             "4 flatbreads and soda",
             "Up to 10 kids",
@@ -746,15 +748,15 @@
       "type": "img",
       "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736684/thebunkerparties/gallery/DSCF4829_cpzaa2.jpg"
     },
-
-    {
-      "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/DSCF4890_elevkh.jpg"
-    },
     {
       "type": "text",
       "value": "Everything was perfect. Your staff were very helpful and professional. It was a fun afternoon of team building for our group. We will definitely keep you in mind for future events."
     },
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/DSCF4890_elevkh.jpg"
+    },
+
     {
       "type": "img",
       "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/nh-fb_gcmarg.jpg"
@@ -763,10 +765,6 @@
       "type": "img",
       "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736630/thebunkerparties/gallery/cp-fb-patio_abotbi.jpg"
     },
-    {
-      "type": "text",
-      "value": "We had a blast at the bunker last night. Everyone was very kind and helpful. You have lovely staff. Please let them know that we appreciated everything they did. We can’t wait to come back and enjoy again."
-    },
 
     {
       "type": "img",
@@ -774,11 +772,15 @@
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697176/thebunkerparties/gallery/IMG_3456_hfoznl.jpg"
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg"
     },
     {
       "type": "img",
       "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697175/thebunkerparties/gallery/IMG_2453_i4wun8.jpg"
+    },
+    {
+      "type": "text",
+      "value": "We had a blast at the bunker last night. Everyone was very kind and helpful. You have lovely staff. Please let them know that we appreciated everything they did. We can’t wait to come back and enjoy again."
     },
     {
       "type": "img",
@@ -794,23 +796,25 @@
       "type": "img",
       "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697174/thebunkerparties/gallery/IMG_2428_rzna0d.jpg"
     },
+
+    {
+      "type": "img",
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697172/thebunkerparties/gallery/6062CE76-1551-4214-834C-571363DDE89A_cqctfo.jpg"
+    },
     {
       "type": "text",
       "value": "I can’t find enough words to tell you how wonderful last night was. The space was incredible but even more important - your staff was remarkable. Please know how wonderful each of them were to us. I would recommend this to everyone for their events. Our 50 guests raved about it and I think you can count on some brand new customers returning soon."
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697172/thebunkerparties/gallery/6062CE76-1551-4214-834C-571363DDE89A_cqctfo.jpg"
-    },
-    {
-      "type": "img",
       "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697173/thebunkerparties/gallery/287723830_429707095829457_8638813865582915076_n_fsu2fu.jpg"
     },
+
     {
       "type": "img",
-
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg"
+      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697176/thebunkerparties/gallery/IMG_3456_hfoznl.jpg"
     },
+
     {
       "type": "img",
       "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697171/thebunkerparties/gallery/IMG_3929_n8n4vl.jpg"

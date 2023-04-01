@@ -56,7 +56,7 @@ export default function Home() {
               onClick={() => {
                 router.push('/event');
               }}
-              btnTitle="BOOK NOW"
+              btnTitle="START PLANNING"
             />
             <Card
               imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232141/thebunkerparties/IMG_1368_nl3mja.jpg"

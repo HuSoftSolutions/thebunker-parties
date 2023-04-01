@@ -30,7 +30,7 @@ function LocationDetails() {
         imageUrl={locObj?.locationHeaderImgUrl}
         title={locObj?.title}
         address={locObj?.address}
-        btnTitle="BOOK NOW"
+        btnTitle="START PLANNING"
         btnClick={() => {
           router.push('/event');
         }}
@@ -97,7 +97,7 @@ function LocationDetails() {
               </li>
             </ul>
           </div>
-          {/* <hr />
+          <hr />
           <div className="my-20 px-8 md:px-20">
             <h1 className="text-primary font-bold text-4xl mb-4">
               SUITE & BAY PRICING:
@@ -113,7 +113,7 @@ function LocationDetails() {
                 />
               );
             })}
-          </div> */}
+          </div>
           <hr />
           <div className="p-2 px-5 md:px-20 py-10 bg-white text-black text-xl">
             <p className="font-bold">

@@ -47,7 +47,7 @@ export const navigationItems = [
   },
   {
     id: 5,
-    title: 'BOOK NOW',
+    title: 'START PLANNING',
     to: '/event',
     type: 'link',
   },
