@@ -86,7 +86,7 @@ function EventForm() {
         </div>
       ) : (
         !isSubmitted && (
-          <form className="p-3 bg-white rounded-lg " onSubmit={handleSubmit}>
+          <form className="p-3 bg-white rounded-lg" onSubmit={handleSubmit}>
             {Object.keys(formData).map((fieldName) => {
               const fieldData = formData[fieldName];
               const fieldValue = formValues[fieldName] || '';

@@ -37,7 +37,6 @@
   "preferredBookingDuration": {
     "label": "Preferred Booking Duration (in 15 minute intervals)",
     "type": "text",
-    "step": "15",
     "required": "true"
   },
   "message": {

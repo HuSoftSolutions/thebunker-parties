@@ -1,9 +1,9 @@
 import React from 'react';
-import formData from '@/components/contactUsFormConfig.json';
+import formData from '@/components/preOrderFormConfig.json';
 import { useState } from 'react';
 import { sendEmail } from '../firebase';
 
-function ContactUsFormComponent() {
+function PreOrderFormComponent() {
   const [formValues, setFormValues] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -42,20 +42,20 @@ function ContactUsFormComponent() {
         await sendEmail(
           {
             ...formValues,
-            template: 'contact_template',
+            template: 'preorder_template',
             emailTo: ['cody.husek@husoftsolutions.com'],
           },
           { auth: true }
         );
 
-        // await sendEmail(
-        //   {
-        //     ...formValues,
-        //     template: 'event_client_template',
-        //     emailTo: [formValues.email],
-        //   },
-        //   { auth: true }
-        // );
+        await sendEmail(
+          {
+            ...formValues,
+            template: 'event_client_template',
+            emailTo: [formValues.email],
+          },
+          { auth: true }
+        );
         setIsSubmitted(true);
         console.log('email sent!');
       } catch (error) {
@@ -74,7 +74,7 @@ function ContactUsFormComponent() {
 
   return (
     <>
-      <h1 className="mb-4 text-2xl text-primary">Contact Us Form</h1>
+      <h1 className="mb-4 text-2xl text-primary">Food Pre-Order Form</h1>
       {isSubmitted && !isLoading && (
         <div className="p-4 flex items-center justify-center text-green-500 border border-green-500 bg-green-200 font-bold rounded text-2xl">
           Thank you for submitting!
@@ -184,4 +184,4 @@ function ContactUsFormComponent() {
   );
 }
 
-export default ContactUsFormComponent;
+export default PreOrderFormComponent;

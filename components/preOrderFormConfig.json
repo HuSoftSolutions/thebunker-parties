@@ -1,0 +1,97 @@
+{
+  "firstName": {
+    "label": "First Name",
+    "type": "text",
+    "required": "true"
+  },
+  "lastName": {
+    "label": "Last Name",
+    "type": "text",
+    "required": "true"
+  },
+  "phone": {
+    "label": "Phone",
+    "type": "tel",
+    "required": "true"
+  },
+  "email": {
+    "label": "Email Address",
+    "type": "email",
+    "required": "true"
+  },
+  "partyContact": {
+    "label": "Party Contact",
+    "type": "text",
+    "required": "true"
+  },
+  "partyLocation": {
+    "label": "Party Location",
+    "type": "text",
+    "required": "true"
+  },
+  "date": {
+    "label": "Date",
+    "type": "text",
+    "required": "true"
+  },
+  "time": {
+    "label": "Time",
+    "type": "text",
+    "required": "true"
+  },
+  "fieldGreensSalad": {
+    "label": "Field Greens Salad",
+    "type": "text",
+    "required": "true"
+  },
+  "caesarSalad": {
+    "label": "Caesar Salad",
+    "type": "text",
+    "required": "true"
+  },
+  "sliders": {
+    "label": "Angus Sliders w/ Fries",
+    "type": "text",
+    "required": "true"
+  },
+  "pretzels": {
+    "label": "Pretzels",
+    "type": "text",
+    "required": "true"
+  },
+  "meatballs": {
+    "label": "Meatballs",
+    "type": "text",
+    "required": "true"
+  },
+  "potstickers": {
+    "label": "Pan-fried Pork Potstickers",
+    "type": "text",
+    "required": "true"
+  },
+  "fries": {
+    "label": "Loaded Fries",
+    "type": "text",
+    "required": "true"
+  },
+  "hummus": {
+    "label": "Hummus and Vegetable Platter",
+    "type": "text",
+    "required": "true"
+  },
+  "salsa": {
+    "label": "Black Bean and Corn Salsa",
+    "type": "text",
+    "required": "true"
+  },
+  "rangeBalls": {
+    "label": "Bucket of Range Balls",
+    "type": "number",
+    "required": "true"
+  },
+  "boneInChickenWings": {
+    "label": "Bone-in Chicken Wings (24 each)",
+    "type": "number",
+    "required": "true"
+  }
+}

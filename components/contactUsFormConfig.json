@@ -1,0 +1,27 @@
+{
+  "firstName": {
+    "label": "First Name",
+    "type": "text",
+    "required": "true"
+  },
+  "lastName": {
+    "label": "Last Name",
+    "type": "text",
+    "required": "true"
+  },
+  "phone": {
+    "label": "Phone",
+    "type": "tel",
+    "required": "true"
+  },
+  "email": {
+    "label": "Email Address",
+    "type": "email",
+    "required": "true"
+  },
+  "message": {
+    "label": "Message",
+    "type": "textarea",
+    "required": "true"
+  }
+}
