@@ -19,6 +19,8 @@ const auth = getAuth();
 
 const functions = getFunctions(app);
 
+console.log('');
+
 const sendEmail = httpsCallable(functions, 'sendEmail');
 
 onAuthStateChanged(auth, (user) => {
