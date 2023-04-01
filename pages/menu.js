@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import { useRouter } from 'next/router';
 import Hero from '@/components/HeroComponent';
@@ -10,9 +10,12 @@ import IconComponent from '@/components/IconComponent';
 import MenuPlatterComponent from '@/components/MenuPlatterComponent';
 import BayCardComponent from '@/components/BayCardComponent';
 import Testimonials from '@/components/TestimonialComponent';
+import Modal from '@/components/Modal';
 
 function Menu() {
   const router = useRouter();
+
+  const [showMenuModal, setShowMenuModal] = useState(false);
 
   return (
     // <Layout bg={'bg-[#2f2f2f]'}>
@@ -20,7 +23,7 @@ function Menu() {
       <Hero imageUrl={config?.menu?.imageUrl} title="PARTY MENU" size="md" />
       <div className="flex flex-col items-center w-full">
         <div className="max-w-[1300px]">
-          <div className="block w-full h-[100px]">
+          <div className="block w-full h-[250px]">
             <Testimonials
               testimonials={config?.testimonials}
               type="menu"
@@ -57,9 +60,6 @@ function Menu() {
                 <h1 className=" font-bold text-4xl mb-1">
                   DRINKS & BOTTLE SERVICE
                 </h1>
-                <h4 className=" ml-0.5 font-bold text-md mb-6">
-                  Full bar available based on consumption
-                </h4>
                 <div className="flex flex-wrap flex-col w-full h-[300px] lg:h-[700px]">
                   <div className="w-1/3 h-1/2">
                     <img
@@ -112,7 +112,10 @@ function Menu() {
                   })}
                 </div>
                 <div>
-                  <button className="p-2 mt-3 bg-primary text-white font-bold">
+                  <button
+                    onClick={() => setShowMenuModal(true)}
+                    className="p-2 mt-3 bg-primary text-white font-bold"
+                  >
                     BOTTLE SERVICE MENU
                   </button>
                 </div>
@@ -121,6 +124,22 @@ function Menu() {
           </div>
         </div>
       </div>
+      <Modal
+        onClose={() => {
+          setShowMenuModal(false);
+        }}
+        isOpen={showMenuModal}
+      >
+        <div>
+          <iframe
+            src={'/BottleServiceMenu.pdf'}
+            width="100%"
+            height="800"
+            style={{ border: 'none' }}
+            title="PDF Viewer"
+          ></iframe>
+        </div>
+      </Modal>
     </Layout>
   );
 }

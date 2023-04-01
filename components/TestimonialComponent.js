@@ -18,7 +18,7 @@ const Testimonials = ({ testimonials, type, color = 'light' }) => {
   }, [activeTestimonialIndex]);
 
   return (
-    <div className="relative h-[100px]">
+    <div className="relative h-full">
       {testimonials
         .filter((t) => t.category.includes(type))
         .map((testimonial, index) => (
@@ -35,7 +35,7 @@ const Testimonials = ({ testimonials, type, color = 'light' }) => {
             <div
               className={`flex p-4 py-6 ${textColor} justify-center items-center h-full`}
             >
-              <p className="text-xs sm:text-lg  italic font-medium text-center">
+              <p className="text-md sm:text-lg  italic font-medium text-center">
                 "{testimonial.quote}"
               </p>
             </div>

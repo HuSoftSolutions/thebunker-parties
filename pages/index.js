@@ -32,7 +32,7 @@ export default function Home() {
             btnClick={() => router.push('/location')}
             size="lg"
           />
-          <div className="block w-full h-[100px]">
+          <div className="block w-full h-[250px]">
             <Testimonials testimonials={config?.testimonials} type="home" />
           </div>
           <hr />
@@ -53,7 +53,7 @@ export default function Home() {
               imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232141/thebunkerparties/nh-png_pyj7nx.jpg"
               title="STEP 2: SCHEDULE YOUR PARTY"
               message="Let's get your party scheduled! Start the process by clicking the button below. This will lead you through a series of questions and event options regarding location, number of guests, date and more. Once submitted, our events coordinator will reach out to finalize the booking process."
-              btnClick={() => {
+              onClick={() => {
                 router.push('/event');
               }}
               btnTitle="BOOK NOW"
@@ -62,8 +62,8 @@ export default function Home() {
               imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232141/thebunkerparties/IMG_1368_nl3mja.jpg"
               title="STEP 3: FOOD & DRINKS"
               message="Ten days before your event, you'll receive a notification to order the food and drinks for your party. Follow the prompts to make your final selections and let us take care of the rest!"
-              btnClick={() => {
-                router.push('/event');
+              onClick={() => {
+                router.push('/menu');
               }}
               btnTitle="VIEW MENUS"
             />

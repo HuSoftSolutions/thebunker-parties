@@ -10,6 +10,8 @@
       "btnTitle": "BOOK NOW",
       "to": "/location/cliftonpark",
       "id": "cliftonpark",
+      "coordinates": { "lat": 42.85883117180785, "lng": -73.78237199029 },
+      "matterportUrl": "https://my.matterport.com/show/?m=9rjycdQ27Wn",
       "images": [
         "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park_jlhj76.jpg",
         "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park-2_nvux6g.jpg",
@@ -29,7 +31,7 @@
         {
           "title": "VIP PACKAGE - $320",
           "details": [
-            "2 hours",
+            "Available during select hours, contact us for availability",
             "Private VIP suite",
             "Adjacent Bay 3",
             "Up to 30 guests"
@@ -162,15 +164,18 @@
         }
       ]
     },
+
     {
       "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/main.png",
       "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/main.png",
       "title": "GUILDERLAND",
-      "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
+      "address": "2390 Western Ave, Guilderland, NY 12084",
       "hours": "Monday - Sunday 9am-11pm",
-      "phone": "(518) 280-6347",
+      "phone": "(518) 867-3008",
       "btnTitle": "BOOK NOW",
       "to": "/location/guilderland",
+      "coordinates": { "lat": 42.70660985151098, "lng": -73.91846325308022 },
+      "matterportUrl": "https://mpembed.com/show/?m=mzckD3kkPhy&mpu=1854",
       "id": "guilderland",
       "images": [
         "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
@@ -180,61 +185,35 @@
       ],
       "eventPackages": [
         {
-          "title": "PLAINSMEN PACKAGE - $280",
-          "details": [
-            "2 hours",
-            "Private spaces with 2 screens",
-            "If golfing, up to 14 guests",
-            "If not golfing, up to 30 guests"
-          ]
+          "title": "VIP PACKAGE - $140",
+          "details": ["2 hours", "VIP suite with lounge", "8-10 guests"]
         },
         {
-          "title": "VIP PACKAGE - $320",
+          "title": "KIDS VIP PACKAGE - $225",
           "details": [
             "2 hours",
-            "Private VIP suite",
-            "Adjacent Bay 3",
-            "Up to 30 guests"
-          ]
-        },
-        {
-          "title": "KIDS PACKAGE — $350",
-          "details": [
-            "2 hours",
-            "Plainsmen Room, includes 2 golf bays with extra seating ",
-            "4 flatbreads and soda",
-            "Up to 12 kids",
+            "VIP suite with lounge",
+            "4 pizzas and soda",
+            "Up to 10 kids",
             "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
           ]
         },
         {
-          "title": "CORPORATE PACKAGE - $360",
-          "details": ["2 hours", "Bays 3, 4 & 5", "Up to 40 guests"]
-        },
-        {
-          "title": "ARNOLD PALMER PACKAGE - $480",
+          "title": "JOHN DALY PACKAGE — $700",
           "details": [
             "2 hours",
-            "VIP suite + Plainsmen Room (3 golf bays)",
-            "Up to 50 guests"
+            "Available for $350 if booking May 1 - Oct 1",
+            "Lounge including Bays 1, 10 & 18",
+            "Additional seating areas",
+            "Room for table set-up & party favors",
+            "25-50 guests"
           ]
         },
         {
-          "title": "THE ULTIMATE PATIO PARTY - $150",
+          "title": "BUNKER TAKEOVER PACKAGE - Call for pricing",
           "details": [
-            "Price per hour",
-            "Includes bay 5 for party set up",
-            "Bartender service",
-            "Dining tables and lounge sating with fire table",
-            "30-50 guests (32 seated)"
-          ]
-        },
-        {
-          "title": "BUNKER TAKEOVER PACKAGE - Call for picing",
-          "details": [
-            "Full facility, 6 total golf bays, including 2 enclosed suites, and indoor/outdoor seating areas",
-            "Closed to the public",
-            "Up to 175 guests"
+            "Full facility, including 5 golf bays and bar",
+            "Closed to the public"
           ]
         }
       ],
@@ -305,15 +284,18 @@
         }
       ]
     },
+
     {
       "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
       "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
       "title": "NORTH GREENBUSH",
-      "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
+      "address": "490 North Greenbush RD, Rensselaer, NY 12144",
       "hours": "Monday - Sunday 9am-11pm",
-      "phone": "(518) 280-6347",
+      "phone": "(518) 874 4018",
       "btnTitle": "BOOK NOW",
       "to": "/location/northgreenbush",
+      "coordinates": { "lat": 42.658434902970534, "lng": -73.69341027159967 },
+      "matterportUrl": "https://mpembed.com/show/?m=uzLoCgELmYD&mpu=1854",
       "id": "northgreenbush",
       "images": [
         "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
@@ -323,61 +305,39 @@
       ],
       "eventPackages": [
         {
-          "title": "PLAINSMEN PACKAGE - $280",
-          "details": [
-            "2 hours",
-            "Private spaces with 2 screens",
-            "If golfing, up to 14 guests",
-            "If not golfing, up to 30 guests"
-          ]
+          "title": "TIGER COMBO (2 HOURs) - $360",
+          "details": ["Blue Devil + VIP (2 golf bays)", "Up to 30 guests"]
         },
         {
-          "title": "VIP PACKAGE - $320",
-          "details": [
-            "2 hours",
-            "Private VIP suite",
-            "Adjacent Bay 3",
-            "Up to 30 guests"
-          ]
+          "title": "Blue Devil + VIP (2 golf bays) - $500",
+          "details": ["Bays 1, 2, 3, 4", "Up to 60 guests"]
         },
         {
-          "title": "KIDS PACKAGE — $350",
+          "title": "KIDS VIP PACKAGE - $300",
           "details": [
+            "VIP suite",
             "2 hours",
-            "Plainsmen Room, includes 2 golf bays with extra seating ",
             "4 flatbreads and soda",
-            "Up to 12 kids",
+            "Up to 10 kids",
             "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
           ]
         },
         {
-          "title": "CORPORATE PACKAGE - $360",
-          "details": ["2 hours", "Bays 3, 4 & 5", "Up to 40 guests"]
-        },
-        {
-          "title": "ARNOLD PALMER PACKAGE - $480",
+          "title": "DOWNSTAIRS TAKEOVER - Call for pricing",
           "details": [
-            "2 hours",
-            "VIP suite + Plainsmen Room (3 golf bays)",
-            "Up to 50 guests"
+            "5 golf bays, including 1 enclosed suite",
+            "4 hours",
+            "Up to 150 people",
+            "Private bar"
           ]
         },
         {
-          "title": "THE ULTIMATE PATIO PARTY - $150",
+          "title": "FULL TAKEOVER - Call for pricing",
           "details": [
-            "Price per hour",
-            "Includes bay 5 for party set up",
-            "Bartender service",
-            "Dining tables and lounge sating with fire table",
-            "30-50 guests (32 seated)"
-          ]
-        },
-        {
-          "title": "BUNKER TAKEOVER PACKAGE - Call for picing",
-          "details": [
-            "Full facility, 6 total golf bays, including 2 enclosed suites, and indoor/outdoor seating areas",
-            "Closed to the public",
-            "Up to 175 guests"
+            "7 golf bays, including 3 private suites",
+            "Indoor and outdoor seating",
+            "Up to 250 people",
+            "2 bars"
           ]
         }
       ],
@@ -478,15 +438,18 @@
         }
       ]
     },
+
     {
       "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/main.png",
       "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/main.png",
       "title": "NEW HARTFORD",
-      "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
+      "address": "8653 Clinton St, New Hartford, NY 13413",
       "hours": "Monday - Sunday 9am-11pm",
-      "phone": "(518) 280-6347",
+      "phone": "(315) 864 3108",
       "btnTitle": "BOOK NOW",
       "to": "/location/newhartford",
+      "coordinates": { "lat": 43.090492845567816, "lng": -75.31534266256405 },
+      "matterportUrl": "https://mpembed.com/show/?m=Bq2s5sJvK4q&mpu=1854",
       "id": "newhartford",
       "images": [
         "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
@@ -496,61 +459,38 @@
       ],
       "eventPackages": [
         {
-          "title": "PLAINSMEN PACKAGE - $280",
-          "details": [
-            "2 hours",
-            "Private spaces with 2 screens",
-            "If golfing, up to 14 guests",
-            "If not golfing, up to 30 guests"
-          ]
+          "title": "HOLES 1 & 2 - $240",
+          "details": ["2 hours", "2 golf bays", "Up to 14 players"]
         },
         {
-          "title": "VIP PACKAGE - $320",
-          "details": [
-            "2 hours",
-            "Private VIP suite",
-            "Adjacent Bay 3",
-            "Up to 30 guests"
-          ]
+          "title": "DARTS - $288",
+          "details": ["2 hours", "3 dart boards", "Up to 15 guests"]
         },
         {
-          "title": "KIDS PACKAGE — $350",
+          "title": "CORPORATE PACKAGE - $560",
           "details": [
             "2 hours",
-            "Plainsmen Room, includes 2 golf bays with extra seating ",
-            "4 flatbreads and soda",
-            "Up to 12 kids",
-            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
-          ]
-        },
-        {
-          "title": "CORPORATE PACKAGE - $360",
-          "details": ["2 hours", "Bays 3, 4 & 5", "Up to 40 guests"]
-        },
-        {
-          "title": "ARNOLD PALMER PACKAGE - $480",
-          "details": [
-            "2 hours",
-            "VIP suite + Plainsmen Room (3 golf bays)",
+            "4 golf bays (Holes 1, 2, 3 & VIP Suite)",
             "Up to 50 guests"
           ]
         },
         {
-          "title": "THE ULTIMATE PATIO PARTY - $150",
+          "title": "KIDS VIP PACKAGE - $300",
           "details": [
-            "Price per hour",
-            "Includes bay 5 for party set up",
-            "Bartender service",
-            "Dining tables and lounge sating with fire table",
-            "30-50 guests (32 seated)"
+            "2 hours",
+            "VIP suite",
+            "4 flatbreads and soda",
+            "Up to 10 kids",
+            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
           ]
         },
         {
-          "title": "BUNKER TAKEOVER PACKAGE - Call for picing",
+          "title": "FULL TAKEOVER - Call for pricing",
           "details": [
-            "Full facility, 6 total golf bays, including 2 enclosed suites, and indoor/outdoor seating areas",
-            "Closed to the public",
-            "Up to 175 guests"
+            "7 golf bays",
+            "3 dart boards",
+            "Full bar and lounge area",
+            "Closed to the public"
           ]
         }
       ],
@@ -671,18 +611,19 @@
       "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
       "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
     ],
+    "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
     "items": [
       {
         "title": "Field Green Salad",
         "qty": null,
         "cost": "32",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-field-greens_yxwmym.jpg"
       },
       {
         "title": "Caesar Salad",
         "qty": null,
         "cost": "32",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-caesar_jrwjeu.jpg"
       },
       {
         "title": "Angus Sliders with Fries",
@@ -694,7 +635,7 @@
         "title": "Pretzels",
         "qty": "(16 each)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_3720_g2o7je.jpg"
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-pretzels_n63ckp.jpg"
       },
       {
         "title": "Meatballs",
@@ -712,19 +653,19 @@
         "title": "Loaded Fries",
         "qty": null,
         "cost": "42",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3734_yy7luj.jpg"
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679700056/thebunkerparties/menu/IMG_3734_yy7luj.jpg"
       },
       {
         "title": "Roasted Red Pepper Hummus",
         "qty": null,
         "cost": "32",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-hummus_vsmznx.jpg"
       },
       {
         "title": "Black Bean and Corn Salad",
         "qty": null,
         "cost": "28",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-corn-salsa_itma7b.jpg"
       },
       {
         "title": "Bucket of Range Balls",
@@ -735,7 +676,7 @@
       {
         "title": "Bone-in Chicken Wings",
         "qty": "(24 each)",
-        "cost": "30",
+        "cost": "48",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697735/thebunkerparties/menu/DSCF5242-wings_qykmtk.jpg"
       },
       {
@@ -916,11 +857,7 @@
     "questions": [
       {
         "question": "Do you have any restrictions with decorations?",
-        "answer": "You are welcome to bring decorations; larger decorations need to be taken at the end of the event. We don't allow anything to be attached to the walls."
-      },
-      {
-        "question": "Do you have any restrictions on types of decorations?",
-        "answer": "We don't allow any streamers or confetti to be brought in."
+        "answer": "You may bring decorations, however, we don't allow streamers, confetti or anything to be attached to the walls. Large decorations need to be taken at the end of the event."
       },
       {
         "question": "Does Guilderland location offer catering?",
@@ -944,7 +881,7 @@
       },
       {
         "question": "Can we arrive early to set up?",
-        "answer": "Yes, If the room is available a few minutes early but it isn't guaranteed. If you'd like guaranteed time to decorate we suggest adding it to your booking."
+        "answer": "If you'd like guaranteed time to decorate we suggest adding it to your booking."
       }
     ]
   }

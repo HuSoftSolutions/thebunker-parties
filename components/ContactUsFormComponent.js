@@ -106,7 +106,10 @@ function ContactUsForm() {
           ></textarea>
         </div>
 
-        <button type="submit" className="">
+        <button
+          type="submit"
+          className=" rounded bg-primary text-white font-bold p-2 px-4"
+        >
           Submit
         </button>
       </form>
