@@ -74,7 +74,7 @@ function EventForm() {
 
   return (
     <>
-      <h1 className="mb-4 text-2xl text-primary">Event Booking Form</h1>
+      <h1 className="mb-4 text-2xl text-primary">EVENT BOOKING FORM</h1>
       {isSubmitted && !isLoading && (
         <div className="p-4 flex items-center justify-center text-green-500 border border-green-500 bg-green-200 font-bold rounded text-2xl">
           Thank you for submitting!
@@ -86,17 +86,14 @@ function EventForm() {
         </div>
       ) : (
         !isSubmitted && (
-          <form className="p-3 bg-white rounded-lg" onSubmit={handleSubmit}>
+          <form className=" bg-white rounded-lg" onSubmit={handleSubmit}>
             {Object.keys(formData).map((fieldName) => {
               const fieldData = formData[fieldName];
               const fieldValue = formValues[fieldName] || '';
 
               return (
-                <div className="mb-10" key={fieldName}>
-                  <label
-                    htmlFor={fieldName}
-                    className="block text-black font-bold mb-2"
-                  >
+                <div className="mb-6" key={fieldName}>
+                  <label htmlFor={fieldName} className="block text-black mb-1">
                     {fieldData.label}{' '}
                     {fieldData.required && (
                       <span className="text-red-600">*</span>
@@ -108,7 +105,7 @@ function EventForm() {
                       name={fieldName}
                       value={fieldValue}
                       onChange={handleInputChange}
-                      className="border rounded-md w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                      className="border-2 w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline border-gray-300"
                     >
                       <option value="" disabled>
                         Select
@@ -125,7 +122,7 @@ function EventForm() {
                       name={fieldName}
                       value={fieldValue}
                       onChange={handleInputChange}
-                      className="border rounded-md w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                      className="border-2 border-gray-300 w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                     ></textarea>
                   ) : fieldData.type === 'checkbox' ? (
                     <>
@@ -162,7 +159,7 @@ function EventForm() {
                       step={fieldData.step}
                       value={fieldValue}
                       onChange={handleInputChange}
-                      className="border rounded-md w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                      className="border-2 border-gray-300 p-2  w-full"
                     />
                   )}
                 </div>

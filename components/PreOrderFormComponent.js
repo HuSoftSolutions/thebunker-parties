@@ -84,7 +84,9 @@ const PreOrderFormComponent = () => {
 
   return (
     <>
-      <h1 className="text-2xl font-bold mb-4">{formConfig.title}</h1>
+      <h1 className="text-2xl font-bold mb-4 text-primary">
+        {formConfig.title}
+      </h1>
       {isSubmitted && !isLoading && (
         <div className="p-4 flex items-center justify-center text-green-500 border border-green-500 bg-green-200 font-bold rounded text-2xl">
           Thank you for submitting!
@@ -113,7 +115,7 @@ const PreOrderFormComponent = () => {
                     id={field.id}
                     type={field.type}
                     placeholder={field.placeholder || ''}
-                    className="border-2 border-gray-300 p-2 rounded w-full"
+                    className="border-2 border-gray-300 p-2  w-full"
                     name={field.id}
                     value={formValues[field.id] || ''}
                     onChange={handleInputChange}
