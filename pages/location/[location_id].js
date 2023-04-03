@@ -42,6 +42,13 @@ function LocationDetails() {
             {' '}
             <div className="border border-b-0 border-gray-200">
               {/* <ImageCarousel images={locObj?.images || []} /> */}
+              {/* {locObj?.showBayDescriptions !== true && (
+                <div>
+                  <h1 className="text-primary font-bold text-4xl m-3 uppercase">
+                    Matterport 3D Tour
+                  </h1>
+                </div>
+              )} */}
               <iframe
                 style={{ zIndex: 1 }}
                 width="100%"
@@ -98,23 +105,25 @@ function LocationDetails() {
             </ul>
           </div>
           <hr />
-          <div className="my-20 px-8 md:px-20">
-            <h1 className="text-primary font-bold text-4xl mb-4">
-              SUITE & BAY PRICING:
-            </h1>{' '}
-            {locObj?.bays?.map((bay, index) => {
-              return (
-                <BayCardComponent
-                  title={bay.name}
-                  imageUrl={bay.imageUrl}
-                  list={bay.details}
-                  rate={bay.rate}
-                  detail={bay.detail}
-                  key={index}
-                />
-              );
-            })}
-          </div>
+          {locObj?.showBayDescriptions === true && (
+            <div className="my-20 px-8 md:px-20">
+              <h1 className="text-primary font-bold text-4xl mb-4">
+                SUITE & BAY PRICING:
+              </h1>{' '}
+              {locObj?.bays?.map((bay, index) => {
+                return (
+                  <BayCardComponent
+                    title={bay.name}
+                    imageUrl={bay.imageUrl}
+                    list={bay.details}
+                    rate={bay.rate}
+                    detail={bay.detail}
+                    key={index}
+                  />
+                );
+              })}
+            </div>
+          )}
           <hr />
           <div className="p-2 px-5 md:px-20 py-10 bg-white text-black text-xl">
             <p className="font-bold">
