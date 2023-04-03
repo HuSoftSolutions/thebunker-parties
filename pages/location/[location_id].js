@@ -110,6 +110,7 @@ function LocationDetails() {
                   list={bay.details}
                   rate={bay.rate}
                   detail={bay.detail}
+                  key={index}
                 />
               );
             })}
