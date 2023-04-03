@@ -27,7 +27,7 @@ async function sendEmailFlow(payload) {
   try {
     const msg = {
       to: emailTo,
-      from: 'info@bunkerparties.com',
+      from: 'team@husoftsolutions.com',
       templateId: TEMPLATE_ID,
       dynamic_template_data: payload,
     };
