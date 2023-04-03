@@ -3,29 +3,29 @@
   "info1": [
     {
       "label": "Party Contact",
-      "id": "partyContact",
       "type": "text",
-      "required": true
+      "required": true,
+      "order": 0
     },
     {
       "label": "Party Location",
-      "id": "partyLocation",
       "type": "text",
-      "required": true
+      "required": true,
+      "order": 1
     },
-    { "label": "Name", "id": "name", "type": "text", "required": true },
-    { "label": "Email", "id": "email", "type": "text", "required": true },
+    { "label": "Name", "type": "text", "required": true, "order": 2 },
+    { "label": "Email", "type": "text", "required": true, "order": 3 },
     {
       "label": "Date of Event",
-      "id": "date",
       "type": "date",
-      "required": true
+      "required": true,
+      "order": 4
     },
     {
       "label": "Time of Event",
-      "id": "time",
       "type": "time",
-      "required": true
+      "required": true,
+      "order": 5
     }
   ],
   "subtitle": "For parties with 10 or more people:",
@@ -40,13 +40,13 @@
       "items": [
         {
           "label": "Field Greens Salad",
-          "id": "fieldGreensSalad",
-          "type": "number"
+          "type": "number",
+          "order": 6
         },
         {
           "label": "Caesar Salad",
-          "id": "caesarSalad",
-          "type": "number"
+          "type": "number",
+          "order": 7
         }
       ]
     },
@@ -56,48 +56,53 @@
       "items": [
         {
           "label": "Angus Sliders with Fries (24 each)",
-          "id": "sliders",
-          "type": "number"
+          "type": "number",
+          "order": 8
         },
         {
           "label": "Pretzels (16 each)",
-          "id": "pretzels",
-          "type": "number"
+          "type": "number",
+          "order": 9
         },
         {
           "label": "Meatballs (24 each)",
-          "id": "meatballs",
-          "type": "number"
+          "type": "number",
+          "order": 10
         },
         {
           "label": "Pan-fried Pork Potstickers (24 each)",
-          "id": "potstickers",
-          "type": "number"
+          "type": "number",
+          "order": 11
         },
         {
           "label": "Loaded Fries",
-          "id": "fries",
-          "type": "number"
+          "type": "number",
+          "order": 12
         },
         {
           "label": "Hummus and Vegetable Platter",
-          "id": "hummus",
-          "type": "number"
+          "type": "number",
+          "order": 13
         },
         {
           "label": "Black Bean and Corn Salsa",
-          "id": "salsa",
-          "type": "number"
+          "type": "number",
+          "order": 14
         },
         {
           "label": "Bucket of Range Balls",
-          "id": "rangeBalls",
-          "type": "number"
+          "type": "number",
+          "order": 15
         },
         {
           "label": "Bone-In Chicken Wings (24 each)",
-          "id": "chickenWings",
+          "category": "Boneless",
           "type": "number",
+          "order": 16
+        },
+        {
+          "label": "Bone-In Flavor",
+          "type": "multi-select",
           "options": [
             "Garlic parm",
             "Thai chili",
@@ -106,12 +111,18 @@
             "Bourbon brown sugar",
             "Mango habanero",
             "Buffalo"
-          ]
+          ],
+          "order": 17
         },
         {
           "label": "Boneless Chicken Wings (24 each)",
-          "id": "bonelessChickenWings",
+          "category": "Bone In",
           "type": "number",
+          "order": 18
+        },
+        {
+          "label": "Boneless Flavor",
+          "type": "multi-select",
           "options": [
             "Garlic parm",
             "Thai chili",
@@ -120,7 +131,8 @@
             "Bourbon brown sugar",
             "Mango habanero",
             "Buffalo"
-          ]
+          ],
+          "order": 19
         }
       ]
     }
@@ -128,13 +140,13 @@
   "info4": [
     {
       "label": "What time would you like your food to come out?",
-      "id": "foodReadyTime",
-      "type": "time"
+      "type": "time",
+      "order": 20
     },
     {
       "label": "Additional Notes",
-      "id": "notes",
-      "type": "textarea"
+      "type": "textarea",
+      "order": 21
     }
   ]
 }

@@ -39,11 +39,13 @@ function ContactUsFormComponent() {
       setError(null);
       setIsLoading(true);
       try {
+        const name = formValues?.firstName + ' ' + formValues?.lastName;
         await sendEmail(
           {
             ...formValues,
+            name,
             template: 'contact_template',
-            emailTo: ['cody.husek@husoftsolutions.com'],
+            emailTo: ['info@bunkerparties.com'],
           },
           { auth: true }
         );

@@ -43,7 +43,7 @@ function EventForm() {
           {
             ...formValues,
             template: 'event_template',
-            emailTo: ['cody.husek@husoftsolutions.com'],
+            emailTo: ['info@bunkerparties.com'],
           },
           { auth: true }
         );
