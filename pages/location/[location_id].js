@@ -128,7 +128,7 @@ function LocationDetails() {
           <div className="p-2 px-5 md:px-20 py-10 bg-white text-black text-xl">
             <p className="font-bold">
               Questions? Email us at{' '}
-              <span className="text-primary"> events@getinthebunker.golf</span>
+              <span className="text-primary"> info@bunkerparties.golf</span>
             </p>
           </div>
         </div>
