@@ -1,101 +1,124 @@
 {
-  "firstName": {
-    "label": "First Name",
-    "type": "text",
-    "required": "true"
-  },
-  "lastName": {
-    "label": "Last Name",
-    "type": "text",
-    "required": "true"
-  },
-  "phone": {
-    "label": "Phone",
-    "type": "tel",
-    "required": "true"
-  },
-  "email": {
-    "label": "Email Address",
-    "type": "email",
-    "required": "true"
-  },
-  "eventPackage": {
-    "label": "Event Package",
-    "type": "text",
-    "required": "true"
-  },
-  "guestCount": {
-    "label": "Guest Count",
-    "type": "text",
-    "required": "true"
-  },
-  "preferredStartTime": {
-    "label": "Preferred Start Time",
-    "type": "time",
-    "required": "true"
-  },
-  "preferredBookingDuration": {
-    "label": "Preferred Booking Duration (in 15 minute intervals)",
-    "type": "text",
-    "required": "true"
-  },
-  "message": {
-    "label": "Message",
-    "type": "textarea",
-    "required": "true"
-  },
-  "preferredLocation": {
-    "label": "What is your preferred location?",
-    "type": "select",
-    "options": [
-      { "label": "Clifton Park", "value": "cliftonpark" },
-      { "label": "Guilderland", "value": "guilderland" },
-      { "label": "New Hartford", "value": "newhartford" },
-      { "label": "North Greenbush", "value": "northgreenbush" }
-    ],
-    "required": "true"
-  },
-  "guestsAttending": {
-    "label": "How many guests will be attending?",
-    "required": "true",
-    "type": "text"
-  },
-  "guestsGolfing": {
-    "label": "How many guests will be golfing?",
-    "required": "true",
-    "type": "text"
-  },
-  "menuOrdering": {
-    "label": "Will you be ordering off our Regular or Catering menu?",
-    "type": "select",
-    "required": "true",
-    "options": [
-      { "label": "Regular Menu", "value": "regular" },
-      { "label": "Catering Menu", "value": "catering" }
-    ]
-  },
-  "isSurpriseParty": {
-    "label": "Is the event a surprise party?",
-    "type": "checkbox",
-    "required": "true"
-  },
-  "surpriseDetails": {
-    "label": "If yes, please provide details",
-    "type": "textarea"
-  },
-  "decorations": {
-    "label": "Will you be bringing decorations? (banners and balloons only)",
-    "type": "checkbox",
-    "required": "true"
-  },
-  "proposedDates": {
-    "label": "Proposed date of your event",
-    "type": "date",
-    "required": "true"
-  },
-  "alternativeDates": {
-    "label": "Alternative date of your event",
-    "type": "date",
-    "required": "true"
-  }
+  "title": "Event Form Configuration",
+  "info1": [
+    {
+      "label": "First Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "label": "Last Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "label": "Phone",
+      "type": "tel",
+      "required": true
+    },
+    {
+      "label": "Email Address",
+      "type": "email",
+      "required": true
+    }
+  ],
+  "sections": [
+    {
+      "title": "Event Details",
+      "items": [
+        {
+          "label": "Event Package",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Guest Count",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Start Time",
+          "type": "time",
+          "required": true
+        },
+        {
+          "label": "Preferred Booking Duration (in 15 minute intervals)",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Message",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "label": "What is your preferred location?",
+          "type": "select",
+          "options": [
+            { "label": "Clifton Park", "value": "Clifton Park" },
+            { "label": "Guilderland", "value": "Guilderland" },
+            { "label": "New Hartford", "value": "New Hartford" },
+            { "label": "North Greenbush", "value": "North Greenbush" }
+          ],
+          "required": true
+        },
+        {
+          "label": "How many guests will be attending?",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "How many guests will be golfing?",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Will you be ordering off our Regular or Catering menu?",
+          "type": "select",
+          "options": [
+            { "label": "Regular Menu", "value": "regular" },
+            { "label": "Catering Menu", "value": "catering" }
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": "Additional Information",
+      "items": [
+        {
+          "label": "Is the event a surprise party?",
+          "type": "radio",
+          "options": [
+            { "label": "Yes", "value": "yes" },
+            { "label": "No", "value": "no" }
+          ],
+          "required": true
+        },
+        {
+          "label": "If yes, please provide details",
+          "type": "textarea"
+        },
+        {
+          "label": "Will you be bringing decorations? (banners and balloons only)",
+          "type": "radio",
+          "options": [
+            { "label": "Yes", "value": "yes" },
+            { "label": "No", "value": "no" }
+          ],
+          "required": true
+        },
+        {
+          "label": "Proposed date of your event",
+          "type": "date",
+          "required": true
+        },
+        {
+          "label": "Alternative date of your event",
+          "type": "date",
+          "required": true
+        }
+      ]
+    }
+  ]
 }
