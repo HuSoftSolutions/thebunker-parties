@@ -38,15 +38,18 @@ export default function PreOrderFormComponent() {
     return `${standardHours}:${formattedMinutes} ${period}`;
   }
 
-  // components/PreOrderFormComponent.js (continued)
   const handleChange = (group, e) => {
-    console.log(e.target.type);
+    console.log(e.target.type, e.target.value);
 
     let val = e.target.value;
 
     switch (e.target.type) {
       case 'time':
         val = convertToStandardTime(e.target.value);
+        break;
+      case 'number':
+        val = Math.max(0, Math.floor(parseInt(val))); // Ensure value is non-negative and an integer
+        break;
     }
 
     setFormData((prevState) => {
@@ -81,32 +84,26 @@ export default function PreOrderFormComponent() {
     // Send orderedFields to SendGrid
     console.log(JSON.stringify(orderedFields));
 
-    if (false) {
-      setError(null);
-      setIsLoading(true);
-      try {
-        await sendEmail(
-          {
-            orderedFields,
-            template: 'preorder_template_html',
-            emailTo: ['info@bunkerparties.com', formData.info1.Email],
-          },
-          { auth: true }
-        );
-        setIsSubmitted(true);
-        console.log('email sent!');
-      } catch (error) {
-        console.log(JSON.stringify(error));
-      }
-
-      setIsLoading(false);
-
-      console.log('Form submission complete');
-    } else {
-      console.log('Form is invalid!');
-      // TODO: Handle form errors
-      setError('Please fill out all fields!');
+    setError(null);
+    setIsLoading(true);
+    try {
+      await sendEmail(
+        {
+          orderedFields,
+          template: 'preorder_template_html',
+          emailTo: ['info@bunkerparties.com', formData.info1.Email],
+        },
+        { auth: true }
+      );
+      setIsSubmitted(true);
+      console.log('email sent!');
+    } catch (error) {
+      console.log(JSON.stringify(error));
     }
+
+    setIsLoading(false);
+
+    console.log('Form submission complete');
   };
 
   // components/PreOrderFormComponent.js (continued)
@@ -130,7 +127,7 @@ export default function PreOrderFormComponent() {
     return fields.map((field) => {
       if (field.type === 'multi-select') {
         return (
-          <div key={field.label} className="flex flex-col">
+          <div key={field.label} className="flex flex-col w-fit">
             <span className="mb-1">{field.label}</span>
             {field.options.map((option) => (
               <label key={option} className="inline-flex items-center">
@@ -139,7 +136,7 @@ export default function PreOrderFormComponent() {
                   name={field.label}
                   value={option}
                   onChange={(e) => handleMultiSelectChange(group, e)}
-                  className="mr-2"
+                  className="mr-2 w-fit"
                 />
                 {option}
               </label>
@@ -157,6 +154,8 @@ export default function PreOrderFormComponent() {
               name={field.label}
               type={field.type}
               required={field.required}
+              min={field.type === 'number' ? 1 : null}
+              max={field.type === 'number' ? 10 : null}
               onChange={(e) => handleChange(group, e)}
               className="border border-gray-300 p-2"
             />

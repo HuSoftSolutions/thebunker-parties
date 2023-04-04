@@ -141,7 +141,8 @@
     {
       "label": "What time would you like your food to come out?",
       "type": "time",
-      "order": 20
+      "order": 20,
+      "required": true
     },
     {
       "label": "Additional Notes",
