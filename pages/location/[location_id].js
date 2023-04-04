@@ -130,7 +130,7 @@ function LocationDetails() {
               Questions? Email us at{' '}
               <span className="text-primary">
                 <a href="mailto:info@bunkerparties.golf">
-                  info@bunkerparties.golf
+                  info@bunkerparties.com
                 </a>
               </span>
             </p>
