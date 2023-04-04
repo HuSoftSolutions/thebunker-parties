@@ -39,16 +39,11 @@ export default function PreOrderFormComponent() {
   }
 
   const handleChange = (group, e) => {
-    console.log(e.target.type, e.target.value);
-
     let val = e.target.value;
 
     switch (e.target.type) {
       case 'time':
         val = convertToStandardTime(e.target.value);
-        break;
-      case 'number':
-        val = Math.max(0, Math.floor(parseInt(val))); // Ensure value is non-negative and an integer
         break;
     }
 
@@ -81,9 +76,6 @@ export default function PreOrderFormComponent() {
       .flat()
       .sort((a, b) => a.order - b.order);
 
-    // Send orderedFields to SendGrid
-    console.log(JSON.stringify(orderedFields));
-
     setError(null);
     setIsLoading(true);
     try {
@@ -96,7 +88,6 @@ export default function PreOrderFormComponent() {
         { auth: true }
       );
       setIsSubmitted(true);
-      console.log('email sent!');
     } catch (error) {
       console.log(JSON.stringify(error));
     }
@@ -154,8 +145,6 @@ export default function PreOrderFormComponent() {
               name={field.label}
               type={field.type}
               required={field.required}
-              min={field.type === 'number' ? 1 : null}
-              max={field.type === 'number' ? 10 : null}
               onChange={(e) => handleChange(group, e)}
               className="border border-gray-300 p-2"
             />
