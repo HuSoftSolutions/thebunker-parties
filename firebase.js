@@ -3,7 +3,6 @@ import { initializeApp } from 'firebase/app';
 import { getFunctions, httpsCallable } from 'firebase/functions';
 import { getAuth, onAuthStateChanged, signInAnonymously } from 'firebase/auth';
 
-console.log(process.env.NEXT_PUBLIC_API_KEY);
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
@@ -19,8 +18,6 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 
 const functions = getFunctions(app);
-
-console.log('');
 
 const sendEmail = httpsCallable(functions, 'sendEmail');
 
