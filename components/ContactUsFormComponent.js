@@ -76,7 +76,10 @@ function ContactUsFormComponent() {
 
   return (
     <>
-      <h1 className="mb-4 text-2xl text-primary">CONTACT US FORM</h1>
+      <h1 className="mb-1 text-2xl text-primary">CONTACT US FORM</h1>
+      <p className="text-xs text-gray-500 italic mb-3">
+        * indicates required fields
+      </p>
       {isSubmitted && !isLoading && (
         <div className="p-4 flex items-center justify-center text-green-500 border border-green-500 bg-green-200 font-bold rounded text-2xl">
           Thank you for submitting!

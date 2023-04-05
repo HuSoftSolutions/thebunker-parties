@@ -66,8 +66,7 @@
             "Price per hour",
             "Includes bay 5 for party set up",
             "Bartender service",
-            "Dining tables and lounge sating with fire table",
-            "30-50 guests (32 seated)"
+            "Dining tables and lounge sating with fire table"
           ]
         },
         {
@@ -105,7 +104,7 @@
             "Choice of music genre",
             "Each bay can also be booked by itself for a semi-private party"
           ],
-          "rate": 100,
+          "rate": 140,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232451/thebunkerparties/locations/IMG_1685_k3bb6b.jpg"
         },
         {
@@ -307,11 +306,11 @@
       ],
       "eventPackages": [
         {
-          "title": "TIGER COMBO (2 HOURs) - $360",
+          "title": "TIGER COMBO (2 HOURS) - $360",
           "details": ["Blue Devil + VIP (2 golf bays)", "Up to 30 guests"]
         },
         {
-          "title": "Blue Devil + VIP (2 golf bays) - $500",
+          "title": "CORPORATE PACKAGE - $500",
           "details": ["Bays 1, 2, 3, 4", "Up to 60 guests"]
         },
         {

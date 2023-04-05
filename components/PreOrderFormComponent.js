@@ -139,6 +139,7 @@ export default function PreOrderFormComponent() {
           <div key={field.label} className="flex flex-col">
             <label htmlFor={field.label} className="mb-1">
               {field.label}
+              {field.required && <span className="text-red-500 ml-1">*</span>}
             </label>
             <input
               id={field.label}
@@ -166,9 +167,12 @@ export default function PreOrderFormComponent() {
 
   return (
     <>
-      <h1 className="text-2xl font-bold mb-4 text-primary">
+      <h1 className="text-2xl font-bold mb-1 text-primary">
         {formConfig.title}
       </h1>
+      <p className="text-xs text-gray-500 italic mb-3">
+        * indicates required fields
+      </p>
       {isSubmitted && !isLoading && (
         <div className="p-4 flex items-center justify-center text-green-500 border border-green-500 bg-green-200 font-bold rounded text-2xl">
           Thank you for submitting!
