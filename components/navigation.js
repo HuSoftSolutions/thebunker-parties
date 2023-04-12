@@ -57,4 +57,10 @@ export const navigationItems = [
     to: '/contact',
     type: 'link',
   },
+  {
+    id: 7,
+    title: 'MAIN SITE',
+    to: 'https://www.getinthebunker.golf',
+    type: 'link',
+  },
 ];
