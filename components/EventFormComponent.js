@@ -145,6 +145,7 @@ export default function EventFormComponent() {
           }
           className="border border-gray-300 p-2"
         >
+          <option value="">Choose an option</option>
           {field.options.map((option) => (
             <option key={option.value} value={option.value}>
               {option.label}
