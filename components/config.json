@@ -31,12 +31,7 @@
         },
         {
           "title": "VIP PACKAGE - $320",
-          "details": [
-            "Available during select hours, contact us for availability",
-            "Private VIP suite",
-            "Adjacent Bay 3",
-            "Up to 30 guests"
-          ]
+          "details": ["Private VIP suite", "Adjacent Bay 3", "Up to 30 guests"]
         },
         {
           "title": "KIDS PACKAGE — $350",
@@ -50,7 +45,12 @@
         },
         {
           "title": "CORPORATE PACKAGE - $360",
-          "details": ["2 hours", "Bays 3, 4 & 5", "Up to 40 guests"]
+          "details": [
+            "2 hours",
+            "Bays 3, 4 & 5",
+            "Up to 40 guests",
+            "Include outdoor patio $50 per hour"
+          ]
         },
         {
           "title": "ARNOLD PALMER PACKAGE - $480",
@@ -84,8 +84,8 @@
           "id": 0,
           "name": "VIP SUITE",
           "details": [
-            "Accommodates up to up to 20 guests (8 golfers)",
-            "Our biggest private room at over 800sq feet with 18’ wide screen and an extra-large lounge space with two plush couches, a table, two comfy chairs, and bar-style seating with six stools",
+            "Accommodates up to 20 guests (8 golfers)",
+            "Our largest private room at over 800sq feet with 18’ wide screen and an extra-large lounge space with two plush couches, a table, two comfy chairs, and bar-style seating with six stools",
             "Two 75” LED TVs and choice of music genre",
             "Call button for bar service"
           ],
@@ -97,7 +97,7 @@
           "name": "PLAINSMEN ROOM",
           "detail": "Large private room with two golf bays!",
           "details": [
-            "Accommodates up to 12 guests if anyone is golfing; up to 24 if no one is golfing; a perfect space for large parties",
+            "Accommodates up to 10 guests if anyone is golfing; up to 24 if no one is golfing; a perfect space for large parties",
             "You can dedicate one bay for golfers and use the other bay for party space",
             "Features two widescreen hitting bays and two comfortable lounge spaces, each with a plush couch, table, and two comfy chairs",
             "Each bay has its own 75” LED TV",
@@ -263,7 +263,7 @@
           "id": 3,
           "name": "VIP Room",
           "details": [
-            "Accommodates up to up to 8 guests",
+            "Accommodates up to 8 guests",
             "Our biggest private room with 18’ wide screen features bar-style seating for 4 plus an additional 600sq. ft connected lounge space with two couches.",
             "Two 75” LED TVs and choice of music genre",
             "Call button for bar service"
@@ -275,7 +275,7 @@
           "id": 4,
           "name": "Dutchmen Room",
           "details": [
-            "Accommodates up to up to 6 guests",
+            "Accommodates up to 6 guests",
             "Private room with 16’ wide screen features lounge-style seating for 6",
             "Two 75” LED TVs and choice of music genre",
             "Call button for bar service"
@@ -349,7 +349,7 @@
           "id": 0,
           "name": "VIP SUITE",
           "details": [
-            "Accommodates up to up to 20 guests, 8 golfers",
+            "Accommodates up to 20 guests, 8 golfers",
             "Our biggest private room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with two couches, a table, two chairs, and a bar seating with six stools",
             "The VIP Suite is on the upper floor near the bar area, so everyone gets a peek at the high-rollers!",
             "Two 75” LED TVs and choice of music genre",
@@ -362,7 +362,7 @@
           "id": 1,
           "name": "Blue Devil Room",
           "details": [
-            "Accommodates up to up to 6 guests",
+            "Accommodates up to 6 guests",
             "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
             "The Blue Devil Room is on the upper floor near the upper bar area, so everyone gets a peek at the high rollers!",
             "75” LED TVs and choice of music genre",
@@ -375,7 +375,7 @@
           "id": 2,
           "name": "VIKING ROOM",
           "details": [
-            "Accommodates up to up to 6 guests",
+            "Accommodates up to 6 guests",
             "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
             "The Viking Room is located on the lower floor and behind the bar area, so this is our most private event space available",
             "Two 75” LED TVs and choice of music genre",
@@ -502,7 +502,7 @@
           "id": 0,
           "name": "VIP SUITE",
           "details": [
-            "Accommodates up to up to 10 guests",
+            "Accommodates up to 10 guests",
             "Our biggest private golf room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with a couch, a table, two chairs, and a bar-style seating with six stools",
             "Two 75” LED TVs and choice of music genre",
             "Call button for bar service",
@@ -542,7 +542,7 @@
           "id": 3,
           "name": "HOLE 3",
           "details": [
-            "Accommodates up to up to 4 guests",
+            "Accommodates up to 4 guests",
             "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
             "75” LED TV and choice of music genre",
             "For large parties, Hole 3 can be combined with neighboring Hole 2 and/or the VIP Room"
@@ -554,7 +554,7 @@
           "id": 4,
           "name": "HOLE 4",
           "details": [
-            "Accommodates up to up to 4 guests",
+            "Accommodates up to 4 guests",
             "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
             "75” LED TV and choice of music genre",
             "For large parties, Hole 4 can be combined with neighboring Hole 5"
@@ -566,7 +566,7 @@
           "id": 5,
           "name": "HOLE 5",
           "details": [
-            "Accommodates up to up to 4 guests",
+            "Accommodates up to 4 guests",
             "Private room features a wide screen bay and plush lounge space with bar-style seating for 4",
             "75” LED TV and choice of music genre",
             "For large parties, Hole 5 can be combined with neighboring Hole 4 and/or Hole 6 by opening the sliding doors"
@@ -578,7 +578,7 @@
           "id": 6,
           "name": "HOLE 6",
           "details": [
-            "Accommodates up to up to 4 guests",
+            "Accommodates up to 4 guests",
             "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
             "Hole 6 also features a garage door goes up when weather permits",
             "75” LED TV and choice of music genre",
