@@ -619,19 +619,19 @@
       {
         "title": "Field Green Salad",
         "qty": null,
-        "cost": "32",
+        "cost": "36",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-field-greens_yxwmym.jpg"
       },
       {
         "title": "Caesar Salad",
         "qty": null,
-        "cost": "32",
+        "cost": "36",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-caesar_jrwjeu.jpg"
       },
       {
         "title": "Angus Sliders with Fries",
         "qty": "(24 each)",
-        "cost": "28",
+        "cost": "92",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697739/thebunkerparties/menu/DSCF5230-sliders_tg4lio.jpg"
       },
       {
@@ -643,31 +643,31 @@
       {
         "title": "Meatballs",
         "qty": "(24 each)",
-        "cost": "42",
+        "cost": "48",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736790/thebunkerparties/menu/IMG_3753_j3tv1w.jpg"
       },
       {
         "title": "Pan-fried Pork Potstickers",
         "qty": "(24 each)",
-        "cost": "46",
+        "cost": "50",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5226-potstickers_gy79s2.jpg"
       },
       {
         "title": "Loaded Fries",
         "qty": null,
-        "cost": "42",
+        "cost": "48",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679700056/thebunkerparties/menu/IMG_3734_yy7luj.jpg"
       },
       {
         "title": "Roasted Red Pepper Hummus",
         "qty": null,
-        "cost": "32",
+        "cost": "34",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-hummus_vsmznx.jpg"
       },
       {
-        "title": "Black Bean and Corn Salad",
+        "title": "Black Bean and Corn Salsa",
         "qty": null,
-        "cost": "28",
+        "cost": "32",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-corn-salsa_itma7b.jpg"
       },
       {
@@ -684,29 +684,32 @@
       },
       {
         "title": "Boneless Chicken Wings",
-        "qty": "(24 each)",
-        "cost": "30",
+        "qty": "(30 each)",
+        "cost": "42",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3761_ukqpcu.jpg"
       }
     ],
     "drinks": [
       {
         "title": "Domestic Bucket",
-        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra) - 5 for $20"
       },
-      { "title": "Import Bucket", "qty": "(Heineken, Corona, Amstel)" },
-      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
+      {
+        "title": "Import Bucket",
+        "qty": "(Heineken, Corona, Amstel) - 5 for $25"
+      },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw) - 5 for $28" },
       {
         "title": "Beer Tower",
-        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more) - $27-$37"
       },
       {
         "title": "Cocktail Towers",
-        "qty": null
+        "qty": "- $54-$60"
       },
       {
         "title": "Bottle of Wine",
-        "qty": null
+        "qty": "- $34-$52"
       },
       {
         "title": "Full bar available based on consumption",
