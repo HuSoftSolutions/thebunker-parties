@@ -94,9 +94,9 @@ function LocationDetails() {
           </div>
           <hr />
           <div className="p-2 px-5 md:px-20 py-10 bg-gray-200 text-2xl">
-            <p className="font-bold text-primary">
+            {/* <p className="font-bold text-primary">
               FOR PARTIES WITH 10 OR MORE PEOPLE
-            </p>
+            </p> */}
             <ul className="list-disc ml-5 text-lg">
               <li>Food must be pre-ordered 10 days prior to event</li>
               <li>
