@@ -324,7 +324,7 @@
           ]
         },
         {
-          "title": "DOWNSTAIRS TAKEOVER - Call for pricing",
+          "title": "DOWNSTAIRS TAKEOVER - $750 per hour",
           "details": [
             "5 golf bays, including 1 enclosed suite",
             "4 hours",
@@ -466,7 +466,7 @@
           "details": ["2 hours", "2 golf bays", "Up to 14 players"]
         },
         {
-          "title": "DARTS - $240",
+          "title": "DARTS - $360",
           "details": ["2 hours", "3 dart boards", "Up to 15 guests"]
         },
         {
@@ -630,25 +630,25 @@
       },
       {
         "title": "Angus Sliders with Fries",
-        "qty": "(24 each)",
+        "qty": "(24)",
         "cost": "92",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697739/thebunkerparties/menu/DSCF5230-sliders_tg4lio.jpg"
       },
       {
         "title": "Pretzel Bites",
-        "qty": "(50 each)",
+        "qty": "(50 pieces)",
         "cost": "48",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1682790489/thebunkerparties/menu/bunker-parties-menu-pretzel-bites_fkqyjs.jpg"
       },
       {
         "title": "Meatballs",
-        "qty": "(24 each)",
+        "qty": "(24)",
         "cost": "48",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736790/thebunkerparties/menu/IMG_3753_j3tv1w.jpg"
       },
       {
         "title": "Pan-fried Pork Potstickers",
-        "qty": "(24 each)",
+        "qty": "(24)",
         "cost": "50",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5226-potstickers_gy79s2.jpg"
       },
@@ -672,19 +672,19 @@
       },
       {
         "title": "Bucket of Range Balls",
-        "qty": null,
+        "qty": "(50)",
         "cost": "30",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5258-range-balls_vpm3mh.jpg"
       },
       {
         "title": "Bone-in Chicken Wings",
-        "qty": "(24 each)",
+        "qty": "(24)",
         "cost": "48",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697735/thebunkerparties/menu/DSCF5242-wings_qykmtk.jpg"
       },
       {
         "title": "Boneless Chicken Wings",
-        "qty": "(30 each)",
+        "qty": "(30)",
         "cost": "42",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3761_ukqpcu.jpg"
       }
