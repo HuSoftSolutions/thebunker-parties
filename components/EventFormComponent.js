@@ -97,7 +97,6 @@ export default function EventFormComponent() {
       .sort((a, b) => a.order - b.order);
 
     // Send orderedFields to SendGrid
-    console.log(JSON.stringify(orderedFields));
 
     if (fieldsAreValid() === true) {
       setError(null);
@@ -128,11 +127,6 @@ export default function EventFormComponent() {
       }
 
       setIsLoading(false);
-
-      console.log(
-        'Form submission complete',
-        formData.info1?.['Email Address']
-      );
     } else {
       console.log('Form is invalid!');
       // TODO: Handle form errors
