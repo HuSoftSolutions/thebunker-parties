@@ -69,6 +69,15 @@ export default function EventFormComponent() {
     }));
   };
 
+  const fieldsAreValid = () => {
+    return (
+      formData.info1['Email Address'].trim().length > 0 &&
+      formData.info1['Phone'].trim().length > 0 &&
+      formData.info1['First Name'].trim().length > 0 &&
+      formData.info1['Last Name'].trim().length > 0
+    );
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const orderedFields = Object.keys(formData)
@@ -90,42 +99,45 @@ export default function EventFormComponent() {
     // Send orderedFields to SendGrid
     console.log(JSON.stringify(orderedFields));
 
-    // if (false) {
-    setError(null);
-    setIsLoading(true);
-    try {
-      await sendEmail(
-        {
-          orderedFields,
-          template: 'event_template_html',
-          emailTo: ['info@bunkerparties.com'],
-        },
-        { auth: true }
-      );
+    if (fieldsAreValid() === true) {
+      setError(null);
+      setIsLoading(true);
+      try {
+        await sendEmail(
+          {
+            orderedFields,
+            template: 'event_template_html',
+            emailTo: ['info@bunkerparties.com'],
+          },
+          { auth: true }
+        );
 
-      await sendEmail(
-        {
-          orderedFields,
-          template: 'event_client_template',
-          emailTo: [formData.info1['Email Address']],
-        },
-        { auth: true }
-      );
+        await sendEmail(
+          {
+            orderedFields,
+            template: 'event_client_template',
+            emailTo: [formData.info1['Email Address']],
+          },
+          { auth: true }
+        );
 
-      setIsSubmitted(true);
-      console.log('email sent!');
-    } catch (error) {
-      console.log(JSON.stringify(error));
+        setIsSubmitted(true);
+        console.log('email sent!');
+      } catch (error) {
+        console.log(JSON.stringify(error));
+      }
+
+      setIsLoading(false);
+
+      console.log(
+        'Form submission complete',
+        formData.info1?.['Email Address']
+      );
+    } else {
+      console.log('Form is invalid!');
+      // TODO: Handle form errors
+      setError('First Name, Last Name, Phone, and Email Address are required!');
     }
-
-    setIsLoading(false);
-
-    console.log('Form submission complete');
-    // } else {
-    //   console.log('Form is invalid!');
-    //   // TODO: Handle form errors
-    //   setError('Please fill out all fields!');
-    // }
   };
 
   const renderField = (sectionKey, field) => (
@@ -242,6 +254,11 @@ export default function EventFormComponent() {
           </form>
         )
       )}
+      {error ? (
+        <div className="w-full p-1 flex justify-center items-center text-red-600">
+          {error}
+        </div>
+      ) : null}
     </>
   );
 }
