@@ -53,6 +53,7 @@
             { "label": "Guilderland", "value": "Guilderland" },
             { "label": "New Hartford", "value": "New Hartford" },
             { "label": "North Greenbush", "value": "North Greenbush" }
+            { "label": "Mohawk Harbor", "value": "Mohawk Harbor" }
           ],
           "required": true
         },
