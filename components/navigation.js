@@ -8,22 +8,27 @@ export const navigationItems = [
       {
         title: 'Clifton Park',
         to: '/location/cliftonpark',
-        id: 7,
+        id: 8,
       },
       {
         title: 'Guilderland',
         to: '/location/guilderland',
-        id: 8,
+        id: 9,
       },
       {
         title: 'North Greenbush',
         to: '/location/northgreenbush',
-        id: 9,
+        id: 10,
       },
       {
         title: 'New Hartford',
         to: '/location/newhartford',
-        id: 10,
+        id: 11,
+      },
+      {
+        title: 'Mohawk Harbor',
+        to: '/location/mohawkharbor',
+        id: 12,
       },
     ],
   },
