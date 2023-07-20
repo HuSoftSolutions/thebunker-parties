@@ -1,0 +1,102 @@
+{
+  "businessCardImgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678735622/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park_poj4v5.jpg",
+  "locationHeaderImgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232450/thebunkerparties/locations/cp-header-DSCF4635-select_j6ue7x.jpg",
+  "title": "MOHAWK HARBOR",
+  "address": "221 Harborside Dr, Schenectady, NY 12305",
+  "hours": "Monday - Sunday 9am-11pm",
+  "phone": "(518) 348-9993",
+  "btnTitle": "START PLANNING",
+  "to": "/location/mohawkharbor",
+  "coordinates": { "lat": 42.82572724510209, "lng": -73.93237300000077 },
+  "matterportUrl": "https://my.matterport.com/show/?m=9rjycdQ27Wn",
+  "id": "mohawkharbor",
+  "showBayDescriptions": true,
+  "images": [
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+    "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+  ],
+  "eventPackages": [
+    {
+      "title": "The Royal Flush (2 hours) - $560",
+      "details": ["Bays 1/2/VIP Dart Room & Players Room", "Up to 50 Guests"]
+    },
+    {
+      "title": "The VIP Combo (2 hours) - $280",
+      "details": ["Darts Room", "Up to 20 Guests/12 Seats"]
+    },
+    {
+      "title": "The Double Down (2 hours) - $280",
+      "details": ["Bays 1/2", "Up to 16 Guests"]
+    },
+    {
+      "title": "The Harborside Takeover (3 hours) - $3000",
+      "details": [
+        "Takeover HALF of the entire Mohawk Harbor Bunker, inside and out!",
+        "Half of the Outdoor Bar",
+        "Half of the Patio",
+        "Golf Bays 1 & 2",
+        "VIP Dart Room",
+        "Players Room",
+        "Up to 100 Guests"
+      ]
+    },
+    {
+      "title": "The Total Takeover (4 hours) - Inquire for pricing",
+      "details": [
+        "4 Golf Bays",
+        "5 Dart Boards",
+        "Two Bars",
+        "Tons of large screen TVs",
+        "Loads of luxury",
+        "Closed to Public",
+        "Up to 150 people"
+      ]
+    }
+  ],
+  "bays": [
+    {
+      "id": 0,
+      "name": "BAY 1",
+      "details": [],
+      "rate": "60/70",
+      "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+    },
+    {
+      "id": 1,
+      "name": "BAY 2",
+      "details": [],
+      "rate": "60/70",
+      "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+    },
+    {
+      "id": 3,
+      "name": "VEGAS ROOM",
+      "details": [],
+      "rate": "80",
+      "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+    },
+    {
+      "id": 4,
+      "name": "PLAYERS ROOM",
+      "details": [],
+      "rate": "90",
+      "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+    },
+    {
+      "id": 5,
+      "name": "VIP Dart Room",
+      "details": [],
+      "rate": "50",
+      "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+    },
+    {
+      "id": 6,
+      "name": "DART BOARDS",
+      "details": [],
+      "rate": "20",
+      "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+    }
+  ]
+}
