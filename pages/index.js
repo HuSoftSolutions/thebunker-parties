@@ -54,7 +54,9 @@ export default function Home() {
               title="STEP 2: SCHEDULE YOUR PARTY"
               message="Let's get your party scheduled! Start the process by clicking the button below. This will lead you through a series of questions and event options regarding location, number of guests, date and more. Once submitted, our events coordinator will reach out to finalize the booking process."
               onClick={() => {
-                router.push('/event');
+                router.push(
+                  'https://thebunker.tripleseat.com/party_request/31049'
+                );
               }}
               btnTitle="START PLANNING"
             />

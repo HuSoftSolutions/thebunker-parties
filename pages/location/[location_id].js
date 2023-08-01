@@ -32,7 +32,7 @@ function LocationDetails() {
         address={locObj?.address}
         btnTitle="START PLANNING"
         btnClick={() => {
-          router.push('/event');
+          router.push('https://thebunker.tripleseat.com/party_request/31049');
         }}
         size="md"
       />

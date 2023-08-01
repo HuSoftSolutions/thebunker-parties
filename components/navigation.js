@@ -53,7 +53,7 @@ export const navigationItems = [
   {
     id: 5,
     title: 'START PLANNING',
-    to: '/event',
+    to: 'https://thebunker.tripleseat.com/party_request/31049',
     type: 'link',
   },
   {
