@@ -20,7 +20,7 @@ const IconsAndHours = ({ locObj, mapClick, mapClose }) => {
           title="MENU"
           icon={<GiKnifeFork className="w-full h-full" />}
           click={() => {
-            router.push('/menu');
+            router.push(locObj.menuPath || "/menu");
           }}
         />
       </div>

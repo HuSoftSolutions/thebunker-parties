@@ -32,12 +32,12 @@ export const navigationItems = [
       },
     ],
   },
-  {
-    id: 2,
-    title: 'MENU',
-    to: '/menu',
-    type: 'link',
-  },
+  // {
+  //   id: 2,
+  //   title: 'MENU',
+  //   to: '/menu',
+  //   type: 'link',
+  // },
   {
     id: 3,
     title: 'GALLERY',

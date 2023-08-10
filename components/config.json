@@ -608,6 +608,7 @@
       "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/main.png",
       "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/main.png",
       "title": "MOHAWK HARBOR",
+      "menuPath": "/menu-mohawkharbor",
       "address": "221 Harborside Dr, Schenectady, NY 12305",
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(518) 348-9993",
@@ -857,6 +858,100 @@
         "qty": "(30)",
         "cost": "42",
         "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3761_ukqpcu.jpg"
+      }
+    ],
+    "drinks": [
+      {
+        "title": "Domestic Bucket",
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra) - 5 for $20"
+      },
+      {
+        "title": "Import Bucket",
+        "qty": "(Heineken, Corona, Amstel) - 5 for $25"
+      },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw) - 5 for $28" },
+      {
+        "title": "Beer Tower",
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more) - $27-$37"
+      },
+      {
+        "title": "Cocktail Towers",
+        "qty": "- $54-$60"
+      },
+      {
+        "title": "Bottle of Wine",
+        "qty": "- $34-$52"
+      },
+      {
+        "title": "Full bar available based on consumption",
+        "qty": null
+      }
+    ]
+  },
+  "menuMohawkharbor": {
+    "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-header.jpg",
+    "images": [
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/DSCF4892_nfdge1.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3460_c2t4nb.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
+    ],
+    "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
+    "items": [
+      {
+        "title": "Field Greens Salad",
+        "qty": null,
+        "cost": "42",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-menu-field-greens.jpg"
+      },
+      {
+        "title": "Caesar Salad",
+        "qty": null,
+        "cost": "42",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-menu-caesar.jpg"
+      },
+      {
+        "title": "Angus Beef Sliders",
+        "qty": "(24)",
+        "cost": "96",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-beef-sliders.jpg"
+      },
+      {
+        "title": "Chicken Sliders",
+        "qty": "(24)",
+        "cost": "96",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-chicken-sliders.jpg"
+      },
+      {
+        "title": "Assorted Kabob Platter",
+        "qty": "(12)",
+        "cost": "96",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-kabobs.jpg"
+      },
+      {
+        "title": "Loaded Crab Cake Tots",
+        "qty": "(12)",
+        "cost": "64",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-crab-cake-tots.jpg"
+      },
+      {
+        "title": "Buffalo Chicken Eggrolls",
+        "qty": "(12)",
+        "cost": "64",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-buff-chicken-eggrolls.jpg"
+      },
+      {
+        "title": "Roasted Garlic Hummus Platter",
+        "qty": null,
+        "cost": "40",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-menu-hummus.jpg"
+      },
+      {
+        "title": "14\" PIZZAS",
+        "qty": null,
+        "cost": "24-27",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-pizzas.jpg"
       }
     ],
     "drinks": [

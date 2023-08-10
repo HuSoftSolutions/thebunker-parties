@@ -1,0 +1,121 @@
+{
+  "title": "FOOD PRE-ORDER FORM",
+  "info1": [
+    {
+      "label": "Party Contact",
+      "type": "text",
+      "required": true,
+      "order": 0
+    },
+    {
+      "label": "Party Location",
+      "type": "text",
+      "required": true,
+      "order": 1
+    },
+    { "label": "Name", "type": "text", "required": true, "order": 2 },
+    { "label": "Email", "type": "text", "required": true, "order": 3 },
+    {
+      "label": "Date of Event",
+      "type": "date",
+      "required": true,
+      "order": 4
+    },
+    {
+      "label": "Time of Event",
+      "type": "time",
+      "required": true,
+      "order": 5
+    }
+  ],
+  "subtitle": "For parties with 10 or more people:",
+  "bulletedList": [
+    "Food must be pre-ordered 10 days prior to event",
+    "A 5% service fee and 15% gratuity will be included in the total"
+  ],
+  "sections": [
+    {
+      "title": "SALADS",
+      "subtitle": "Serves 8-10 guests. Please indicate number of platters ordered.",
+      "items": [
+        {
+          "label": "Field Greens Salad",
+          "type": "number",
+          "order": 6
+        },
+        {
+          "label": "Caesar Salad",
+          "type": "number",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "title": "PLATTERS",
+      "subtitle": "Serves 8-10 guests. Please indicate number of platters ordered.",
+      "items": [
+        {
+          "label": "Angus Sliders (24 each)",
+          "type": "number",
+          "order": 8
+        },
+        {
+          "label": "Chicken Sliders (24 each)",
+          "type": "number",
+          "order": 9
+        },
+        {
+          "label": "Assorted Kabob Platter (12 each)",
+          "type": "number",
+          "order": 10
+        },
+        {
+          "label": "Loaded Crab Cake Tots",
+          "type": "number",
+          "order": 11
+        },
+        {
+          "label": "Buffalo Chicken Eggrolls",
+          "type": "number",
+          "order": 12
+        },
+        {
+          "label": "Roasted Garlic Hummus Platter",
+          "type": "number",
+          "order": 13
+        },
+        {
+          "label": "14\" PIZZAS",
+          "category": "pizza",
+          "type": "number",
+          "order": 16
+        },
+        {
+          "label": "Pizza Type",
+          "type": "multi-select",
+          "options": [
+            "Margherita (24)",
+            "Ortolana (27)",
+            "Buffalo Chicken (27)",
+            "Chicken Caprese (27)",
+            "Plenty of Pepperoni (27)"
+          ],
+          "order": 17
+        }
+      ]
+    }
+  ],
+  "info4": [
+    {
+      "label": "What time would you like your food to come out?",
+      "type": "time",
+      "order": 20,
+      "required": true
+    },
+    {
+      "label": "Additional Notes",
+      "type": "textarea",
+      "order": 21
+    }
+  ]
+}
