@@ -25,11 +25,11 @@ export const navigationItems = [
         to: '/location/newhartford',
         id: 11,
       },
-      // {
-      //   title: 'Mohawk Harbor',
-      //   to: '/location/mohawkharbor',
-      //   id: 12,
-      // },
+      {
+        title: 'Mohawk Harbor',
+        to: '/location/mohawkharbor',
+        id: 12,
+      },
     ],
   },
   {

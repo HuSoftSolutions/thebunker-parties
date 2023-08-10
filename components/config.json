@@ -602,6 +602,177 @@
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         }
       ]
+    },
+
+    {
+      "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/main.png",
+      "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/main.png",
+      "title": "MOHAWK HARBOR",
+      "address": "221 Harborside Dr, Schenectady, NY 12305",
+      "hours": "Monday - Sunday 9am-11pm",
+      "phone": "(518) 348-9993",
+      "btnTitle": "START PLANNING",
+      "to": "/location/mohawkharbor",
+      "showBayDescriptions": false,
+      "coordinates": { "lat": 42.82573117951174, "lng": -73.93235154227568 },
+      "matterportUrl": "https://mpembed.com/show/?m=u9BpmnnH69C&mpu=1854",
+      "id": "mohawkharbor",
+      "images": [
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+      ],
+      "eventPackages": [
+        {
+          "title": "The Royal Flush (2 hours) - $560",
+          "details": [
+            "Bays 1/2/VIP Dart Room &amp; Players Room",
+            "Up to 50 Guests"
+          ]
+        },
+        {
+          "title": "The VIP Combo (2 hours) - $280",
+          "details": [
+            "Darts Room &amp; Players Room",
+            "Up to 20 Guests/12 Seats"
+          ]
+        },
+        {
+          "title": "The Double Down (2 hours) - $280",
+          "details": ["Bays 1/2", "Up to 16 Guests"]
+        },
+        {
+          "title": "The Harborside Takeover (3 hours) - $3000",
+          "details": [
+            "Takeover HALF of the entire Mohawk Harbor Bunker, inside and out!",
+
+            "Half of the Outdoor Bar",
+            "Half of the Patio",
+            "Golf Bays 1 &amp; 2",
+            "VIP Dart Room",
+            "Players Room",
+            "Up to 100 Guests"
+          ]
+        },
+        {
+          "title": "The Total Takeover (4 hours) - Inquire for pricing",
+          "details": [
+            "The ENTIRE Mohawk Harbor Bunker is yours for an event that your guests will be talking about for long after your event is over",
+            "4 Golf Bays",
+            "5 Dart Boards",
+            "Two Bars",
+            "Tons of large screen TVs",
+            "Loads of luxury"
+          ]
+        }
+      ],
+      "bays": [
+        {
+          "id": 0,
+          "name": "VIP SUITE",
+          "details": [
+            "Accommodates up to 10 guests",
+            "Our biggest private golf room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with a couch, a table, two chairs, and a bar-style seating with six stools",
+            "Two 75” LED TVs and choice of music genre",
+            "Call button for bar service",
+            "For large parties, The VIP Suite can be combined with neighboring Hole 3 by opening the sliding door"
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 1,
+          "name": "HOLE 1",
+          "details": [
+            "Accommodates up to 6 guests",
+            "This is a “social” bay open to the dining room and bar, it is the bay closest to the bar and the action",
+            "Hole 1 also features a garage door goes up when weather permits",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "75” TV",
+            "For large parties, Hole 1 can be combined with neighboring Hole 2"
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 2,
+          "name": "HOLE 2",
+          "details": [
+            "Accommodates up to 6 guests",
+            "This is a “social” bay open to the dining room and bar area, and is near the action",
+            "Features a widescreen hitting bay and bar-style seating for golfers",
+            "75” TV",
+            "For large parties, Hole 2 can be combined with neighboring Hole 1 and/or Hole 3"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 3,
+          "name": "HOLE 3",
+          "details": [
+            "Accommodates up to 4 guests",
+            "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
+            "75” LED TV and choice of music genre",
+            "For large parties, Hole 3 can be combined with neighboring Hole 2 and/or the VIP Room"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 4,
+          "name": "HOLE 4",
+          "details": [
+            "Accommodates up to 4 guests",
+            "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
+            "75” LED TV and choice of music genre",
+            "For large parties, Hole 4 can be combined with neighboring Hole 5"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 5,
+          "name": "HOLE 5",
+          "details": [
+            "Accommodates up to 4 guests",
+            "Private room features a wide screen bay and plush lounge space with bar-style seating for 4",
+            "75” LED TV and choice of music genre",
+            "For large parties, Hole 5 can be combined with neighboring Hole 4 and/or Hole 6 by opening the sliding doors"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 6,
+          "name": "HOLE 6",
+          "details": [
+            "Accommodates up to 4 guests",
+            "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
+            "Hole 6 also features a garage door goes up when weather permits",
+            "75” LED TV and choice of music genre",
+            "For large parties, Hole 6 can be combined with neighboring Hole 5 by opening the sliding door"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        },
+        {
+          "id": 7,
+          "name": "DARTS/EVENT ROOM",
+          "details": [
+            "Accommodates up to 15 guests",
+            "Our biggest event room features three bays of Interactive darts (steel tips) making this space fun for everyone. (Get ready to share the video of each game winner on your social media!)",
+            "Features a leather couch, several plush chairs, and bar-style seating with 6 bar stools",
+            "Three 75” LED TVs",
+            "Choose your own music genre",
+            "Call button for bar service",
+            "The Dart Room can also be booked with the VIP Suite or any other Hole to create an awesome hospitality room for your party guests"
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
+        }
+      ]
     }
   ],
   "menu": {
