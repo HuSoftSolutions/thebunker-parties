@@ -172,6 +172,7 @@
       "address": "2390 Western Ave, Guilderland, NY 12084",
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(518) 867-3008",
+      "menuPath": "hide",
       "btnTitle": "START PLANNING",
       "to": "/location/guilderland",
       "coordinates": { "lat": 42.70660985151098, "lng": -73.91846325308022 },
