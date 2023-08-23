@@ -27,7 +27,7 @@ export default function Home() {
           <HeroVideoComponent
             imageUrl="https://res.cloudinary.com/dy3tzr2tc/video/upload/v1679543791/thebunkerparties/thebunker_home_video_e9kxwl.mp4"
             title="PARTY AT THE BUNKER!"
-            message="Celebrations, corporate events, kids parties and more! Let us host your next event."
+            message="Celebrations, corporate events and more! Let us host your next event."
             btnTitle="SEE OUR LOCATIONS"
             btnClick={() => router.push('/location')}
             size="lg"

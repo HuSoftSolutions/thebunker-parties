@@ -32,16 +32,7 @@
           "title": "VIP PACKAGE - $320",
           "details": ["Private VIP suite", "Adjacent Bay 3", "Up to 30 guests"]
         },
-        {
-          "title": "KIDS PACKAGE — $350",
-          "details": [
-            "Available during select hours, contact us for availability",
-            "Plainsmen Room, includes 2 golf bays with extra seating ",
-            "4 flatbreads and soda",
-            "Up to 12 kids",
-            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
-          ]
-        },
+
         {
           "title": "CORPORATE PACKAGE - $360",
           "details": [
@@ -189,16 +180,7 @@
           "title": "VIP PACKAGE - $140",
           "details": ["2 hours", "VIP suite with lounge", "8-10 guests"]
         },
-        {
-          "title": "KIDS VIP PACKAGE - $225",
-          "details": [
-            "Available during select hours, contact us for availability",
-            "VIP suite with lounge",
-            "4 pizzas and soda",
-            "Up to 10 kids",
-            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
-          ]
-        },
+       
         {
           "title": "JOHN DALY PACKAGE — $700",
           "details": [
@@ -313,16 +295,7 @@
           "title": "CORPORATE PACKAGE - $500",
           "details": ["Bays 1, 2, 3, 4", "Up to 60 guests"]
         },
-        {
-          "title": "KIDS VIP PACKAGE - $300",
-          "details": [
-            "VIP suite",
-            "Available during select hours, contact us for availability",
-            "4 flatbreads and soda",
-            "Up to 10 kids",
-            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
-          ]
-        },
+       
         {
           "title": "DOWNSTAIRS TAKEOVER - $750 per hour",
           "details": [
@@ -477,16 +450,7 @@
             "Up to 50 guests"
           ]
         },
-        {
-          "title": "KIDS VIP PACKAGE - $300",
-          "details": [
-            "Available during select hours, contact us for availability",
-            "VIP suite",
-            "4 flatbreads and soda",
-            "Up to 10 kids",
-            "For parties with kids age 12 and under, there will be an additional $100 fee for a designated staff member"
-          ]
-        },
+       
         {
           "title": "FULL TAKEOVER - Call for pricing",
           "details": [
@@ -1160,3 +1124,4 @@
     ]
   }
 }
+
