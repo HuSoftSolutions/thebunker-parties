@@ -56,12 +56,12 @@ export const navigationItems = [
     to: 'https://thebunker.tripleseat.com/party_request/31049',
     type: 'link',
   },
-  {
-    id: 6,
-    title: 'CONTACT',
-    to: '/contact',
-    type: 'link',
-  },
+  // {
+  //   id: 6,
+  //   title: 'CONTACT',
+  //   to: '/contact',
+  //   type: 'link',
+  // },
   {
     id: 7,
     title: 'MAIN SITE',

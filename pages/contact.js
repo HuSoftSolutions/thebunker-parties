@@ -21,7 +21,7 @@ function Contact() {
       <div className="my-10 p-8 md:px-20 pt-0 w-full">
         <div className="m-1 flex justify-center flex-col w-full mx-auto text-primary">
           <div className="flex flex-col flex-wrap justify-center text-black">
-            <ContactUsForm />
+            {/* <ContactUsForm /> */}
           </div>
         </div>
       </div>
