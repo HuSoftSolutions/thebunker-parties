@@ -439,10 +439,6 @@
           "details": ["2 hours", "2 golf bays", "Up to 14 players"]
         },
         {
-          "title": "DARTS - $360",
-          "details": ["2 hours", "3 dart boards", "Up to 15 guests"]
-        },
-        {
           "title": "CORPORATE PACKAGE - $560",
           "details": [
             "2 hours",
@@ -547,21 +543,6 @@
             "Hole 6 also features a garage door goes up when weather permits",
             "75” LED TV and choice of music genre",
             "For large parties, Hole 6 can be combined with neighboring Hole 5 by opening the sliding door"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 7,
-          "name": "DARTS/EVENT ROOM",
-          "details": [
-            "Accommodates up to 15 guests",
-            "Our biggest event room features three bays of Interactive darts (steel tips) making this space fun for everyone. (Get ready to share the video of each game winner on your social media!)",
-            "Features a leather couch, several plush chairs, and bar-style seating with 6 bar stools",
-            "Three 75” LED TVs",
-            "Choose your own music genre",
-            "Call button for bar service",
-            "The Dart Room can also be booked with the VIP Suite or any other Hole to create an awesome hospitality room for your party guests"
           ],
           "rate": 60,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
