@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-function Hero({ imageUrl, title, message, btnTitle, btnClick, size, address }) {
+function Hero({ imageUrl, title, message, btnTitle, btnClick, size, address, opacity='bg-opacity-50' }) {
   const router = useRouter();
   let h = '350px';
   switch (size) {
@@ -22,7 +22,7 @@ function Hero({ imageUrl, title, message, btnTitle, btnClick, size, address }) {
       }}
     >
       <div
-        className={`p-10 bg-black bg-opacity-50 h-full w-full flex items-center justify-center flex-col`}
+        className={`p-10 bg-black ${opacity} h-full w-full flex items-center justify-center flex-col`}
       >
         <h1 className="text-[35px] md:text-[50px] font-bold text-center my-2">
           {title}

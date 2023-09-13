@@ -16,7 +16,7 @@ function Testimonials() {
 
   return (
     <Layout>
-      <Hero imageUrl={config?.testimonialsPage?.imageUrl} title="TESTIMONIALS" size="md" />
+      <Hero imageUrl={config?.testimonialsPage?.imageUrl} title="TESTIMONIALS" size="md" opacity="bg-opacity-10" />
       <div className="my-10 p-8 md:px-20 pt-0 w-full">
         <div className="m-1 flex justify-center flex-col w-full mx-auto text-black">
           <div className="flex flex-wrap justify-center text-black">
@@ -27,7 +27,7 @@ function Testimonials() {
                   key={index}
                 >
                   <div className="text-black p-1">
-                    {item.message}
+                    "{item.message}"
                   </div>
                   <div className="p-1 pt-3">{item.from}</div>
                 </div>
