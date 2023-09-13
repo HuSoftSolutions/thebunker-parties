@@ -50,14 +50,20 @@ export const navigationItems = [
     to: '/faqs',
     type: 'link',
   },
-  {
+	{
     id: 5,
+    title: 'TESTIMONIALS',
+    to: '/testimonials',
+    type: 'link',
+  },
+  {
+    id: 6,
     title: 'START PLANNING',
     to: 'https://thebunker.tripleseat.com/party_request/31049',
     type: 'link',
   },
   // {
-  //   id: 6,
+  //   id: ,
   //   title: 'CONTACT',
   //   to: '/contact',
   //   type: 'link',
