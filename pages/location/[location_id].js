@@ -9,6 +9,7 @@ import ImageCarousel from '@/components/ImageCarouselComponent';
 import EventPackageComponent from '@/components/EventPackageComponent';
 import BayCardComponent from '@/components/BayCardComponent';
 import IconsAndHours from '@/components/IconsAndHoursComponent';
+import Amenities from '@/components/AmenitiesComponent';
 // import LocationMapModal from '@/components/LocationMapModal';
 const LocationMapModal = dynamic(
   () => import('@/components/LocationMapModal'),
@@ -69,6 +70,8 @@ function LocationDetails() {
                   setShowMapModal(false);
                 }}
               />
+						<Amenities amenities={locObj?.amenities} />
+
             </div>
           </div>
           <div className="my-10 p-8 md:px-20 pt-0 w-full">

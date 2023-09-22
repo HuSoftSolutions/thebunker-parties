@@ -153,6 +153,17 @@
           "rate": 40,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232428/thebunkerparties/locations/cp-gallery-dart-room_ypej8v.png"
         }
+      ],
+      "amenities": [
+        { "icon": "/TRACKMAN_Bays.svg", "title": "6 TRACKMAN Bays" },
+        { "icon": "/Full_Bar.svg", "title": "Full Bar", "width": 75 },
+        { "icon": "/Light_Food.svg", "title": "Light Food Menu" },
+        { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
+        { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
+        { "icon": "/Events.svg", "title": "Events" },
+        { "icon": "/Gift_Cards.svg", "title": "Gift Cards" },
+        { "icon": "/Lounge.svg", "title": "Lounge and Bar", "width": 70 },
+        { "icon": "/Happy_Hour.svg", "title": "Happy Hour" }
       ]
     },
 
@@ -180,7 +191,7 @@
           "title": "VIP PACKAGE - $140",
           "details": ["2 hours", "VIP suite with lounge", "8-10 guests"]
         },
-       
+
         {
           "title": "JOHN DALY PACKAGE — $700",
           "details": [
@@ -265,6 +276,10 @@
           "rate": 60,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         }
+      ],
+      "amenities": [
+        { "icon": "/TRACKMAN_Bays.svg", "title": "1 Private TRACKMAN Bays" },
+        { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" }
       ]
     },
 
@@ -295,7 +310,7 @@
           "title": "CORPORATE PACKAGE - $500",
           "details": ["Bays 1, 2, 3, 4", "Up to 60 guests"]
         },
-       
+
         {
           "title": "DOWNSTAIRS TAKEOVER - $750 per hour",
           "details": [
@@ -412,6 +427,19 @@
           "rate": 60,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         }
+      ],
+      "amenities": [
+        { "icon": "/TRACKMAN_Bays.svg", "title": "7 TRACKMAN Bays" },
+        { "icon": "/Indoor-Outdoor_Bar.svg", "title": "Indoor/Outdoor Bar" },
+        { "icon": "/2_Floors.svg", "title": "2 Floors" },
+        { "icon": "/Outdoor_Seating.svg", "title": "Outdoor Seating" },
+        { "icon": "/Full_Bar.svg", "title": "Full Bar", "width": 75 },
+        { "icon": "/Full_Food.svg", "title": "Full Food Menu" },
+        { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
+        { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
+        { "icon": "/Events.svg", "title": "Events" },
+        { "icon": "/Gift_Cards.svg", "title": "Gift Cards" },
+        { "icon": "/Happy_Hour.svg", "title": "Happy Hour" }
       ]
     },
 
@@ -446,7 +474,7 @@
             "Up to 50 guests"
           ]
         },
-       
+
         {
           "title": "FULL TAKEOVER - Fill out form or email for pricing",
           "details": [
@@ -546,6 +574,17 @@
           "rate": 60,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         }
+      ],
+      "amenities": [
+        { "icon": "/TRACKMAN_Bays.svg", "title": "7 TRACKMAN Bays" },
+        { "icon": "/Full_Bar.svg", "title": "Full Bar", "width": 75 },
+        { "icon": "/Full_Food.svg", "title": "Full Food Menu" },
+        { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
+        { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
+        { "icon": "/Events.svg", "title": "Events" },
+        { "icon": "/Gift_Cards.svg", "title": "Gift Cards" },
+        { "icon": "/Darts.svg", "title": "Darts" },
+        { "icon": "/Happy_Hour.svg", "title": "Happy Hour" }
       ]
     },
 
@@ -579,10 +618,7 @@
         },
         {
           "title": "The VIP Combo (2 hours) - $280",
-          "details": [
-            "Darts Room & Players Room",
-            "Up to 20 Guests/12 Seats"
-          ]
+          "details": ["Darts Room & Players Room", "Up to 20 Guests/12 Seats"]
         },
         {
           "title": "The Double Down (2 hours) - $280",
@@ -718,6 +754,20 @@
           "rate": 60,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         }
+      ],
+			"amenities": [
+        { "icon": "/TRACKMAN_Bays.svg", "title": "4 TRACKMAN Bays" },
+        { "icon": "/Indoor-Outdoor_Bar.svg", "title": "Indoor/Outdoor Bar" },
+        { "icon": "/Outdoor_Seating.svg", "title": "Outdoor Seating" },
+        { "icon": "/Outdoor_Grill.svg", "title": "Outdoor Grill" },
+        { "icon": "/Full_Bar.svg", "title": "Full Bar", "width": 75 },
+        { "icon": "/Full_Food.svg", "title": "Full Food Menu" },
+        { "icon": "/Darts.svg", "title": "Darts" },
+        { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
+        { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
+        { "icon": "/Events.svg", "title": "Events" },
+        { "icon": "/Gift_Cards.svg", "title": "Gift Cards" },
+        { "icon": "/Happy_Hour.svg", "title": "Happy Hour" }
       ]
     }
   ],
@@ -1070,62 +1120,59 @@
   "contact": {
     "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679717769/thebunkerparties/Bar_Patron_And_Bartender_Medium_vvgc25.jpg"
   },
-	"testimonialsPage": {
-		"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-testimonial-header.jpg",
-		"testimonials": 
-			[
-				{
-					"message": "A HUGE THANK YOU to you and your team at the Bunker! My team had an EXCELLENT time! The food and service were wonderful, as was the atmosphere! You were also so easy to work with and the chef was so kind to make all of our dietary requests. We will absolutely be back to visit in the future and I will pass your information on to my colleagues local to our East Greenbush office. Thanks again!",
-					"from": ""
-				},
-				{
-					"message": "Everything was great and our bartender, Anthony, was exceptional! He went above and beyond.",
-					"from": "Thanks, Amy"
-				},
-				{
-					"message": "It worked out perfectly, the options of food/drink, the activities and the venue– our entire group had a great time and Max at the bar was awesome! Thanks so much, you were very easy to work with!",
-					"from": ""
-				},
-				{
-					"message": "Thank you so much! Our team and clients had a fantastic time! The staff were SO friendly and helpful and the food was delicious. We appreciate everything and will highly recommend The Bunker to everyone we know!",
-					"from": ""
-				},
-				{
-					"message": "Thank you again for all of your help! There is absolutely nothing I would have changed everything was perfect! The food was great, your servers were all incredible in the room and at the bar, and everyone had an amazing time. We will definitely be back again!",
-					"from": "Thanks, Allison"
-				},
-				{
-					"message": "Thank you so much for all of your help booking our party, everyone had a great time! Your staff was great, and even though it was a super busy night everyone was very attentive and helpful.We’ll definitely be back!",
-					"from": ""
-				},
-				{
-					"message": "Everything was great, both Friday and Sunday! Thank you guys so much for everything and FABULOUS customer service!",
-					"from": "Alicia"
-				},
-				{
-					"message": "I will let Sean's wife Lisa say it best... Yesterday was an amazing memory that Sean and our family will never forget!!❤️ ❤️ ❤️ ❤️",
-					"from": ""
-				},
-				{
-					"message": "Thanks for your outreach and warm message. We had a wonderful time yesterday at the event. Everything was exceptional from the food, the service, and the space. People are still talking about how much fun they had. We will certainly be back and look forward to working with you again. I hope you enjoy this beautiful day!!",
-					"from": ""
-				},
-				{
-					"message": "Thank you for everything! We had an amazing time and would definitely do it again! All of the staff was super attentive and accommodating. Thank you again!",
-					"from": ""
-				},
-				{
-					"message": "We had a great time! Thank you so much for everything! Everyone raved about your space and we had a fantastic time. Your staff was attentive and kind. Thank you!",
-					"from": "Best, Gabby"
-				},
-				{
-					"message": "It was great! Everyone enjoyed themselves and the food was great! I would also like to comment that the staff was A+.",
-					"from": "Thanks again, -Marisa"
-				}
-			
-			
-		]
-	},
+  "testimonialsPage": {
+    "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-testimonial-header.jpg",
+    "testimonials": [
+      {
+        "message": "A HUGE THANK YOU to you and your team at the Bunker! My team had an EXCELLENT time! The food and service were wonderful, as was the atmosphere! You were also so easy to work with and the chef was so kind to make all of our dietary requests. We will absolutely be back to visit in the future and I will pass your information on to my colleagues local to our East Greenbush office. Thanks again!",
+        "from": ""
+      },
+      {
+        "message": "Everything was great and our bartender, Anthony, was exceptional! He went above and beyond.",
+        "from": "Thanks, Amy"
+      },
+      {
+        "message": "It worked out perfectly, the options of food/drink, the activities and the venue– our entire group had a great time and Max at the bar was awesome! Thanks so much, you were very easy to work with!",
+        "from": ""
+      },
+      {
+        "message": "Thank you so much! Our team and clients had a fantastic time! The staff were SO friendly and helpful and the food was delicious. We appreciate everything and will highly recommend The Bunker to everyone we know!",
+        "from": ""
+      },
+      {
+        "message": "Thank you again for all of your help! There is absolutely nothing I would have changed everything was perfect! The food was great, your servers were all incredible in the room and at the bar, and everyone had an amazing time. We will definitely be back again!",
+        "from": "Thanks, Allison"
+      },
+      {
+        "message": "Thank you so much for all of your help booking our party, everyone had a great time! Your staff was great, and even though it was a super busy night everyone was very attentive and helpful.We’ll definitely be back!",
+        "from": ""
+      },
+      {
+        "message": "Everything was great, both Friday and Sunday! Thank you guys so much for everything and FABULOUS customer service!",
+        "from": "Alicia"
+      },
+      {
+        "message": "I will let Sean's wife Lisa say it best... Yesterday was an amazing memory that Sean and our family will never forget!!❤️ ❤️ ❤️ ❤️",
+        "from": ""
+      },
+      {
+        "message": "Thanks for your outreach and warm message. We had a wonderful time yesterday at the event. Everything was exceptional from the food, the service, and the space. People are still talking about how much fun they had. We will certainly be back and look forward to working with you again. I hope you enjoy this beautiful day!!",
+        "from": ""
+      },
+      {
+        "message": "Thank you for everything! We had an amazing time and would definitely do it again! All of the staff was super attentive and accommodating. Thank you again!",
+        "from": ""
+      },
+      {
+        "message": "We had a great time! Thank you so much for everything! Everyone raved about your space and we had a fantastic time. Your staff was attentive and kind. Thank you!",
+        "from": "Best, Gabby"
+      },
+      {
+        "message": "It was great! Everyone enjoyed themselves and the food was great! I would also like to comment that the staff was A+.",
+        "from": "Thanks again, -Marisa"
+      }
+    ]
+  },
   "faqs": {
     "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679713860/thebunkerparties/The_Bunker_LOGO_And_Bar_Medium_ccfm5w.jpg",
     "questions": [
@@ -1160,4 +1207,3 @@
     ]
   }
 }
-
