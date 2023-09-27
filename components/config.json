@@ -20,38 +20,35 @@
       ],
       "eventPackages": [
         {
-          "title": "PLAINSMEN PACKAGE - $280",
+          "title": "PLAINSMEN PACKAGE - $140 per hour",
           "details": [
-            "2 hours",
             "Private spaces with 2 screens",
             "If golfing, up to 10 guests",
             "If not golfing, up to 24 guests"
           ]
         },
         {
-          "title": "VIP PACKAGE - $320",
+          "title": "VIP PACKAGE - $160 per hour",
           "details": ["Private VIP suite", "Adjacent Bay 3", "Up to 30 guests"]
         },
 
         {
-          "title": "CORPORATE PACKAGE - $360",
+          "title": "CORPORATE PACKAGE - $180 per hour",
           "details": [
-            "2 hours",
             "Bays 3, 4 & 5",
             "Up to 40 guests",
             "Include outdoor patio $50 per hour"
           ]
         },
         {
-          "title": "ARNOLD PALMER PACKAGE - $480",
+          "title": "ARNOLD PALMER PACKAGE - $240 per hour",
           "details": [
-            "2 hours",
             "VIP suite + Plainsmen Room (3 golf bays)",
             "Up to 50 guests"
           ]
         },
         {
-          "title": "THE ULTIMATE PATIO PARTY - $150",
+          "title": "THE ULTIMATE PATIO PARTY - $150 per hour",
           "details": [
             "Price per hour",
             "Includes bay 5 for party set up",
@@ -60,7 +57,7 @@
           ]
         },
         {
-          "title": "BUNKER TAKEOVER PACKAGE - Fill out form or email for pricing",
+          "title": "BUNKER TAKEOVER PACKAGE - Fill out form",
           "details": [
             "Full facility, 6 total golf bays, including 2 enclosed suites, and indoor/outdoor seating areas",
             "Closed to the public",
@@ -188,14 +185,13 @@
       ],
       "eventPackages": [
         {
-          "title": "VIP PACKAGE - $140",
-          "details": ["2 hours", "VIP suite with lounge", "8-10 guests"]
+          "title": "VIP PACKAGE - $70 per hour",
+          "details": ["VIP suite with lounge", "8-10 guests"]
         },
 
         {
-          "title": "JOHN DALY PACKAGE — $700",
+          "title": "JOHN DALY PACKAGE — $350 per hour",
           "details": [
-            "2 hours",
             "Lounge including Bays 1, 10 & 18",
             "Additional seating areas",
             "Room for table set-up & party favors",
@@ -204,7 +200,7 @@
           ]
         },
         {
-          "title": "BUNKER TAKEOVER PACKAGE - Fill out form or email for pricing",
+          "title": "BUNKER TAKEOVER PACKAGE - Fill out form",
           "details": [
             "Full facility, including 5 golf bays and bar",
             "Closed to the public"
@@ -288,7 +284,10 @@
       "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
       "title": "NORTH GREENBUSH",
       "address": "490 North Greenbush RD, Rensselaer, NY 12144",
-			"notices": ["WE HAVE LIMITED PARKING ON SITE.", "  In the event that our parking lot is full, please park on the two nearby side streets, Bloomingrove Drive or Ludlow Lane."],
+      "notices": [
+        "WE HAVE LIMITED PARKING ON SITE.",
+        "  In the event that our parking lot is full, please park on the two nearby side streets, Bloomingrove Drive or Ludlow Lane."
+      ],
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(518) 874 4018",
       "btnTitle": "START PLANNING",
@@ -304,11 +303,11 @@
       ],
       "eventPackages": [
         {
-          "title": "TIGER COMBO (2 HOURS) - $360",
+          "title": "TIGER COMBO (2 HOURS) - $180 per hour",
           "details": ["Blue Devil + VIP (2 golf bays)", "Up to 30 guests"]
         },
         {
-          "title": "CORPORATE PACKAGE - $500",
+          "title": "CORPORATE PACKAGE - $250 per hour",
           "details": ["Bays 1, 3, 4, 5", "Up to 60 guests"]
         },
 
@@ -316,14 +315,13 @@
           "title": "DOWNSTAIRS TAKEOVER - $750 per hour",
           "details": [
             "5 golf bays, including 1 enclosed suite",
-            "4 hours",
             "Up to 150 people",
             "Private bar",
             "Closed to the public"
           ]
         },
         {
-          "title": "FULL TAKEOVER - Fill out form or email for pricing",
+          "title": "FULL TAKEOVER - Fill out form",
           "details": [
             "7 golf bays, including 3 private suites",
             "Indoor and outdoor seating",
@@ -464,20 +462,19 @@
       ],
       "eventPackages": [
         {
-          "title": "HOLES 1 & 2 - $240",
-          "details": ["2 hours", "2 golf bays", "Up to 14 players"]
+          "title": "HOLES 1 & 2 - $120 per hour",
+          "details": ["2 golf bays", "Up to 14 players"]
         },
         {
-          "title": "CORPORATE PACKAGE - $560",
+          "title": "CORPORATE PACKAGE - $280 per hour",
           "details": [
-            "2 hours",
             "4 golf bays (Holes 1, 2, 3 & VIP Suite)",
             "Up to 50 guests"
           ]
         },
 
         {
-          "title": "FULL TAKEOVER - Fill out form or email for pricing",
+          "title": "FULL TAKEOVER - Fill out form",
           "details": [
             "7 golf bays",
             "Full bar and lounge area",
@@ -611,22 +608,22 @@
       ],
       "eventPackages": [
         {
-          "title": "The Royal Flush (2 hours) - $560",
+          "title": "The Royal Flush - $280 per hour",
           "details": [
             "Bays 1/2/VIP Dart Room & Players Room",
             "Up to 50 Guests"
           ]
         },
         {
-          "title": "The VIP Combo (2 hours) - $280",
+          "title": "The VIP Combo - $140 per hour",
           "details": ["Darts Room & Players Room", "Up to 20 Guests/12 Seats"]
         },
         {
-          "title": "The Double Down (2 hours) - $280",
+          "title": "The Double Down - $140 per hour",
           "details": ["Bays 1/2", "Up to 16 Guests"]
         },
         {
-          "title": "The Harborside Takeover (3 hours) - $3000",
+          "title": "The Harborside Takeover - $1000 per hour",
           "details": [
             "Takeover HALF of the entire Mohawk Harbor Bunker, inside and out!",
 
@@ -639,7 +636,7 @@
           ]
         },
         {
-          "title": "The Total Takeover (4 hours) - Fill out form or email for pricing",
+          "title": "The Total Takeover - Fill out form",
           "details": [
             "The ENTIRE Mohawk Harbor Bunker is yours for an event that your guests will be talking about for long after your event is over",
             "4 Golf Bays",
@@ -756,7 +753,7 @@
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
         }
       ],
-			"amenities": [
+      "amenities": [
         { "icon": "/TRACKMAN_Bays.svg", "title": "4 TRACKMAN Bays" },
         { "icon": "/Indoor-Outdoor_Bar.svg", "title": "Indoor/Outdoor Bar" },
         { "icon": "/Outdoor_Seating.svg", "title": "Outdoor Seating" },
