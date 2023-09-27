@@ -70,8 +70,16 @@ function LocationDetails() {
                   setShowMapModal(false);
                 }}
               />
-						<Amenities amenities={locObj?.amenities} />
-
+							{locObj?.notices?.length &&
+							<div className="border bg-red-50 border-primary p-2 rounded text-primary list-disc my-4">
+                {
+                  locObj.notices.map((n, i) => {
+                    return <li key={i}>{n}</li>;
+                  })}
+									
+							</div>
+}
+              <Amenities amenities={locObj?.amenities} />
             </div>
           </div>
           <div className="my-10 p-8 md:px-20 pt-0 w-full">

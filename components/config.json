@@ -288,6 +288,7 @@
       "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
       "title": "NORTH GREENBUSH",
       "address": "490 North Greenbush RD, Rensselaer, NY 12144",
+			"notices": ["WE HAVE LIMITED PARKING ON SITE.", "  In the event that our parking lot is full, please park on the two nearby side streets, Bloomingrove Drive or Ludlow Lane."],
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(518) 874 4018",
       "btnTitle": "START PLANNING",

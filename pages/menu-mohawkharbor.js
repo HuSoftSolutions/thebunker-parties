@@ -20,7 +20,11 @@ function Menu() {
   return (
     // <Layout bg={'bg-[#2f2f2f]'}>
     <Layout>
-      <Hero imageUrl={config?.menuMohawkharbor?.imageUrl} title="PARTY MENU" size="md" />
+      <Hero
+        imageUrl={config?.menuMohawkharbor?.imageUrl}
+        title="PARTY MENU"
+        size="md"
+      />
       <div className="flex flex-col items-center w-full">
         <div className="max-w-[1300px]">
           <div className="block w-full h-[250px]">
@@ -35,8 +39,11 @@ function Menu() {
           <div className="my-10 p-8 md:px-20 pt-0 w-full">
             <div className="m-1 flex justify-center flex-col w-full mx-auto text-primary">
               <h1 className=" font-bold text-4xl mb-1">PARTY PLATTERS:</h1>
-              <h4 className=" ml-0.5 font-bold text-md mb-4">
+              <h4 className=" ml-0.5 font-bold text-md">
                 All platters serve 8-10 guests each.
+              </h4>
+              <h4 className="text-black italic ml-0.5 font-normal text-md mb-4">
+                Pricing is subject to change.
               </h4>
               <div className="flex flex-wrap justify-center text-white">
                 {config?.menuMohawkharbor?.items.map((option, index) => {
@@ -50,8 +57,6 @@ function Menu() {
                     </div>
                   );
                 })}
-
-
               </div>
               <div className="flex flex-col justify-center mt-20 ">
                 <h1 className=" font-bold text-4xl mb-1">
