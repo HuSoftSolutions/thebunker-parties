@@ -133,7 +133,7 @@ function LocationDetails() {
               })}
             </div>
           )}
-          <hr />
+          {/* <hr />
           <div className="p-2 px-5 md:px-20 py-10 bg-white text-black text-xl">
             <p className="font-bold">
               Questions? Email us at{' '}
@@ -143,7 +143,7 @@ function LocationDetails() {
                 </a>
               </span>
             </p>
-          </div>
+          </div> */}
         </div>
         {showMapModal ? (
           <LocationMapModal
