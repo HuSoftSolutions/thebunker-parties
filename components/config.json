@@ -466,18 +466,25 @@
           "details": ["2 golf bays", "Up to 14 players"]
         },
         {
-          "title": "CORPORATE PACKAGE - $280 per hour",
+          "title": "CORPORATE PACKAGE - $260 per hour",
           "details": [
-            "4 golf bays (Holes 1, 2, 3 & VIP Suite)",
+            "4 golf bays (Hole 1, 2, 3 & Spartan Room)",
             "Up to 50 guests"
+          ]
+        },
+				{
+          "title": "VIP PACKAGE - $100 per hour",
+          "details": [
+            "16' wide hitting screen with private lounge personalized music, butler servive",
+            "Up to 15 guests"
           ]
         },
 
         {
           "title": "FULL TAKEOVER - Fill out form",
           "details": [
-            "7 golf bays",
-            "Full bar and lounge area",
+            "8 golf bays",
+            "Full bar and dining room",
             "Closed to the public"
           ]
         }
