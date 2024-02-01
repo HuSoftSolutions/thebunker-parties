@@ -591,7 +591,6 @@
         { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
         { "icon": "/Events.svg", "title": "Events" },
         { "icon": "/Gift_Cards.svg", "title": "Gift Cards" },
-        { "icon": "/Darts.svg", "title": "Darts" },
         { "icon": "/Happy_Hour.svg", "title": "Happy Hour" }
       ]
     },
