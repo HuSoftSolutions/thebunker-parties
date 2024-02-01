@@ -172,6 +172,7 @@
       "hours": "Monday - Sunday 9am-11pm",
       "phone": "(518) 867-3008",
       "menuPath": "hide",
+      "showBayDescriptions": true,
       "btnTitle": "START PLANNING",
       "to": "/location/guilderland",
       "coordinates": { "lat": 42.70660985151098, "lng": -73.91846325308022 },
@@ -207,19 +208,18 @@
           ]
         }
       ],
+
       "bays": [
         {
           "id": 0,
           "name": "BAY 1",
           "details": [
             "Accommodates up to 4 guests",
-            "RIGHT-HANDED PLAYERS ONLY",
-            "This is a “social” bay open to the bar and near the action, but curtain can be closed for semi- private space",
-            "Features a 16’ widescreen hitting bay and lounge seating including a loveseat, a table, and two chairs",
-            "75” TV",
-            "Bay 1 can be converted to a band stage"
+            "This is a 'social' bay open to the bar and near the action",
+            "Features a widescreen hitting bay and lounge style seating for guests and golfers (right handed players only)",
+            "For larger parties bay 1 can be combined with bays 10 and 18 along with exclusive access to our entire bar/lounge area"
           ],
-          "rate": 100,
+          "rate": 60,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
@@ -227,52 +227,49 @@
           "name": "BAY 10",
           "details": [
             "Accommodates up to 4 guests",
-            "This is a “social” bay open to the bar, but semi-private because it is tucked around the corner",
-            "Features an 18’ widescreen hitting bay and bar-style seating for 4",
-            "75” TV",
-            "For large parties, Bay 10 can be combined with neighboring Bay 18"
+            "This is a 'social' bay open to the bar and near the action",
+            "Features a widescreen hitting bay and bar style seating for guests and golfers",
+            "For larger parties bay 10 can be combined with bays 1 and 18 along with exclusive access to our entire bar/lounge area"
           ],
-          "rate": 100,
+          "rate": 60,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 2,
-          "name": "Bay 18",
+          "name": "BAY 18",
           "details": [
-            "Accommodates up to 6 guests",
-            "This is a “social” bay open to the bar and right in the middle of the action",
-            "Features an 18’ widescreen hitting bay and bar-style seating for 4",
-            "Two 75” TVs in the bar are in view",
-            "For large parties, Bay 18 can be combined with neighboring Bay 10"
+            "Accommodates up to 4 guests",
+            "This is a 'social' bay open to the bar and near the action",
+            "Features a widescreen hitting bay and bar style seating for guests and golfers",
+            "For larger parties bay 18 can be combined with bays 1 and 10 along with exclusive access to our entire bar/lounge area"
           ],
           "rate": 60,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 3,
-          "name": "VIP Room",
+          "name": "DUTCHMEN ROOM",
           "details": [
-            "Accommodates up to 8 guests",
-            "Our biggest private room with 18’ wide screen features bar-style seating for 4 plus an additional 600sq. ft connected lounge space with two couches.",
-            "Two 75” LED TVs and choice of music genre",
-            "Call button for bar service"
+            "Accommodates up to 6 guests",
+            "Private room with an 18’ wide screen, extra-lounge space with plush couches",
+            "Choose your own music genre and a call switch for exclusive butler service"
           ],
-          "rate": 60,
+          "rate": 70,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 4,
-          "name": "Dutchmen Room",
+          "name": "VIP SUITE",
           "details": [
-            "Accommodates up to 6 guests",
-            "Private room with 16’ wide screen features lounge-style seating for 6",
-            "Two 75” LED TVs and choice of music genre",
-            "Call button for bar service"
+            "Accommodates up to 10 guests",
+            "Our largest private room with an 18’ wide screen with a 75” LED TV along with plush lounge seating",
+            "Choose your own music genre and a call switch for exclusive butler service"
           ],
-          "rate": 60,
+          "rate": 70,
           "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         }
       ],
+
       "amenities": [
         { "icon": "/TRACKMAN_Bays.svg", "title": "2 Private TRACKMAN Bays" },
         { "icon": "/TRACKMAN_Bays.svg", "title": "5 TRACKMAN Bays" },
@@ -837,7 +834,7 @@
       "bays": [
         {
           "id": 1,
-          "name": "Bay 1",
+          "name": "BAY 1",
           "details": [
             "Accommodates up to 4 guests",
             "A 'social' bay open to the bar and near the action",
@@ -845,11 +842,11 @@
             "For larger parties Bay 1 can be combined with Bay 2, 3 and/or 4!"
           ],
           "rate": 75,
-          "imageUrl": ""
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 2,
-          "name": "Bay 2",
+          "name": "BAY 2",
           "details": [
             "Accommodates up to 4 guests",
             "A 'social' bay open to the bar and near the action",
@@ -857,12 +854,12 @@
             "For larger parties Bay 2 can be combined with Bay 1, 3 and/or 4!"
           ],
           "rate": 75,
-          "imageUrl": "",
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
           "_placeholder": "https://storage.googleapis.com/thebunker-assets/thebunker/comingsoon3.png"
         },
         {
           "id": 3,
-          "name": "Bay 3",
+          "name": "BAY 3",
           "details": [
             "Accommodates up to 4 guests",
             "A 'social' bay open to the bar and near the action",
@@ -870,11 +867,11 @@
             "For larger parties Bay 3 can be combined with Bay 1, 2, and/or 4!"
           ],
           "rate": 75,
-          "imageUrl": ""
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 4,
-          "name": "Bay 4",
+          "name": "BAY 4",
           "details": [
             "Accommodates up to 4 guests",
             "A 'social' bay open to the bar and near the action",
@@ -883,11 +880,11 @@
             "For larger parties Bay 4 can be combined with Bay 1, 2, and/or 3!"
           ],
           "rate": 75,
-          "imageUrl": ""
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 5,
-          "name": "VIP",
+          "name": "VIP SUITE",
           "details": [
             "Accommodates up to 20 guests",
             "Private room with an 18’ wide screen, 2 dart boards (steel tips) and extra-lounge space with plush couches to gather",
@@ -897,11 +894,11 @@
             "The VIP Suite can also be booked with The Kimball Room for an extra two golf screens for the ultimate party"
           ],
           "rate": 160,
-          "imageUrl": ""
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         },
         {
           "id": 6,
-          "name": "The Kimball Room",
+          "name": "THE KIMBALL ROOM",
           "details": [
             "Accommodates up to 16 guests",
             "You can dedicate one bay for golfers and use the other bay for party space",
@@ -911,7 +908,7 @@
             "The Kimball Room pairs nicely with the VIP Suite for a private gathering of up to 35 guests"
           ],
           "rate": 160,
-          "imageUrl": ""
+          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
         }
       ],
 
