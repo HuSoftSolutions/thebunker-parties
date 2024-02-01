@@ -278,7 +278,7 @@
         { "icon": "/TRACKMAN_Bays.svg", "title": "5 TRACKMAN Bays" },
         { "icon": "/Full_Bar.svg", "title": "Full Bar" },
         { "icon": "/Light_Food.svg", "title": "Small Food Menu" },
-        { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" }
+        { "icon": "/Golf_Lessons.svg", "title": "Golf Lessons" }
       ]
     },
 
@@ -773,6 +773,7 @@
         { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
         { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
         { "icon": "/Events.svg", "title": "Events" },
+        { "icon": "/Darts.svg", "title": "Darts" },
         { "icon": "/Gift_Cards.svg", "title": "Gift Cards" },
         { "icon": "/Happy_Hour.svg", "title": "Happy Hour" }
       ]
