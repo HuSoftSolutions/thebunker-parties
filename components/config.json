@@ -767,7 +767,6 @@
         { "icon": "/Outdoor_Grill.svg", "title": "Outdoor Grill" },
         { "icon": "/Full_Bar.svg", "title": "Full Bar", "width": 75 },
         { "icon": "/Full_Food.svg", "title": "Full Food Menu" },
-        { "icon": "/Darts.svg", "title": "Darts" },
         { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
         { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
         { "icon": "/Events.svg", "title": "Events" },
