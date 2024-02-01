@@ -274,7 +274,10 @@
         }
       ],
       "amenities": [
-        { "icon": "/TRACKMAN_Bays.svg", "title": "1 Private TRACKMAN Bays" },
+        { "icon": "/TRACKMAN_Bays.svg", "title": "2 Private TRACKMAN Bays" },
+        { "icon": "/TRACKMAN_Bays.svg", "title": "5 TRACKMAN Bays" },
+        { "icon": "/Full_Bar.svg", "title": "Full Bar" },
+        { "icon": "/Light_Food.svg", "title": "Small Food Menu" },
         { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" }
       ]
     },
