@@ -10,7 +10,7 @@ const LocationCard = ({ location }) => {
       style={{ backgroundImage: `url(${location.businessCardImgUrl})` }}
       onClick={() => router.push(location.to)}
     >
-      <div className="flex bg-black bg-opacity-50 w-full h-full items-center justify-center hover:bg-opacity-0 cursor-pointer">
+      <div className={`flex bg-black w-full h-full items-center justify-center ${location.businessCardImgUrl ? 'bg-opacity-50 hover:bg-opacity-0' : 'bg-opacity-100 hover:bg-primary'} cursor-pointer`}>
         <h2 className="text-4xl font-bold text-center">{location.title}</h2>
       </div>
     </div>

@@ -1,16 +1,51 @@
-import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
+
+
+import React, { useRef, useState, useEffect } from 'react';
+import GoogleMap from 'google-maps-react-markers';
+import Marker from './Marker';
 
 const LocationMapModal = (props) => {
-  console.log(props.locObj);
+  const mapRef = useRef(null);
+  const [mapReady, setMapReady] = useState(false);
+
   const handleClose = () => props.close();
-  const AnyReactComponent = ({ text }) => (
-    <div className="pin">
-      <img src={pin} alt="pin" />
-      <strong>{text}</strong>
-    </div>
-  );
+
+  // This function is called when the map API is loaded
+  const onGoogleApiLoaded = ({ map, maps }) => {
+    mapRef.current = map;
+    setMapReady(true);
+  };
+
+  // Handle marker click if needed
+  const onMarkerClick = (markerId, lat, lng) => {
+    console.log('Marker clicked:', markerId);
+    mapRef.current.setCenter({ lat, lng });
+  };
+
+  // Ensure the map container has a defined height; you might need to adjust this based on your layout needs
+  const mapContainerStyle = {
+    height: '80vh', // Adjust the height as needed
+    width: '100%'
+  };
+
+	const mapOptions = {
+		styles: [
+			{
+				featureType: "poi.business",
+				stylers: [{ visibility: "off" }]
+			},
+			{
+				featureType: "poi.attraction",
+				stylers: [{ visibility: "off" }]
+			},
+			{
+				featureType: "poi.place_of_worship",
+				stylers: [{ visibility: "off" }]
+			},
+			// You can continue to add more feature types as needed
+		]
+	};
+	
 
   return (
     <div className="fixed z-50 inset-0 overflow-y-auto">
@@ -24,37 +59,26 @@ const LocationMapModal = (props) => {
               {props?.locObj?.phone}
             </p>
           </div>
-          <div className="p-4">
-            <div className="h-80 md:h-96">
-              <MapContainer
-                center={[
-                  props?.locObj?.coordinates?.lat,
-                  props?.locObj?.coordinates?.lng,
-                ]}
-                zoom={15}
-                scrollWheelZoom={false}
-                style={{ height: '100%' }}
-              >
-                <TileLayer
-                  attribution='Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, CC-BY-SA'
-                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                {/* <Marker
-                  position={[
-                    props?.locObj?.coordinates?.lat,
-                    props?.locObj?.coordinates?.lng,
-                  ]}
-                >
-                  <Popup>San Francisco, California</Popup>
-                </Marker> */}
+          <div className="p-4" style={mapContainerStyle}>
+            <GoogleMap
+						options={mapOptions}
+              apiKey={process.env.NEXT_PUBLIC_MAP_API_KEY} // Ensure your API key is correctly provided
+              defaultCenter={props?.locObj?.coordinates}
+              defaultZoom={16}
+              onGoogleApiLoaded={onGoogleApiLoaded}
+              yesIWantToUseGoogleMapApiInternals={true}
+            >
+              {mapReady && (
                 <Marker
-                  position={[
-                    props?.locObj?.coordinates?.lat,
-                    props?.locObj?.coordinates?.lng,
-                  ]}
-                ></Marker>
-              </MapContainer>
-            </div>
+                  lat={props?.locObj?.coordinates.lat}
+                  lng={props?.locObj?.coordinates.lng}
+                  markerId={props?.locObj?.name}
+                  // onClick={() => onMarkerClick(props?.locObj?.name, props?.locObj?.coordinates.lat, props?.locObj?.coordinates.lng)}
+
+                />
+              )}
+            </GoogleMap>
+            
           </div>
           <div className="bg-black py-2 px-4 flex justify-end">
             <button
@@ -71,3 +95,4 @@ const LocationMapModal = (props) => {
 };
 
 export default LocationMapModal;
+

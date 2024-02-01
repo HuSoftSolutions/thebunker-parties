@@ -472,7 +472,7 @@
             "Up to 50 guests"
           ]
         },
-				{
+        {
           "title": "VIP PACKAGE - $100 per hour",
           "details": [
             "16' wide hitting screen with private lounge personalized music, butler servive",
@@ -774,6 +774,156 @@
         { "icon": "/Gift_Cards.svg", "title": "Gift Cards" },
         { "icon": "/Happy_Hour.svg", "title": "Happy Hour" }
       ]
+    },
+
+    {
+      "businessCardImgUrl": "",
+      "locationHeaderImgUrl": "",
+      "title": "SARATOGA",
+      "menuPath": "/menu-saratoga",
+      "address": "307 Broadway, Saratoga Springs, NY 12866",
+      "hours": "Monday - Sunday 9am-11pm",
+      "phone": "TBD",
+      "btnTitle": "START PLANNING",
+      "to": "/location/saratoga",
+      "showBayDescriptions": true,
+      "coordinates": { "lat": 43.07896181183951, "lng": -73.78634854815526 },
+      "matterportUrl": "",
+      "id": "saratoga",
+      "images": [
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
+        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+      ],
+      "eventPackages": [
+        {
+          "title": "The Superfecta - $300 per hour",
+          "details": [
+            "Bays 1/2/3/4",
+            "Up to 24 guests with golf, up to 80 guests without golf"
+          ]
+        },
+        {
+          "title": "The Winners Circle - $320 per hour",
+          "details": [
+            "Bays 5/6, 3 golf bays and 2 Dart Bays (The Kimball + VIP Suite)",
+            "Up to 36 guests with golf, up to 50 guests without golf"
+          ]
+        },
+        {
+          "title": "The Broadway - $1000 per hour (2 hour min.)",
+          "details": [
+            "All of the luxury of our VIP Suite, dart bays and bar and lounge",
+            "Up to 50 guests with golf, up to 70 guests without golf"
+          ]
+        },
+        {
+          "title": "The Full Mezz - $1200 per hour (3 hour min.)",
+          "details": [
+            "Takeover the mezzanine floor of The Bunker Saratoga Springs overlooking Congress Park",
+            "Closed to Public, Exclusive use of entire top floor",
+            "Full Premium Bar",
+            "2 Dart Boards with sitting area",
+            "3 Total Golf Bays",
+            "Lounge",
+            "Up to 75 guests with golf, up to 150 guests without golf"
+          ]
+        }
+      ],
+
+      "bays": [
+        {
+          "id": 1,
+          "name": "Bay 1",
+          "details": [
+            "Accommodates up to 4 guests",
+            "A 'social' bay open to the bar and near the action",
+            "Features a widescreen hitting bay and lounge style seating for guests and golfers",
+            "For larger parties Bay 1 can be combined with Bay 2, 3 and/or 4!"
+          ],
+          "rate": 75,
+          "imageUrl": ""
+        },
+        {
+          "id": 2,
+          "name": "Bay 2",
+          "details": [
+            "Accommodates up to 4 guests",
+            "A 'social' bay open to the bar and near the action",
+            "Features a widescreen hitting bay and bar style seating for guests and golfers",
+            "For larger parties Bay 2 can be combined with Bay 1, 3 and/or 4!"
+          ],
+          "rate": 75,
+          "imageUrl": "",
+          "_placeholder": "https://storage.googleapis.com/thebunker-assets/thebunker/comingsoon3.png"
+        },
+        {
+          "id": 3,
+          "name": "Bay 3",
+          "details": [
+            "Accommodates up to 4 guests",
+            "A 'social' bay open to the bar and near the action",
+            "Features a widescreen hitting bay and bar style seating for guests and golfers",
+            "For larger parties Bay 3 can be combined with Bay 1, 2, and/or 4!"
+          ],
+          "rate": 75,
+          "imageUrl": ""
+        },
+        {
+          "id": 4,
+          "name": "Bay 4",
+          "details": [
+            "Accommodates up to 4 guests",
+            "A 'social' bay open to the bar and near the action",
+            "Features a widescreen hitting bay and lounge style seating for guests and golfers",
+            "Bay 4 has access to outside with sliding glass doors that open up when weather permits",
+            "For larger parties Bay 4 can be combined with Bay 1, 2, and/or 3!"
+          ],
+          "rate": 75,
+          "imageUrl": ""
+        },
+        {
+          "id": 5,
+          "name": "VIP",
+          "details": [
+            "Accommodates up to 20 guests",
+            "Private room with an 18’ wide screen, 2 dart boards (steel tips) and extra-lounge space with plush couches to gather",
+            "Located on the second floor with views of Broadway and Congress Park",
+            "Choose your own music genre",
+            "The VIP suite can be booked with our upstairs bar/lounge to accommodate 50 guests",
+            "The VIP Suite can also be booked with The Kimball Room for an extra two golf screens for the ultimate party"
+          ],
+          "rate": 160,
+          "imageUrl": ""
+        },
+        {
+          "id": 6,
+          "name": "The Kimball Room",
+          "details": [
+            "Accommodates up to 16 guests",
+            "You can dedicate one bay for golfers and use the other bay for party space",
+            "Features two widescreen hitting bays along with a comfortable lounge with couches and bar style seating",
+            "Choice of music genre",
+            "Each bay can be booked by itself for a semi private party",
+            "The Kimball Room pairs nicely with the VIP Suite for a private gathering of up to 35 guests"
+          ],
+          "rate": 160,
+          "imageUrl": ""
+        }
+      ],
+
+      "amenities": [
+        { "icon": "/TRACKMAN_Bays.svg", "title": "7 TRACKMAN Bays" },
+        { "icon": "/Full_Bar.svg", "title": "2 Full Bars" },
+        { "icon": "/Full_Food.svg", "title": "Full Food Menu" },
+        { "icon": "/2_Floors.svg", "title": "2 Floors" },
+        { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
+        { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
+        { "icon": "/Events.svg", "title": "Events" },
+        { "icon": "/Darts.svg", "title": "Darts" },
+        { "icon": "/Gift_Cards.svg", "title": "Gift Cards" }
+      ]
     }
   ],
   "menu": {
@@ -952,6 +1102,118 @@
         "qty": null,
         "cost": "24-27",
         "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-pizzas.jpg"
+      }
+    ],
+    "drinks": [
+      {
+        "title": "Domestic Bucket",
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra) - 5 for $20"
+      },
+      {
+        "title": "Import Bucket",
+        "qty": "(Heineken, Corona, Amstel) - 5 for $25"
+      },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw) - 5 for $28" },
+      {
+        "title": "Beer Tower",
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more) - $27-$37"
+      },
+      {
+        "title": "Cocktail Towers",
+        "qty": "- $54-$60"
+      },
+      {
+        "title": "Bottle of Wine",
+        "qty": "- $34-$52"
+      },
+      {
+        "title": "Full bar available based on consumption",
+        "qty": null
+      }
+    ]
+  },
+  "menuSaratoga": {
+    "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-header.jpg",
+    "images": [
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/DSCF4892_nfdge1.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3460_c2t4nb.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
+      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
+    ],
+    "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
+    "items": [
+      {
+        "title": "Field Greens Salad",
+        "qty": null,
+        "cost": "36",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-field-greens.jpg"
+      },
+      {
+        "title": "Caesar Salad",
+        "qty": null,
+        "cost": "36",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-boneless-wings.jpg"
+      },
+      {
+        "title": "Chicken Sliders",
+        "qty": "(24)",
+        "cost": "92",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-chicken-sliders.jpg"
+      },
+      {
+        "title": "Pretzel Bites",
+        "qty": null,
+        "cost": "48",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-pretzel-bites.jpg"
+      },
+      {
+        "title": "Pan Fried Pork Potstickers",
+        "qty": null,
+        "cost": "50",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-potstickers.jpg"
+      },
+      {
+        "title": "Loaded Fries",
+        "qty": null,
+        "cost": "48",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-loaded-fries.jpg"
+      },
+      {
+        "title": "Meatballs",
+        "qty": null,
+        "cost": "48",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-meatballs.jpg"
+      },
+      {
+        "title": "Bone-In Wings",
+        "qty": null,
+        "cost": "48",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-bone-in-wings.jpg"
+      },
+      {
+        "title": "Boneless Wings",
+        "qty": null,
+        "cost": "42",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-boneless-wings.jpg"
+      },
+      {
+        "title": "Roasted Garlic Hummus",
+        "qty": null,
+        "cost": "34",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-hummus.jpg"
+      },
+      {
+        "title": "Black Bean and Corn Salsa",
+        "qty": null,
+        "cost": "32",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-corn-salsa.jpg"
+      },
+      {
+        "title": "14\" Pizzas",
+        "qty": null,
+        "cost": "24-27",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-pizza.jpg"
       }
     ],
     "drinks": [

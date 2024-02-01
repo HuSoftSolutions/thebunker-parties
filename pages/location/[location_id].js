@@ -41,7 +41,7 @@ function LocationDetails() {
         <div className="max-w-[1300px]">
           <div className="mx-4 mt-4 shadow-xl rounded-xl">
             {' '}
-            <div className="border border-b-0 border-gray-200">
+            {locObj?.matterportUrl ? <div className="border border-b-0 border-gray-200">
               {/* <ImageCarousel images={locObj?.images || []} /> */}
               {/* {locObj?.showBayDescriptions !== true && (
                 <div>
@@ -59,7 +59,7 @@ function LocationDetails() {
                 allowFullScreen
                 allow="xr-spatial-tracking"
               ></iframe>
-            </div>
+            </div> : null}
             <div className="flex flex-col p-4 border border-t-0 border-gray-200 rounded-b-xl">
               <IconsAndHours
                 locObj={locObj}

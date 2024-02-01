@@ -18,6 +18,7 @@ function Hero({ imageUrl, title, message, btnTitle, btnClick, size, address, opa
       style={{
         backgroundImage: `url(${imageUrl})`,
         // backgroundImage: ``,
+				backgroundColor: 'black',
         height: h,
       }}
     >

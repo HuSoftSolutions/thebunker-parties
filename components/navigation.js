@@ -30,6 +30,11 @@ export const navigationItems = [
         to: '/location/mohawkharbor',
         id: 12,
       },
+			{
+        title: 'Saratoga',
+        to: '/location/saratoga',
+        id: 13,
+      },
     ],
   },
   // {
