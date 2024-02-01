@@ -448,6 +448,7 @@
       "title": "NEW HARTFORD",
       "address": "8653 Clinton St, New Hartford, NY 13413",
       "hours": "Monday - Sunday 9am-11pm",
+			"showBayDescriptions": true,
       "phone": "(315) 864 3108",
       "btnTitle": "START PLANNING",
       "to": "/location/newhartford",
@@ -489,97 +490,94 @@
           ]
         }
       ],
-      "bays": [
-        {
-          "id": 0,
-          "name": "VIP SUITE",
-          "details": [
-            "Accommodates up to 10 guests",
-            "Our biggest private golf room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with a couch, a table, two chairs, and a bar-style seating with six stools",
-            "Two 75” LED TVs and choice of music genre",
-            "Call button for bar service",
-            "For large parties, The VIP Suite can be combined with neighboring Hole 3 by opening the sliding door"
-          ],
-          "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 1,
-          "name": "HOLE 1",
-          "details": [
-            "Accommodates up to 6 guests",
-            "This is a “social” bay open to the dining room and bar, it is the bay closest to the bar and the action",
-            "Hole 1 also features a garage door goes up when weather permits",
-            "Features a widescreen hitting bay and bar-style seating for golfers",
-            "75” TV",
-            "For large parties, Hole 1 can be combined with neighboring Hole 2"
-          ],
-          "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 2,
-          "name": "HOLE 2",
-          "details": [
-            "Accommodates up to 6 guests",
-            "This is a “social” bay open to the dining room and bar area, and is near the action",
-            "Features a widescreen hitting bay and bar-style seating for golfers",
-            "75” TV",
-            "For large parties, Hole 2 can be combined with neighboring Hole 1 and/or Hole 3"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 3,
-          "name": "HOLE 3",
-          "details": [
-            "Accommodates up to 4 guests",
-            "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
-            "75” LED TV and choice of music genre",
-            "For large parties, Hole 3 can be combined with neighboring Hole 2 and/or the VIP Room"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 4,
-          "name": "HOLE 4",
-          "details": [
-            "Accommodates up to 4 guests",
-            "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
-            "75” LED TV and choice of music genre",
-            "For large parties, Hole 4 can be combined with neighboring Hole 5"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 5,
-          "name": "HOLE 5",
-          "details": [
-            "Accommodates up to 4 guests",
-            "Private room features a wide screen bay and plush lounge space with bar-style seating for 4",
-            "75” LED TV and choice of music genre",
-            "For large parties, Hole 5 can be combined with neighboring Hole 4 and/or Hole 6 by opening the sliding doors"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 6,
-          "name": "HOLE 6",
-          "details": [
-            "Accommodates up to 4 guests",
-            "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
-            "Hole 6 also features a garage door goes up when weather permits",
-            "75” LED TV and choice of music genre",
-            "For large parties, Hole 6 can be combined with neighboring Hole 5 by opening the sliding door"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        }
-      ],
+			
+				"bays": [
+					{
+						"id": 0,
+						"name": "HOLE 1",
+						"details": [
+							"Accommodates up to 6 guests",
+							"This is a 'social' bay open to the bar and near the action",
+							"Features a widescreen hitting bay and bar style seating for guests and golfers",
+							"For larger parties hole 1 can be combined with hole 2"
+						],
+						"rate": 60,
+						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					},
+					{
+						"id": 1,
+						"name": "HOLE 2",
+						"details": [
+							"Accommodates up to 6 guests",
+							"This is a 'social' bay open to the bar and near the action",
+							"Features a widescreen hitting bay and bar style seating for guests and golfers",
+							"For larger parties hole 1 can be combined with hole 2"
+						],
+						"rate": 60,
+						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					},
+					{
+						"id": 2,
+						"name": "HOLE 3",
+						"details": [
+							"Accommodates up to 6 guests",
+							"This is a private bay closed off to the public with customizable music",
+							"Features a widescreen hitting bay and lounge style seating for guests and golfers",
+							"This hole has sliding doors for easy access to adjacent bays for larger events and parties"
+						],
+						"rate": 60,
+						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					},
+					{
+						"id": 3,
+						"name": "HOLE 4",
+						"details": [
+							"Accommodates up to 6 guests",
+							"This is a private bay closed off to the public with customizable music",
+							"Features a widescreen hitting bay and lounge style seating for guests and golfers",
+							"This hole has sliding doors for easy access to adjacent bays for larger events and parties"
+						],
+						"rate": 60,
+						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					},
+					{
+						"id": 4,
+						"name": "HOLE 5",
+						"details": [
+							"Accommodates up to 6 guests",
+							"This is a private bay closed off to the public with customizable music",
+							"Features a widescreen hitting bay and lounge style seating for guests and golfers",
+							"This hole has sliding doors for easy access to adjacent bays for larger events and parties"
+						],
+						"rate": 60,
+						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					},
+					{
+						"id": 5,
+						"name": "SPARTAN ROOM",
+						"details": [
+							"Accommodates up to 10 guests",
+							"One widescreen hitting bay with lounge style seating",
+							"Personalized music and call switch for exclusive butler service",
+							"One large screen LED TV"
+						],
+						"rate": 80,
+						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					},
+					{
+						"id": 6,
+						"name": "VIP SUITE",
+						"details": [
+							"Accommodates up to 15 guests",
+							"Our largest private room with an 18’ wide screen with extra-lounge space and plush couches to guests to gather",
+							"Choose your own music genre and watch your favorite teams play on our 75” LED TV’s"
+						],
+						"rate": 100,
+						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					}
+				],
+			
+			
       "amenities": [
         { "icon": "/TRACKMAN_Bays.svg", "title": "7 TRACKMAN Bays" },
         { "icon": "/Full_Bar.svg", "title": "Full Bar", "width": 75 },
@@ -602,7 +600,7 @@
       "phone": "(518) 348-9993",
       "btnTitle": "START PLANNING",
       "to": "/location/mohawkharbor",
-      "showBayDescriptions": false,
+      "showBayDescriptions": true,
       "coordinates": { "lat": 42.82573117951174, "lng": -73.93235154227568 },
       "matterportUrl": "https://mpembed.com/show/?m=u9BpmnnH69C&mpu=1854",
       "id": "mohawkharbor",
@@ -653,112 +651,56 @@
           ]
         }
       ],
-      "bays": [
-        {
-          "id": 0,
-          "name": "VIP SUITE",
-          "details": [
-            "Accommodates up to 10 guests",
-            "Our biggest private golf room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with a couch, a table, two chairs, and a bar-style seating with six stools",
-            "Two 75” LED TVs and choice of music genre",
-            "Call button for bar service",
-            "For large parties, The VIP Suite can be combined with neighboring Hole 3 by opening the sliding door"
-          ],
-          "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 1,
-          "name": "HOLE 1",
-          "details": [
-            "Accommodates up to 6 guests",
-            "This is a “social” bay open to the dining room and bar, it is the bay closest to the bar and the action",
-            "Hole 1 also features a garage door goes up when weather permits",
-            "Features a widescreen hitting bay and bar-style seating for golfers",
-            "75” TV",
-            "For large parties, Hole 1 can be combined with neighboring Hole 2"
-          ],
-          "rate": 100,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 2,
-          "name": "HOLE 2",
-          "details": [
-            "Accommodates up to 6 guests",
-            "This is a “social” bay open to the dining room and bar area, and is near the action",
-            "Features a widescreen hitting bay and bar-style seating for golfers",
-            "75” TV",
-            "For large parties, Hole 2 can be combined with neighboring Hole 1 and/or Hole 3"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 3,
-          "name": "HOLE 3",
-          "details": [
-            "Accommodates up to 4 guests",
-            "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
-            "75” LED TV and choice of music genre",
-            "For large parties, Hole 3 can be combined with neighboring Hole 2 and/or the VIP Room"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 4,
-          "name": "HOLE 4",
-          "details": [
-            "Accommodates up to 4 guests",
-            "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
-            "75” LED TV and choice of music genre",
-            "For large parties, Hole 4 can be combined with neighboring Hole 5"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 5,
-          "name": "HOLE 5",
-          "details": [
-            "Accommodates up to 4 guests",
-            "Private room features a wide screen bay and plush lounge space with bar-style seating for 4",
-            "75” LED TV and choice of music genre",
-            "For large parties, Hole 5 can be combined with neighboring Hole 4 and/or Hole 6 by opening the sliding doors"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 6,
-          "name": "HOLE 6",
-          "details": [
-            "Accommodates up to 4 guests",
-            "Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
-            "Hole 6 also features a garage door goes up when weather permits",
-            "75” LED TV and choice of music genre",
-            "For large parties, Hole 6 can be combined with neighboring Hole 5 by opening the sliding door"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        },
-        {
-          "id": 7,
-          "name": "DARTS/EVENT ROOM",
-          "details": [
-            "Accommodates up to 15 guests",
-            "Our biggest event room features three bays of Interactive darts (steel tips) making this space fun for everyone. (Get ready to share the video of each game winner on your social media!)",
-            "Features a leather couch, several plush chairs, and bar-style seating with 6 bar stools",
-            "Three 75” LED TVs",
-            "Choose your own music genre",
-            "Call button for bar service",
-            "The Dart Room can also be booked with the VIP Suite or any other Hole to create an awesome hospitality room for your party guests"
-          ],
-          "rate": 60,
-          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/one.png"
-        }
-      ],
+			"bays": [
+				{
+					"id": 0,
+					"name": "PLAYERS ROOM",
+					"details": [
+						"Accommodates up to 8 guests",
+						"Private room with an 18’ wide screen with extra-lounge space and plush couches to guests to gather",
+						"Choose your own music genre",
+						"The Players Room can be booked with our VIP Darts room for the ultimate party space"
+					],
+					"rate": 90,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 1,
+					"name": "VIP DARTS",
+					"details": [
+						"Accommodates up to 10 guests",
+						"Private room with two steel tip dart boards",
+						"Choose your own music",
+						"If you’re looking for golf The VIP Darts room pairs nicely with bay 2 or the Players Room if you want a more private space"
+					],
+					"rate": 50,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 2,
+					"name": "BAY 1",
+					"details": [
+						"Accommodates up to 4 guests",
+						"This is a 'social' bay open to the bar and near the action",
+						"Features a widescreen hitting bay and lounge style seating for guests and golfers",
+						"For larger parties Bay 1 can be combined with Bay 2"
+					],
+					"rate": 70,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 3,
+					"name": "BAY 2",
+					"details": [
+						"Accommodates up to 4 guests",
+						"This is a 'social' bay open to the bar and near the action",
+						"Features a widescreen hitting bay and bar style seating for guests and golfers",
+						"For larger parties Bay 2 can be combined with Bay 1"
+					],
+					"rate": 70,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				}
+			],
       "amenities": [
         { "icon": "/TRACKMAN_Bays.svg", "title": "4 TRACKMAN Bays" },
         { "icon": "/Indoor-Outdoor_Bar.svg", "title": "Indoor/Outdoor Bar" },
