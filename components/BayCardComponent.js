@@ -11,7 +11,7 @@ const BayCardComponent = ({ imageUrl, title, list, rate, detail }) => {
         />
       </div> : null}
       <div className="w-full xl:w-1/3 xl:p-4 flex flex-col justify-between p-5">
-        <h2 className="text-xl xl:text-2xl font-bold mb-0 text-primary">
+        <h2 className="text-xl xl:text-2xl font-bold mb-0 text-primary uppercase">
           {title}
         </h2>
         {detail !== null && (
