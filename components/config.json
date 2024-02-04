@@ -283,6 +283,7 @@
       "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
       "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/main.png",
       "title": "NORTH GREENBUSH",
+			"showBayDescriptions": true,
       "address": "490 North Greenbush RD, Rensselaer, NY 12144",
       "notices": [
         "WE HAVE LIMITED PARKING ON SITE.",
@@ -331,102 +332,99 @@
           ]
         }
       ],
-      "bays": [
-        {
-          "id": 0,
-          "name": "VIP SUITE",
-          "details": [
-            "Accommodates up to 20 guests, 8 golfers",
-            "Our biggest private room at over 800sq feet with 18’ wide screen and an extra-large plush lounge space with two couches, a table, two chairs, and a bar seating with six stools",
-            "The VIP Suite is on the upper floor near the bar area, so everyone gets a peek at the high-rollers!",
-            "Two 75” LED TVs and choice of music genre",
-            "Call button for bar service"
-          ],
-          "rate": 100,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
-        },
-        {
-          "id": 1,
-          "name": "Blue Devil Room",
-          "details": [
-            "Accommodates up to 6 guests",
-            "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
-            "The Blue Devil Room is on the upper floor near the upper bar area, so everyone gets a peek at the high rollers!",
-            "75” LED TVs and choice of music genre",
-            "Call button for bar service"
-          ],
-          "rate": 70,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
-        },
-        {
-          "id": 2,
-          "name": "VIKING ROOM",
-          "details": [
-            "Accommodates up to 6 guests",
-            "Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
-            "The Viking Room is located on the lower floor and behind the bar area, so this is our most private event space available",
-            "Two 75” LED TVs and choice of music genre",
-            "Call button for bar service"
-          ],
-          "rate": 100,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
-        },
-        {
-          "id": 3,
-          "name": "BAY 1",
-          "details": [
-            "Accommodates up to six guests",
-            "Located on the lower floor, this is our larger semi-private “social” bay open to the lower bar, and near the action",
-            "Features a widescreen hitting bay and bar-style seating for golfers",
-            "Two 75” LED TVs are in view",
-            "Bay1 includes interactive games including Bowling, Baseball, Soccer, and Disc Golf",
-            "For large parties, when Bay 1 is combined with neighboring Bay 5, the area between the two bays with a poker table becomes your space too"
-          ],
-          "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
-        },
-        {
-          "id": 4,
-          "name": "BAY 3",
-          "details": [
-            "Accommodates up to 6 guests",
-            "Located on the lower floor, this is a larger “social” bay open to the lower bar, and near the action",
-            "Features a widescreen hitting bay and comfortable lounge space with a plush couch, table, and two comfy chairs",
-            "Features a widescreen hitting bay and bar-style seating for golfers",
-            "75” TVs are in view",
-            "For large parties, Bay 3 can be combined with neighboring Bay 4 or the nearby Viking Room"
-          ],
-          "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
-        },
-        {
-          "id": 5,
-          "name": "BAY 4",
-          "details": [
-            "Accommodates up to six guests",
-            "Located on the lower floor, this is a larger “social” bay open to the lower bar, closest to the bar, and in the middle of the action",
-            "Features a widescreen hitting bay and bar-style seating for golfers",
-            "Two 75” TVs in the bar are in view",
-            "For large parties, Bay 4 can be combined with neighboring Bay 3 and/or Bay 5"
-          ],
-          "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
-        },
-        {
-          "id": 6,
-          "name": "BAY 5",
-          "details": [
-            "Accommodates up to six guests",
-            "Located on the lower floor, this is a larger “social” bay open to the lower bar, and near the action",
-            "This is a “social” bay open to the bar and near the action",
-            "Features a widescreen hitting bay and bar-style seating for golfers",
-            "75” TV",
-            "For large parties, Bay 5 can be combined with neighboring Bay 1 and/or Bay 4"
-          ],
-          "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
-        }
-      ],
+			"bays": [
+				{
+					"id": 0,
+					"name": "VIP Suite",
+					"details": [
+						"Accommodates up to 20 guests, 8 golfers",
+						"Our biggest private room at over 800 sq feet with 18' wide screen and an extra-large plush lounge space with two couches, a table, two chairs, and a bar seating with six stools",
+						"The VIP Suite is on the upper floor near the bar area, so everyone gets a peek at the high-rollers!",
+						"Two 75\" LED TVs and choice of music genre",
+						"Call button for bar service"
+					],
+					"rate": 100,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 1,
+					"name": "Blue Devil Room",
+					"details": [
+						"Accommodates up to 6 guests",
+						"Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
+						"The Blue Devil Room is on the upper floor near the upper bar area, so everyone gets a peek at the high rollers!",
+						"75” LED TVs and choice of music genre",
+						"Call button for bar service"
+					],
+					"rate": 80,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 2,
+					"name": "Viking Room",
+					"details": [
+						"Accommodates up to 6 guests",
+						"Private room features a wide screen bay and plush lounge space with a couch, a table, and two chairs",
+						"The Viking Room is located on the lower floor and behind the bar area, making it our most private event space available",
+						"Two 75” LED TVs and choice of music genre",
+						"Call button for bar service"
+					],
+					"rate": 70,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 3,
+					"name": "Bay 1",
+					"details": [
+						"Accommodates up to six guests",
+						"Located on the lower floor, this is our larger semi-private “social” bay open to the lower bar, and near the action",
+						"Features a widescreen hitting bay and bar-style seating for golfers",
+						"Two 75” LED TVs are in view",
+						"Includes interactive games including Bowling, Baseball, Soccer, and Disc Golf",
+						"For large parties, when Bay 1 is combined with neighboring Bay 5, the area between the two bays with a poker table becomes your space too"
+					],
+					"rate": 70,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 4,
+					"name": "Bay 3",
+					"details": [
+						"Accommodates up to 6 guests",
+						"Located on the lower floor, this is a larger “social” bay open to the lower bar, and near the action",
+						"Features a widescreen hitting bay and comfortable lounge space with a plush couch, table, and two comfy chairs",
+						"75” TVs are in view",
+						"For large parties, Bay 3 can be combined with neighboring Bay 4"
+					],
+					"rate": 60,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 5,
+					"name": "Bay 4",
+					"details": [
+						"Accommodates up to six guests",
+						"Located on the lower floor, this is a larger “social” bay open to the lower bar, closest to the bar, and in the middle of the action",
+						"Features a widescreen hitting bay and bar-style seating for golfers",
+						"Two 75” TVs in the bar are in view",
+						"For large parties, Bay 4 can be combined with neighboring Bay 3 and/or Bay 5"
+					],
+					"rate": 60,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 6,
+					"name": "Bay 5",
+					"details": [
+						"Accommodates up to six guests",
+						"Located on the lower floor, this is a larger “social” bay open to the lower bar, and near the action",
+						"Features a widescreen hitting bay and lounge-style seating for golfers",
+						"Large LED 75” TV in view"
+					],
+					"rate": 60,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				}
+			],
       "amenities": [
         { "icon": "/TRACKMAN_Bays.svg", "title": "7 TRACKMAN Bays" },
         { "icon": "/Indoor-Outdoor_Bar.svg", "title": "Indoor/Outdoor Bar" },
