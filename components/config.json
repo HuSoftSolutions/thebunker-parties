@@ -550,8 +550,28 @@
 						"rate": 60,
 						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
 					},
+
 					{
 						"id": 5,
+						"name": "HOLE 6",
+						"details": [
+							"Accommodates up to 6 guests",
+							"Private room features a wide screen bay and plush lounge seating with a couch, a table, and two chairs",
+							"Hole 6 also features a garage door goes up when weather permits",
+							"75\" LED TV and choice of music genre",
+							"For large parties, Hole 6 can be combined with neighboring Hole 5 by opening the sliding door"
+						],
+						"rate": 60,
+						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					},
+
+
+ 
+
+
+
+					{
+						"id": 6,
 						"name": "SPARTAN ROOM",
 						"details": [
 							"Accommodates up to 10 guests",
@@ -563,7 +583,7 @@
 						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
 					},
 					{
-						"id": 6,
+						"id": 7,
 						"name": "VIP SUITE",
 						"details": [
 							"Accommodates up to 15 guests",
