@@ -684,6 +684,17 @@
 				},
 				{
 					"id": 1,
+					"name": "VEGAS ROOM",
+					"details": [
+						"Accommodates up to 6 guests",
+						"Private room with an 18’ wide screen with an 18' wide screen with extra-lounge space and plush couches for guests to gather",
+						"Choose your own music genre",
+					],
+					"rate": 80,
+					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+				},
+				{
+					"id": 2,
 					"name": "VIP DARTS",
 					"details": [
 						"Accommodates up to 10 guests",
@@ -695,7 +706,7 @@
 					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
 				},
 				{
-					"id": 2,
+					"id": 3,
 					"name": "BAY 1",
 					"details": [
 						"Accommodates up to 4 guests",
@@ -707,7 +718,7 @@
 					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
 				},
 				{
-					"id": 3,
+					"id": 4,
 					"name": "BAY 2",
 					"details": [
 						"Accommodates up to 4 guests",
