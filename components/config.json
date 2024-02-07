@@ -597,7 +597,7 @@
 			
 			
       "amenities": [
-        { "icon": "/TRACKMAN_Bays.svg", "title": "7 TRACKMAN Bays" },
+        { "icon": "/TRACKMAN_Bays.svg", "title": "8 TRACKMAN Bays" },
         { "icon": "/Full_Bar.svg", "title": "Full Bar", "width": 75 },
         { "icon": "/Full_Food.svg", "title": "Full Food Menu" },
         { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
