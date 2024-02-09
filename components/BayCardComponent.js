@@ -6,7 +6,7 @@ const BayCardComponent = ({ imageUrl, title, list, rate, detail }) => {
       {imageUrl ? <div className="w-full xl:w-2/3 flex items-center">
         <img
           src={imageUrl}
-          className="h-full w-full object-cover p-1"
+          className="h-full w-full object-cover p-1 aspect-video"
           alt={title}
         />
       </div> : null}

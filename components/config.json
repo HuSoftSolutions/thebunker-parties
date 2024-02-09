@@ -220,7 +220,7 @@
             "For larger parties bay 1 can be combined with bays 10 and 18 along with exclusive access to our entire bar/lounge area"
           ],
           "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/G-Hole-1.jpg"
         },
         {
           "id": 1,
@@ -232,7 +232,7 @@
             "For larger parties bay 10 can be combined with bays 1 and 18 along with exclusive access to our entire bar/lounge area"
           ],
           "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/G-Hole-10.jpg"
         },
         {
           "id": 2,
@@ -244,7 +244,7 @@
             "For larger parties bay 18 can be combined with bays 1 and 10 along with exclusive access to our entire bar/lounge area"
           ],
           "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/G-Hole-18.jpg"
         },
         {
           "id": 3,
@@ -255,7 +255,7 @@
             "Choose your own music genre and a call switch for exclusive butler service"
           ],
           "rate": 70,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/G-Dutchmen.jpg"
         },
         {
           "id": 4,
@@ -266,7 +266,7 @@
             "Choose your own music genre and a call switch for exclusive butler service"
           ],
           "rate": 70,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/guilderland/G-VIP.jpg"
         }
       ],
 
@@ -344,7 +344,7 @@
 						"Call button for bar service"
 					],
 					"rate": 100,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/NG-VIP.jpg"
 				},
 				{
 					"id": 1,
@@ -357,7 +357,7 @@
 						"Call button for bar service"
 					],
 					"rate": 80,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/NG-Blue-Devil-Room.jpg"
 				},
 				{
 					"id": 2,
@@ -370,7 +370,7 @@
 						"Call button for bar service"
 					],
 					"rate": 70,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/NG-Viking-Room.jpg"
 				},
 				{
 					"id": 3,
@@ -384,7 +384,7 @@
 						"For large parties, when Bay 1 is combined with neighboring Bay 5, the area between the two bays with a poker table becomes your space too"
 					],
 					"rate": 70,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/NG-Bay-1.jpg"
 				},
 				{
 					"id": 4,
@@ -397,7 +397,7 @@
 						"For large parties, Bay 3 can be combined with neighboring Bay 4"
 					],
 					"rate": 60,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/NG-Bay-3.jpg"
 				},
 				{
 					"id": 5,
@@ -410,7 +410,7 @@
 						"For large parties, Bay 4 can be combined with neighboring Bay 3 and/or Bay 5"
 					],
 					"rate": 60,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/NG-Bay-4.jpg"
 				},
 				{
 					"id": 6,
@@ -422,7 +422,7 @@
 						"Large LED 75” TV in view"
 					],
 					"rate": 60,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/north-greenbush/NG-Bay-5.jpg"
 				}
 			],
       "amenities": [
@@ -500,7 +500,7 @@
 							"For larger parties hole 1 can be combined with hole 2"
 						],
 						"rate": 60,
-						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+						"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/NH-Hole-1.jpg"
 					},
 					{
 						"id": 1,
@@ -512,7 +512,7 @@
 							"For larger parties hole 1 can be combined with hole 2"
 						],
 						"rate": 60,
-						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+						"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/NH-Hole-2.jpg"
 					},
 					{
 						"id": 2,
@@ -524,7 +524,7 @@
 							"This hole has sliding doors for easy access to adjacent bays for larger events and parties"
 						],
 						"rate": 60,
-						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+						"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/NH-Hole-3.jpg"
 					},
 					{
 						"id": 3,
@@ -536,7 +536,7 @@
 							"This hole has sliding doors for easy access to adjacent bays for larger events and parties"
 						],
 						"rate": 60,
-						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+						"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/NH-Hole-4.jpg"
 					},
 					{
 						"id": 4,
@@ -548,7 +548,7 @@
 							"This hole has sliding doors for easy access to adjacent bays for larger events and parties"
 						],
 						"rate": 60,
-						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+						"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/NH-Hole-5(2).jpg"
 					},
 
 					{
@@ -562,7 +562,7 @@
 							"For large parties, Hole 6 can be combined with neighboring Hole 5 by opening the sliding door"
 						],
 						"rate": 60,
-						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+						"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/NH-Hole-6.jpg"
 					},
 
 
@@ -580,7 +580,7 @@
 							"One large screen LED TV"
 						],
 						"rate": 80,
-						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+						"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/NH-Spartan-Room.jpg"
 					},
 					{
 						"id": 7,
@@ -591,7 +591,7 @@
 							"Choose your own music genre and watch your favorite teams play on our 75” LED TV’s"
 						],
 						"rate": 100,
-						"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+						"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/new-hartford/NH-VIP.jpg"
 					}
 				],
 			
@@ -680,7 +680,7 @@
 						"The Players Room can be booked with our VIP Darts room for the ultimate party space"
 					],
 					"rate": 90,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/MH-Players-Club.jpg"
 				},
 				{
 					"id": 1,
@@ -691,7 +691,7 @@
 						"Choose your own music genre"
 					],
 					"rate": 80,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/MH-Vegas-Room.jpg"
 				},
 				{
 					"id": 2,
@@ -703,7 +703,7 @@
 						"If you’re looking for golf The VIP Darts room pairs nicely with bay 2 or the Players Room if you want a more private space"
 					],
 					"rate": 50,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/MH-VIP-Darts.jpg"
 				},
 				{
 					"id": 3,
@@ -715,7 +715,7 @@
 						"For larger parties Bay 1 can be combined with Bay 2"
 					],
 					"rate": 70,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/MH-Bay-1.jpg"
 				},
 				{
 					"id": 4,
@@ -727,7 +727,7 @@
 						"For larger parties Bay 2 can be combined with Bay 1"
 					],
 					"rate": 70,
-					"imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+					"imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/MH-Bay-2.jpg"
 				}
 			],
       "amenities": [
