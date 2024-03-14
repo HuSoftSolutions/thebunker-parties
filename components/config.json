@@ -781,15 +781,23 @@
             "Up to 36 guests with golf, up to 50 guests without golf"
           ]
         },
+				{
+          "title": "The Ultimate Cocktail Hour - $400 per hour",
+          "details": [
+            "Bays 5/6 + VIP Suite",
+						"3 golf bays, 2 dart boards, and exclusive access to the bar lounge",
+            "Up to 60 guests"
+          ]
+        },
         {
-          "title": "The Broadway - $1000 per hour (2 hour min.)",
+          "title": "The Broadway - $1000 per hour",
           "details": [
             "All of the luxury of our VIP Suite, dart bays and bar and lounge",
             "Up to 50 guests with golf, up to 70 guests without golf"
           ]
         },
         {
-          "title": "The Full Mezz - $1200 per hour (3 hour min.)",
+          "title": "The Full Mezz - $1200 per hour",
           "details": [
             "Takeover the mezzanine floor of The Bunker Saratoga Springs overlooking Congress Park",
             "Closed to Public, Exclusive use of entire top floor",
