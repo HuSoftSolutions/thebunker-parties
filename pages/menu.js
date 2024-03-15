@@ -36,6 +36,11 @@ function Menu() {
   // Get the current menu based on the active state
   const currentMenu = config[activeMenu];
 
+  const handleTabClick = (menuName) => {
+    // Use the 'shallow' option to avoid full page reloads and maintain state
+    router.push(`${menuName}`, undefined, { shallow: true });
+  };
+
   return (
     <Layout>
       <Hero imageUrl={currentMenu?.imageUrl} title="PARTY MENU" size="md" />
@@ -50,60 +55,6 @@ function Menu() {
           </div>
           <hr />
 
-          {/* Tab Menu */}
-          <div className="flex justify-center my-4 flex-wrap">
-            <button
-              className={`px-4 py-2 ${
-                activeMenu === 'menu'
-                  ? 'bg-primary text-white'
-                  : 'bg-transparent'
-              }`}
-              onClick={() => router.push('menu?menu=menu')}
-            >
-              Clifton Park
-            </button>
-            <button
-              className={`px-4 py-2 ${
-                activeMenu === 'menuNorthgreenbush'
-                  ? 'bg-primary text-white'
-                  : 'bg-transparent'
-              }`}
-              onClick={() => router.push('menu?menu=menuNorthgreenbush')}
-            >
-              North Greenbush
-            </button>
-            <button
-              className={`px-4 py-2 ${
-                activeMenu === 'menuNewhartford'
-                  ? 'bg-primary text-white'
-                  : 'bg-transparent'
-              }`}
-              onClick={() => router.push('menu?menu=menuNewhartford')}
-            >
-              New Hartford
-            </button>
-            <button
-              className={`px-4 py-2 ${
-                activeMenu === 'menuSaratoga'
-                  ? 'bg-primary text-white'
-                  : 'bg-transparent'
-              }`}
-              onClick={() => router.push('menu?menu=menuSaratoga')}
-            >
-              Saratoga
-            </button>
-            <button
-              className={`px-4 py-2 ${
-                activeMenu === 'menuMohawkharbor'
-                  ? 'bg-primary text-white'
-                  : 'bg-transparent'
-              }`}
-              onClick={() => router.push('menu?menu=menuMohawkharbor')}
-            >
-              Mohawk Harbor
-            </button>
-          </div>
-
           {/* Menu Display */}
           <div className="my-10 p-8 md:px-20 pt-0 w-full">
             <div className="m-1 flex justify-center flex-col w-full mx-auto text-primary">
@@ -116,6 +67,59 @@ function Menu() {
               <h4 className="text-black italic ml-0.5 font-normal text-md mb-4">
                 Pricing is subject to change.
               </h4>
+              {/* Tab Menu */}
+              <div className="flex justify-center my-4 flex-wrap">
+                <button
+                  className={`px-4 py-2 ${
+                    activeMenu === 'menu'
+                      ? 'bg-primary text-white'
+                      : 'bg-transparent'
+                  }`}
+                  onClick={() => handleTabClick('menu?menu=menu')}
+                >
+                  Clifton Park
+                </button>
+                <button
+                  className={`px-4 py-2 ${
+                    activeMenu === 'menuNorthgreenbush'
+                      ? 'bg-primary text-white'
+                      : 'bg-transparent'
+                  }`}
+                  onClick={() => handleTabClick('menu?menu=menuNorthgreenbush')}
+                >
+                  North Greenbush
+                </button>
+                <button
+                  className={`px-4 py-2 ${
+                    activeMenu === 'menuNewhartford'
+                      ? 'bg-primary text-white'
+                      : 'bg-transparent'
+                  }`}
+                  onClick={() => handleTabClick('menu?menu=menuNewhartford')}
+                >
+                  New Hartford
+                </button>
+                <button
+                  className={`px-4 py-2 ${
+                    activeMenu === 'menuSaratoga'
+                      ? 'bg-primary text-white'
+                      : 'bg-transparent'
+                  }`}
+                  onClick={() => handleTabClick('menu?menu=menuSaratoga')}
+                >
+                  Saratoga
+                </button>
+                <button
+                  className={`px-4 py-2 ${
+                    activeMenu === 'menuMohawkharbor'
+                      ? 'bg-primary text-white'
+                      : 'bg-transparent'
+                  }`}
+                  onClick={() => handleTabClick('menu?menu=menuMohawkharbor')}
+                >
+                  Mohawk Harbor
+                </button>
+              </div>
               <div className="flex flex-wrap justify-center items-start text-white">
                 {currentMenu?.items?.map((option, index) => (
                   <div className="w-full sm:w-1/3 p-2" key={index}>
