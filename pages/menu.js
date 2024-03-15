@@ -130,10 +130,14 @@ function Menu() {
                     />
                   </div>
                 ))}
-                <div className="w-full text-center text-black p-2">
-                  Wing flavors: Garlic parm, Thai chili, BBQ, Stinger, Bourbon
-                  Brown Sugar, Mango Habanero, and Buffalo
-                </div>
+
+                {currentMenu?.wingFlavors?.length ? <div className="w-full text-center text-black p-2">
+                 <span className="font-bold">Wing flavors:</span> {currentMenu?.wingFlavors.join(', ')}
+                </div> : null}
+
+								{currentMenu?.pizzaToppings?.length ? <div className="w-full text-center text-black p-2">
+								<span className="font-bold">Pizzas:</span> {currentMenu?.pizzaToppings.join(', ')}
+                </div> : null}
 
                 {/* Dynamic Extras based on Menu */}
                 <div className="text-primary">
