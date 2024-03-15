@@ -1,26 +1,44 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+// import Layout from '@/components/Layout';
+// import { useRouter } from 'next/router';
+// import Hero from '@/components/HeroComponent';
+// import config from '@/components/config';
+// import ImageCarousel from '@/components/ImageCarouselComponent';
+// import { CgPin } from 'react-icons/cg';
+// import { GiKnifeFork } from 'react-icons/gi';
+// import IconComponent from '@/components/IconComponent';
+// import MenuPlatterComponent from '@/components/MenuPlatterComponent';
+// import BayCardComponent from '@/components/BayCardComponent';
+// import Testimonials from '@/components/TestimonialComponent';
+// import Modal from '@/components/Modal';
+
+import React, { useState, useEffect } from 'react';
 import Layout from '@/components/Layout';
-import { useRouter } from 'next/router';
 import Hero from '@/components/HeroComponent';
 import config from '@/components/config';
-import ImageCarousel from '@/components/ImageCarouselComponent';
-import { CgPin } from 'react-icons/cg';
-import { GiKnifeFork } from 'react-icons/gi';
-import IconComponent from '@/components/IconComponent';
-import MenuPlatterComponent from '@/components/MenuPlatterComponent';
-import BayCardComponent from '@/components/BayCardComponent';
 import Testimonials from '@/components/TestimonialComponent';
 import Modal from '@/components/Modal';
+import MenuPlatterComponent from '@/components/MenuPlatterComponent';
+import { useRouter } from 'next/router';
 
 function Menu() {
+  const [showMenuModal, setShowMenuModal] = useState(false);
+  const [activeMenu, setActiveMenu] = useState('menu'); // Default to 'menu'
   const router = useRouter();
 
-  const [showMenuModal, setShowMenuModal] = useState(false);
+  useEffect(() => {
+    // Check if the 'menu' query parameter exists
+    if (router.query.menu) {
+      setActiveMenu(router.query.menu);
+    }
+  }, [router.query.menu]); // Reacting to changes in the 'menu' query parameter
+
+  // Get the current menu based on the active state
+  const currentMenu = config[activeMenu];
 
   return (
-    // <Layout bg={'bg-[#2f2f2f]'}>
     <Layout>
-      <Hero imageUrl={config?.menu?.imageUrl} title="PARTY MENU" size="md" />
+      <Hero imageUrl={currentMenu?.imageUrl} title="PARTY MENU" size="md" />
       <div className="flex flex-col items-center w-full">
         <div className="max-w-[1300px]">
           <div className="block w-full h-[250px]">
@@ -32,116 +50,171 @@ function Menu() {
           </div>
           <hr />
 
+          {/* Tab Menu */}
+          <div className="flex justify-center my-4 flex-wrap">
+            <button
+              className={`px-4 py-2 ${
+                activeMenu === 'menu'
+                  ? 'bg-primary text-white'
+                  : 'bg-transparent'
+              }`}
+              onClick={() => router.push('menu?menu=menu')}
+            >
+              Clifton Park
+            </button>
+            <button
+              className={`px-4 py-2 ${
+                activeMenu === 'menuNorthgreenbush'
+                  ? 'bg-primary text-white'
+                  : 'bg-transparent'
+              }`}
+              onClick={() => router.push('menu?menu=menuNorthgreenbush')}
+            >
+              North Greenbush
+            </button>
+            <button
+              className={`px-4 py-2 ${
+                activeMenu === 'menuNewhartford'
+                  ? 'bg-primary text-white'
+                  : 'bg-transparent'
+              }`}
+              onClick={() => router.push('menu?menu=menuNewhartford')}
+            >
+              New Hartford
+            </button>
+            <button
+              className={`px-4 py-2 ${
+                activeMenu === 'menuSaratoga'
+                  ? 'bg-primary text-white'
+                  : 'bg-transparent'
+              }`}
+              onClick={() => router.push('menu?menu=menuSaratoga')}
+            >
+              Saratoga
+            </button>
+            <button
+              className={`px-4 py-2 ${
+                activeMenu === 'menuMohawkharbor'
+                  ? 'bg-primary text-white'
+                  : 'bg-transparent'
+              }`}
+              onClick={() => router.push('menu?menu=menuMohawkharbor')}
+            >
+              Mohawk Harbor
+            </button>
+          </div>
+
+          {/* Menu Display */}
           <div className="my-10 p-8 md:px-20 pt-0 w-full">
             <div className="m-1 flex justify-center flex-col w-full mx-auto text-primary">
+              {/* Dynamically Rendered Menu Title */}
+              {/* <h1 className="font-bold text-4xl mb-1">{currentMenu?.title}</h1> */}
               <h1 className=" font-bold text-4xl mb-1">PARTY PLATTERS:</h1>
               <h4 className=" ml-0.5 font-bold text-md">
                 All platters serve 8-10 guests each.
               </h4>
-							<h4 className="text-black italic ml-0.5 font-normal text-md mb-4">
+              <h4 className="text-black italic ml-0.5 font-normal text-md mb-4">
                 Pricing is subject to change.
               </h4>
-              <div className="flex flex-wrap justify-center text-white">
-                {config?.menu?.items.map((option, index) => {
-                  return (
-                    <div className="w-full md:w-[400px] m-1" key={index}>
-                      <MenuPlatterComponent
-                        title={option?.title}
-                        imageUrl={option?.imgUrl}
-                        cost={option?.cost}
-                      />
-                    </div>
-                  );
-                })}
-
-                <div className="text-black">
+              <div className="flex flex-wrap justify-center items-start text-white">
+                {currentMenu?.items?.map((option, index) => (
+                  <div className="w-full sm:w-1/3 p-2" key={index}>
+                    <MenuPlatterComponent
+                      title={option?.title}
+                      imageUrl={option?.imgUrl}
+                      cost={option?.cost}
+                    />
+                  </div>
+                ))}
+                <div className="w-full text-center text-black p-2">
                   Wing flavors: Garlic parm, Thai chili, BBQ, Stinger, Bourbon
-                  Brown Sugar, Mango Habanero and Buffalo
+                  Brown Sugar, Mango Habanero, and Buffalo
                 </div>
-              </div>
-              <div className="flex flex-col justify-center mt-20 ">
-                <h1 className=" font-bold text-4xl mb-1">
-                  DRINKS & BOTTLE SERVICE
-                </h1>
-                <div className="flex flex-wrap flex-col w-full h-[300px] lg:h-[700px]">
-                  <div className="w-1/3 h-1/2">
-                    <img
-                      src={config?.menu?.images[0]}
-                      className="w-full h-full object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-1/3 h-1/2">
-                    <img
-                      src={config?.menu?.images[1]}
-                      className="w-full h-full object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-1/3 h-1/2">
-                    <img
-                      src={config?.menu?.images[2]}
-                      className="w-full h-full object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-1/3 h-1/2">
-                    <img
-                      src={config?.menu?.images[3]}
-                      className="w-full h-full object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-1/3 h-full">
-                    <img
-                      src={config?.menu?.images[4]}
-                      className="w-full h-full object-cover"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div className="mt-5 text-black">
-                  {config?.menu?.drinks?.map((drink, index) => {
-                    return (
-                      <div key={index} className="w-full flex flex-wrap my-2">
-                        <p className="font-bold whitespace-nowrap mr-1">
-                          {drink.title}
-                        </p>
-                        {drink?.qty !== null && (
-                          <span className="font-thin">{drink.qty}</span>
-                        )}
+
+                {/* Dynamic Extras based on Menu */}
+                <div className="text-primary">
+                  <div className="flex flex-col justify-center mt-20 ">
+                    <h1 className=" font-bold text-4xl mb-1">
+                      DRINKS & BOTTLE SERVICE
+                    </h1>
+                    <div className="flex flex-wrap flex-col w-full h-[300px] lg:h-[700px]">
+                      <div className="w-1/3 h-1/2">
+                        <img
+                          src={config?.menu?.images[0]}
+                          className="w-full h-full object-cover"
+                          alt=""
+                        />
                       </div>
-                    );
-                  })}
+                      <div className="w-1/3 h-1/2">
+                        <img
+                          src={config?.menu?.images[1]}
+                          className="w-full h-full object-cover"
+                          alt=""
+                        />
+                      </div>
+                      <div className="w-1/3 h-1/2">
+                        <img
+                          src={config?.menu?.images[2]}
+                          className="w-full h-full object-cover"
+                          alt=""
+                        />
+                      </div>
+                      <div className="w-1/3 h-1/2">
+                        <img
+                          src={config?.menu?.images[3]}
+                          className="w-full h-full object-cover"
+                          alt=""
+                        />
+                      </div>
+                      <div className="w-1/3 h-full">
+                        <img
+                          src={config?.menu?.images[4]}
+                          className="w-full h-full object-cover"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div className="mt-5 text-black">
+                      {config?.menu?.drinks?.map((drink, index) => {
+                        return (
+                          <div
+                            key={index}
+                            className="w-full flex flex-wrap my-2"
+                          >
+                            <p className="font-bold whitespace-nowrap mr-1">
+                              {drink.title}
+                            </p>
+                            {drink?.qty !== null && (
+                              <span className="font-thin">{drink.qty}</span>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                    <div>
+                      <button
+                        onClick={() => setShowMenuModal(true)}
+                        className="p-2 mt-3 bg-primary text-white font-bold"
+                      >
+                        BOTTLE SERVICE MENU
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <button
-                    onClick={() => setShowMenuModal(true)}
-                    className="p-2 mt-3 bg-primary text-white font-bold"
-                  >
-                    BOTTLE SERVICE MENU
-                  </button>
-                </div>
-              </div>
+              </div>{' '}
             </div>
           </div>
         </div>
       </div>
-      <Modal
-        onClose={() => {
-          setShowMenuModal(false);
-        }}
-        isOpen={showMenuModal}
-      >
-        <div>
-          <iframe
-            src={'/BottleServiceMenu.pdf'}
-            width="100%"
-            height="800"
-            style={{ border: 'none' }}
-            title="PDF Viewer"
-          ></iframe>
-        </div>
+
+      <Modal onClose={() => setShowMenuModal(false)} isOpen={showMenuModal}>
+        <iframe
+          src={'/BottleServiceMenu.pdf'}
+          width="100%"
+          height="800"
+          style={{ border: 'none' }}
+          title="PDF Viewer"
+        ></iframe>
       </Modal>
     </Layout>
   );
