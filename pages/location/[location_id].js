@@ -109,7 +109,7 @@ function LocationDetails() {
             <ul className="list-disc ml-5 text-lg">
               <li>Food must be pre-ordered 10 days prior to event</li>
               <li>
-                A 5% service fee and 15% gratuity will be added to the total
+                A 5% administrative fee and 15% gratuity will be added to the total
               </li>
             </ul>
           </div>
