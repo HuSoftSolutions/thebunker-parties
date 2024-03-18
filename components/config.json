@@ -1433,7 +1433,13 @@
         "qty": null,
         "cost": "24-28",
         "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/bunker-parties-menu-pizza.jpg"
-      }
+      },
+			{
+				"title": "Panini Platter",
+				"qty": "null",
+				"cost": "120",
+				"imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/saratoga_panini_platter.jpg"
+			}
     ],
     "drinks": [
       {
