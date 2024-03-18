@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Layout from '@/components/Layout';
 import Hero from '@/components/HeroComponent';
 
-const LAYOUT = [0, 3, 4, 7, 8, 11, 12, 15, 16, 19, 20, 23];
+const LAYOUT = [0, 3, 4, 7, 8, 11, 12, 15, 16, 19, 20, 23, 24, 27, 28];
 
 const Gallery = () => {
   return (
