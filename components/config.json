@@ -750,8 +750,8 @@
     },
 
     {
-      "businessCardImgUrl": "",
-      "locationHeaderImgUrl": "",
+      "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/IMG-86.jpg",
+      "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/saratoga/IMG-86.jpg",
       "title": "SARATOGA",
       "menuPath": "/menu?menu=menuSaratoga",
       "address": "307 Broadway, Saratoga Springs, NY 12866",
