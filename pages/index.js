@@ -1,3 +1,4 @@
+
 import Head from 'next/head';
 // import Image from "next/image";
 import Layout from '@/components/Layout';
@@ -7,6 +8,7 @@ import { useRouter } from 'next/router';
 import HeroVideoComponent from '@/components/HeroVideoComponent';
 import Testimonials from '@/components/TestimonialComponent';
 import config from '@/components/config.json';
+import useWindowWidth from '@/hooks/useWindowDimensions';
 
 function newImg() {
   return 'https://source.unsplash.com/random/1600x900';
@@ -14,6 +16,7 @@ function newImg() {
 
 export default function Home() {
   const router = useRouter();
+	const { width } = useWindowWidth();
   return (
     <>
       <Head>
@@ -25,7 +28,7 @@ export default function Home() {
       <Layout>
         <main className="flex w-full h-full flex-col">
           <HeroVideoComponent
-            imageUrl="https://res.cloudinary.com/dy3tzr2tc/video/upload/v1679543791/thebunkerparties/thebunker_home_video_e9kxwl.mp4"
+            imageUrl={width > 768 ? 'https://res.cloudinary.com/dy3tzr2tc/video/upload/v1718303773/Bunker_Homepage_Video_1920x1080_gpvxcs.mp4' : 'https://res.cloudinary.com/dy3tzr2tc/video/upload/v1718303775/Bunker_Homepage_Video_Mobile_mklz5z.mp4'}
             title="PARTY AT THE BUNKER!"
             message="Celebrations, corporate events and more! Let us host your next event."
             btnTitle="SEE OUR LOCATIONS"
