@@ -10,7 +10,7 @@ const Gallery = () => {
   return (
     <Layout>
       <Hero
-        imageUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736682/thebunkerparties/gallery/DSCF4931_v9ge0y.jpg"
+        imageUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4931_v9ge0y.jpg"
         title="GALLERY"
       />
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 m-4">

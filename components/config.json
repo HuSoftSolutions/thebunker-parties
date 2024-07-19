@@ -1,8 +1,8 @@
 {
   "locations": [
     {
-      "businessCardImgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678735622/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park_poj4v5.jpg",
-      "locationHeaderImgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232450/thebunkerparties/locations/cp-header-DSCF4635-select_j6ue7x.jpg",
+      "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/cp-gallery-Bunker_Clifton_Park_poj4v5.jpg",
+      "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/cp-header-DSCF4635-select_j6ue7x.jpg",
       "title": "CLIFTON PARK",
 			"menuPath":"/menu?menu=menu",
       "address": "19 Clifton Country Rd, Clifton Park, NY 12065",
@@ -14,10 +14,10 @@
       "coordinates": { "lat": 42.85883117180785, "lng": -73.78237199029 },
       "matterportUrl": "https://mpembed.com/show/?m=EycycPF8DQT&mpu=1854",
       "images": [
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park_jlhj76.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232421/thebunkerparties/locations/cp-gallery-Bunker_Clifton_Park-2_nvux6g.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232423/thebunkerparties/locations/cp-gallery-Bunker_LOGO_And_Bar_Medium_etanpr.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232424/thebunkerparties/locations/cp-gallery-Patio_With_Guests_Alt_Wide_a3ki0u.jpg"
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/cp-gallery-Bunker_Clifton_Park_jlhj76.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/cp-gallery-Bunker_Clifton_Park-2_nvux6g.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/cp-gallery-Bunker_LOGO_And_Bar_Medium_etanpr.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/cp-gallery-Patio_With_Guests_Alt_Wide_a3ki0u.jpg"
       ],
       "eventPackages": [
         {
@@ -78,7 +78,7 @@
             "Call button for bar service"
           ],
           "rate": 100,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232449/thebunkerparties/locations/IMG_1678_nj9wuh.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1678_nj9wuh.jpg"
         },
         {
           "id": 1,
@@ -93,7 +93,7 @@
             "Each bay can also be booked by itself for a semi-private party"
           ],
           "rate": 140,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232451/thebunkerparties/locations/IMG_1685_k3bb6b.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1685_k3bb6b.jpg"
         },
         {
           "id": 2,
@@ -106,7 +106,7 @@
             "For large parties, Bay 3 can be combined with Bay 4 or the VIP Suite"
           ],
           "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232452/thebunkerparties/locations/IMG_1668_gw0i53.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1668_gw0i53.jpg"
         },
         {
           "id": 3,
@@ -119,7 +119,7 @@
             "For large parties, Bay 4 can be combined with Bay 3 and/or Bay 5"
           ],
           "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232449/thebunkerparties/locations/IMG_1669_yrdrue.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1669_yrdrue.jpg"
         },
         {
           "id": 4,
@@ -134,7 +134,7 @@
           ],
           "detail": "Patio Bay!",
           "rate": 60,
-          "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232451/thebunkerparties/locations/IMG_1670_jnng5z.jpg"
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1670_jnng5z.jpg"
         },
         {
           "id": 5,
@@ -180,10 +180,10 @@
       "matterportUrl": "https://mpembed.com/show/?m=A8QBTuwjiYY&mpu=1854",
       "id": "guilderland",
       "images": [
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg"
       ],
       "eventPackages": [
         {
@@ -299,10 +299,10 @@
       "matterportUrl": "https://mpembed.com/show/?m=uzLoCgELmYD&mpu=1854",
       "id": "northgreenbush",
       "images": [
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg"
       ],
       "eventPackages": [
         {
@@ -457,10 +457,10 @@
       "matterportUrl": "https://mpembed.com/show/?m=fma1tdkHirm&mpu=1854",
       "id": "newhartford",
       "images": [
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg"
       ],
       "eventPackages": [
         {
@@ -626,10 +626,10 @@
       "matterportUrl": "https://mpembed.com/show/?m=u9BpmnnH69C&mpu=1854",
       "id": "mohawkharbor",
       "images": [
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg"
       ],
       "eventPackages": [
         {
@@ -764,10 +764,10 @@
       "matterportUrl": "https://mpembed.com/show/?m=WV5KC6JHdfV&mpu=1854",
       "id": "saratoga",
       "images": [
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg",
-        "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg"
       ],
       "eventPackages": [
         {
@@ -911,11 +911,11 @@
 		"title": "Clifton Park",
     "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-header.jpg",
     "images": [
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/DSCF4892_nfdge1.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3460_c2t4nb.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4892_nfdge1.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3460_c2t4nb.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3876_dvkt9z.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3885_febjga.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_2375_jbo566.jpg"
     ],
     "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
     "items": [
@@ -923,73 +923,73 @@
         "title": "Field Green Salad",
         "qty": null,
         "cost": "36",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-field-greens_yxwmym.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-field-greens_yxwmym.jpg"
       },
       {
         "title": "Caesar Salad",
         "qty": null,
         "cost": "36",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-caesar_jrwjeu.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-caesar_jrwjeu.jpg"
       },
       {
         "title": "Angus Sliders with Fries",
         "qty": "(24)",
         "cost": "92",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697739/thebunkerparties/menu/DSCF5230-sliders_tg4lio.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5230-sliders_tg4lio.jpg"
       },
       {
         "title": "Pretzel Bites",
         "qty": "(50 pieces)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1682790489/thebunkerparties/menu/bunker-parties-menu-pretzel-bites_fkqyjs.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-pretzel-bites_fkqyjs.jpg"
       },
       {
         "title": "Meatballs",
         "qty": "(24)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736790/thebunkerparties/menu/IMG_3753_j3tv1w.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3753_j3tv1w.jpg"
       },
       {
         "title": "Pan-fried Pork Potstickers",
         "qty": "(24)",
         "cost": "50",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5226-potstickers_gy79s2.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5226-potstickers_gy79s2.jpg"
       },
       {
         "title": "Loaded Fries",
         "qty": null,
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679700056/thebunkerparties/menu/IMG_3734_yy7luj.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3734_yy7luj.jpg"
       },
       {
         "title": "Roasted Red Pepper Hummus",
         "qty": null,
         "cost": "34",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-hummus_vsmznx.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-hummus_vsmznx.jpg"
       },
       {
         "title": "Black Bean and Corn Salsa",
         "qty": null,
         "cost": "32",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-corn-salsa_itma7b.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-corn-salsa_itma7b.jpg"
       },
       {
         "title": "Bucket of Range Balls",
         "qty": "(50)",
         "cost": "30",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5258-range-balls_vpm3mh.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5258-range-balls_vpm3mh.jpg"
       },
       {
         "title": "Bone-in Chicken Wings",
         "qty": "(24)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697735/thebunkerparties/menu/DSCF5242-wings_qykmtk.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5242-wings_qykmtk.jpg"
       },
       {
         "title": "Boneless Chicken Wings",
         "qty": "(30)",
         "cost": "42",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3761_ukqpcu.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3761_ukqpcu.jpg"
       }
     ],
     "drinks": [
@@ -1025,11 +1025,11 @@
 		"title": "North Greenbush",
     "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-header.jpg",
     "images": [
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/DSCF4892_nfdge1.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3460_c2t4nb.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4892_nfdge1.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3460_c2t4nb.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3876_dvkt9z.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3885_febjga.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_2375_jbo566.jpg"
     ],
     "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
     "items": [
@@ -1037,73 +1037,73 @@
         "title": "Field Green Salad",
         "qty": null,
         "cost": "36",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-field-greens_yxwmym.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-field-greens_yxwmym.jpg"
       },
       {
         "title": "Caesar Salad",
         "qty": null,
         "cost": "36",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-caesar_jrwjeu.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-caesar_jrwjeu.jpg"
       },
       {
         "title": "Angus Sliders with Fries",
         "qty": "(24)",
         "cost": "92",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697739/thebunkerparties/menu/DSCF5230-sliders_tg4lio.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5230-sliders_tg4lio.jpg"
       },
       {
         "title": "Pretzel Bites",
         "qty": "(50 pieces)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1682790489/thebunkerparties/menu/bunker-parties-menu-pretzel-bites_fkqyjs.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-pretzel-bites_fkqyjs.jpg"
       },
       {
         "title": "Meatballs",
         "qty": "(24)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736790/thebunkerparties/menu/IMG_3753_j3tv1w.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3753_j3tv1w.jpg"
       },
       {
         "title": "Pan-fried Pork Potstickers",
         "qty": "(24)",
         "cost": "50",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5226-potstickers_gy79s2.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5226-potstickers_gy79s2.jpg"
       },
       {
         "title": "Loaded Fries",
         "qty": null,
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679700056/thebunkerparties/menu/IMG_3734_yy7luj.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3734_yy7luj.jpg"
       },
       {
         "title": "Roasted Red Pepper Hummus",
         "qty": null,
         "cost": "34",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-hummus_vsmznx.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-hummus_vsmznx.jpg"
       },
       {
         "title": "Black Bean and Corn Salsa",
         "qty": null,
         "cost": "32",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-corn-salsa_itma7b.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-corn-salsa_itma7b.jpg"
       },
       {
         "title": "Bucket of Range Balls",
         "qty": "(50)",
         "cost": "30",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5258-range-balls_vpm3mh.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5258-range-balls_vpm3mh.jpg"
       },
       {
         "title": "Bone-in Chicken Wings",
         "qty": "(24)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697735/thebunkerparties/menu/DSCF5242-wings_qykmtk.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5242-wings_qykmtk.jpg"
       },
       {
         "title": "Boneless Chicken Wings",
         "qty": "(30)",
         "cost": "42",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3761_ukqpcu.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3761_ukqpcu.jpg"
       }
     ],
     "drinks": [
@@ -1141,11 +1141,11 @@
 		"menuPath":"/menu?menu=menuNewhartford",
     "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-header.jpg",
     "images": [
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/DSCF4892_nfdge1.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3460_c2t4nb.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4892_nfdge1.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3460_c2t4nb.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3876_dvkt9z.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3885_febjga.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_2375_jbo566.jpg"
     ],
     "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
     "items": [
@@ -1153,73 +1153,73 @@
         "title": "Field Green Salad",
         "qty": null,
         "cost": "36",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-field-greens_yxwmym.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-field-greens_yxwmym.jpg"
       },
       {
         "title": "Caesar Salad",
         "qty": null,
         "cost": "36",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-caesar_jrwjeu.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-caesar_jrwjeu.jpg"
       },
       {
         "title": "Angus Sliders with Fries",
         "qty": "(24)",
         "cost": "92",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697739/thebunkerparties/menu/DSCF5230-sliders_tg4lio.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5230-sliders_tg4lio.jpg"
       },
       {
         "title": "Pretzel Bites",
         "qty": "(50 pieces)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1682790489/thebunkerparties/menu/bunker-parties-menu-pretzel-bites_fkqyjs.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-pretzel-bites_fkqyjs.jpg"
       },
       {
         "title": "Meatballs",
         "qty": "(24)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736790/thebunkerparties/menu/IMG_3753_j3tv1w.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3753_j3tv1w.jpg"
       },
       {
         "title": "Pan-fried Pork Potstickers",
         "qty": "(24)",
         "cost": "50",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5226-potstickers_gy79s2.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5226-potstickers_gy79s2.jpg"
       },
       {
         "title": "Loaded Fries",
         "qty": null,
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679700056/thebunkerparties/menu/IMG_3734_yy7luj.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3734_yy7luj.jpg"
       },
       {
         "title": "Roasted Red Pepper Hummus",
         "qty": null,
         "cost": "34",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-hummus_vsmznx.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-hummus_vsmznx.jpg"
       },
       {
         "title": "Black Bean and Corn Salsa",
         "qty": null,
         "cost": "32",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1680293720/thebunkerparties/menu/bunker-parties-menu-corn-salsa_itma7b.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-corn-salsa_itma7b.jpg"
       },
       {
         "title": "Bucket of Range Balls",
         "qty": "(50)",
         "cost": "30",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697737/thebunkerparties/menu/DSCF5258-range-balls_vpm3mh.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5258-range-balls_vpm3mh.jpg"
       },
       {
         "title": "Bone-in Chicken Wings",
         "qty": "(24)",
         "cost": "48",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697735/thebunkerparties/menu/DSCF5242-wings_qykmtk.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5242-wings_qykmtk.jpg"
       },
       {
         "title": "Boneless Chicken Wings",
         "qty": "(30)",
         "cost": "42",
-        "imgUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3761_ukqpcu.jpg"
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3761_ukqpcu.jpg"
       }
     ],
     "drinks": [
@@ -1257,11 +1257,11 @@
 		"menuPath":"/menu?menu=menuMohawkharbor",
     "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-header.jpg",
     "images": [
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/DSCF4892_nfdge1.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3460_c2t4nb.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4892_nfdge1.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3460_c2t4nb.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3876_dvkt9z.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3885_febjga.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_2375_jbo566.jpg"
     ],
     "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
     "items": [
@@ -1368,11 +1368,11 @@
 		"menuPath":"/menu?menu=menuSaratoga",
     "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-header.jpg",
     "images": [
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/DSCF4892_nfdge1.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736793/thebunkerparties/menu/IMG_3460_c2t4nb.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736789/thebunkerparties/menu/IMG_3885_febjga.jpg",
-      "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736795/thebunkerparties/menu/IMG_2375_jbo566.jpg"
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4892_nfdge1.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3460_c2t4nb.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3876_dvkt9z.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3885_febjga.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_2375_jbo566.jpg"
     ],
     "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
     "items": [
@@ -1488,15 +1488,15 @@
   "gallery": [
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736681/thebunkerparties/gallery/DSCF4892_wkyglu.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4892_wkyglu.jpg"
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736643/thebunkerparties/gallery/four.png_namrld.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/four.png_namrld.jpg"
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736640/thebunkerparties/gallery/IMG_3742_gpp7uz.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3742_gpp7uz.jpg"
     },
     {
       "type": "text",
@@ -1505,20 +1505,20 @@
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736639/thebunkerparties/gallery/IMG_1332_f54hc9.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1332_f54hc9.jpg"
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736686/thebunkerparties/gallery/IMG_1136_zzlkkm.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1136_zzlkkm.jpg"
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736639/thebunkerparties/gallery/IMG_3925_vs2dqt.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3925_vs2dqt.jpg"
     },
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736684/thebunkerparties/gallery/DSCF4829_cpzaa2.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4829_cpzaa2.jpg"
     },
     {
       "type": "text",
@@ -1526,29 +1526,29 @@
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/DSCF4890_elevkh.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4890_elevkh.jpg"
     },
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736683/thebunkerparties/gallery/nh-fb_gcmarg.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/nh-fb_gcmarg.jpg"
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736630/thebunkerparties/gallery/cp-fb-patio_abotbi.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/cp-fb-patio_abotbi.jpg"
     },
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697177/thebunkerparties/gallery/IMG_6337_p7bluj.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_6337_p7bluj.jpg"
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678736791/thebunkerparties/menu/IMG_3876_dvkt9z.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3876_dvkt9z.jpg"
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697175/thebunkerparties/gallery/IMG_2453_i4wun8.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_2453_i4wun8.jpg"
     },
     {
       "type": "text",
@@ -1556,22 +1556,22 @@
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697175/thebunkerparties/gallery/279292396_398180788982088_2686885763932045189_n_gld67w.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/279292396_398180788982088_2686885763932045189_n_gld67w.jpg"
     },
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697174/thebunkerparties/gallery/279513660_398180865648747_2618547601655810406_n_gl9ddz.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/279513660_398180865648747_2618547601655810406_n_gl9ddz.jpg"
     },
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697174/thebunkerparties/gallery/IMG_2428_rzna0d.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_2428_rzna0d.jpg"
     },
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697172/thebunkerparties/gallery/6062CE76-1551-4214-834C-571363DDE89A_cqctfo.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/6062CE76-1551-4214-834C-571363DDE89A_cqctfo.jpg"
     },
     {
       "type": "text",
@@ -1579,17 +1579,17 @@
     },
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697173/thebunkerparties/gallery/287723830_429707095829457_8638813865582915076_n_fsu2fu.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/287723830_429707095829457_8638813865582915076_n_fsu2fu.jpg"
     },
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697176/thebunkerparties/gallery/IMG_3456_hfoznl.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3456_hfoznl.jpg"
     },
 
     {
       "type": "img",
-      "value": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679697171/thebunkerparties/gallery/IMG_3929_n8n4vl.jpg"
+      "value": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3929_n8n4vl.jpg"
     },
 
 		{
@@ -1658,7 +1658,7 @@
     }
   ],
   "contact": {
-    "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679717769/thebunkerparties/Bar_Patron_And_Bartender_Medium_vvgc25.jpg"
+    "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/Bar_Patron_And_Bartender_Medium_vvgc25.jpg"
   },
   "testimonialsPage": {
     "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/bunker-testimonial-header.jpg",
@@ -1714,7 +1714,7 @@
     ]
   },
   "faqs": {
-    "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679713860/thebunkerparties/The_Bunker_LOGO_And_Bar_Medium_ccfm5w.jpg",
+    "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/The_Bunker_LOGO_And_Bar_Medium_ccfm5w.jpg",
     "questions": [
       {
         "question": "Do you have any restrictions with decorations?",

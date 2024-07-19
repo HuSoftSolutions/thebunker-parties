@@ -28,7 +28,7 @@ export default function Home() {
       <Layout>
         <main className="flex w-full h-full flex-col">
           <HeroVideoComponent
-            imageUrl={width > 768 ? 'https://res.cloudinary.com/dy3tzr2tc/video/upload/v1718303773/Bunker_Homepage_Video_1920x1080_gpvxcs.mp4' : 'https://res.cloudinary.com/dy3tzr2tc/video/upload/v1718303775/Bunker_Homepage_Video_Mobile_mklz5z.mp4'}
+            imageUrl={width > 768 ? 'https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/Bunker_Homepage_Video_1920x1080_gpvxcs.mp4' : 'https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/Bunker_Homepage_Video_Mobile_mklz5z.mp4'}
             title="PARTY AT THE BUNKER!"
             message="Celebrations, corporate events and more! Let us host your next event."
             btnTitle="SEE OUR LOCATIONS"
@@ -44,7 +44,7 @@ export default function Home() {
               BOOK YOUR EVENT
             </h1>
             <Card
-              imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232145/thebunkerparties/Dining_Room_Patrons_Toast_Wide_zfdif4.jpg"
+              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/Dining_Room_Patrons_Toast_Wide_zfdif4.jpg"
               title="STEP 1: WHERE TO PARTY?"
               message="All of our locations offer a variety of unique party packages and options to create the best event experience for any occasion. Visit our locations page for more information. If you already know the space you want, you're ready for Step 2!"
               onClick={() => {
@@ -53,7 +53,7 @@ export default function Home() {
               btnTitle="SEE LOCATIONS & SPACES"
             />
             <Card
-              imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232141/thebunkerparties/nh-png_pyj7nx.jpg"
+              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/nh-png_pyj7nx.jpg"
               title="STEP 2: SCHEDULE YOUR PARTY"
               message="Let's get your party scheduled! Start the process by clicking the button below. This will lead you through a series of questions and event options regarding location, number of guests, date and more. Once submitted, our events coordinator will reach out to finalize the booking process."
               onClick={() => {
@@ -64,7 +64,7 @@ export default function Home() {
               btnTitle="START PLANNING"
             />
             <Card
-              imgUrl="https://res.cloudinary.com/dy3tzr2tc/image/upload/v1678232141/thebunkerparties/IMG_1368_nl3mja.jpg"
+              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1368_nl3mja.jpg"
               title="STEP 3: FOOD & DRINKS"
               message="Ten days before your event, you'll receive a notification to order the food and drinks for your party. Follow the prompts to make your final selections and let us take care of the rest!"
               onClick={() => {
