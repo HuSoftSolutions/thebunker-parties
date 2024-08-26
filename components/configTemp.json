@@ -97,6 +97,24 @@
       "details": [],
       "rate": "20",
       "imageUrl": "https://res.cloudinary.com/dy3tzr2tc/image/upload/v1679708533/placeholders_wjhbbu.jpg"
-    }
+    },
+		      {
+        "title": "Angus Beef Sliders",
+        "qty": "(24)",
+        "cost": "96",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-beef-sliders.jpg"
+      },
+			{
+        "title": "Loaded Crab Cake Tots",
+        "qty": "(12)",
+        "cost": "54",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-crab-cake-tots.jpg"
+      },
+			{
+        "title": "Assorted Kabob Platter",
+        "qty": "(12)",
+        "cost": "96",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-kabobs.jpg"
+      }
   ]
 }

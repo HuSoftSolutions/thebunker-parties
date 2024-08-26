@@ -1277,29 +1277,12 @@
         "cost": "42",
         "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-menu-caesar.jpg"
       },
-      {
-        "title": "Angus Beef Sliders",
-        "qty": "(24)",
-        "cost": "96",
-        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-beef-sliders.jpg"
-      },
+
       {
         "title": "Chicken Sliders",
         "qty": "(24)",
         "cost": "96",
         "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-chicken-sliders.jpg"
-      },
-      {
-        "title": "Assorted Kabob Platter",
-        "qty": "(12)",
-        "cost": "96",
-        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-kabobs.jpg"
-      },
-      {
-        "title": "Loaded Crab Cake Tots",
-        "qty": "(12)",
-        "cost": "54",
-        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-crab-cake-tots.jpg"
       },
       {
         "title": "Buffalo Chicken Eggrolls",
@@ -1359,7 +1342,7 @@
         "qty": null
       }
     ],
-		"pizzaToppings": ["Ortolana", "Margherita", "Buffalo Chicken", "Chicken Caprese", "Plenty of Pepperoni"],
+		"pizzaToppings": ["Margherita", "Hot Take", "Pepperoni & Hot Honey", "BLT", "What’s Shakin Bacon", "Slice & Dice", "Pesto Please", "Buffalo Chicken", "The Speckled Pig"],
 		"wingFlavors": ["Garlic Parm", "Salt & Vinegar", "BBQ", "Bourbon Brown Sugar", "Mango Habanero", "Buffalo"]
 
   },
