@@ -43,18 +43,10 @@ export default function Home() {
             <h1 className="text-2xl text-[35px] pb-5 md:pb-10 font-bold">
               BOOK YOUR EVENT
             </h1>
-            <Card
-              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/Dining_Room_Patrons_Toast_Wide_zfdif4.jpg"
-              title="STEP 1: WHERE TO PARTY?"
-              message="All of our locations offer a variety of unique party packages and options to create the best event experience for any occasion. Visit our locations page for more information. If you already know the space you want, you're ready for Step 2!"
-              onClick={() => {
-                router.push('/location');
-              }}
-              btnTitle="SEE LOCATIONS & SPACES"
-            />
-            <Card
+
+						<Card
               imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/nh-png_pyj7nx.jpg"
-              title="STEP 2: SCHEDULE YOUR PARTY"
+              title="SCHEDULE YOUR PARTY"
               message="Let's get your party scheduled! Start the process by clicking the button below. This will lead you through a series of questions and event options regarding location, number of guests, date and more. Once submitted, our events coordinator will reach out to finalize the booking process."
               onClick={() => {
                 router.push(
@@ -64,8 +56,18 @@ export default function Home() {
               btnTitle="START PLANNING"
             />
             <Card
+              imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/Dining_Room_Patrons_Toast_Wide_zfdif4.jpg"
+              title="WHERE TO PARTY?"
+              message="All of our locations offer a variety of unique party packages and options to create the best event experience for any occasion. Visit our locations page for more information. If you already know the space you want, you're ready for Step 2!"
+              onClick={() => {
+                router.push('/location');
+              }}
+              btnTitle="SEE LOCATIONS & SPACES"
+            />
+
+            <Card
               imgUrl="https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_1368_nl3mja.jpg"
-              title="STEP 3: FOOD & DRINKS"
+              title="FOOD & DRINKS"
               message="Ten days before your event, you'll receive a notification to order the food and drinks for your party. Follow the prompts to make your final selections and let us take care of the rest!"
               onClick={() => {
                 router.push('/menu');
