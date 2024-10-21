@@ -1291,6 +1291,12 @@
         "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-buff-chicken-eggrolls.jpg"
       },
 			{
+        "title": "Philly Eggrolls",
+        "qty": "(12)",
+        "cost": "64",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-buff-chicken-eggrolls.jpg"
+      },
+			{
         "title": "Brisket Sliders",
         "qty": null,
         "cost": "96",
