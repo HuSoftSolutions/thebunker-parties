@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import { FiMenu, FiX } from 'react-icons/fi';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { MdKeyboardArrowDown } from 'react-icons/md';
 import Link from 'next/link';
-import { navigationItems } from './navigation';
 import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FiMenu, FiX } from 'react-icons/fi';
+import { MdKeyboardArrowDown } from 'react-icons/md';
+import { navigationItems } from './navigation';
 
 const getLinkComponent = (navitem) => {
   const { pathname } = useRouter();
@@ -70,7 +70,7 @@ const Sidebar = () => {
       <div className="p-4">
         <Link href="/" className="text-xl font-bold">
           <img
-            src="https://storage.googleapis.com/thebunker-assets/thebunker/The_Bunker_KO.png"
+            src="/Bunker_Trademarked_Desktop.png"
             width="100%"
             className="w-5/6 mx-auto"
           />
@@ -119,7 +119,7 @@ const MobileNavBar = ({ open, toggle }) => {
   return (
     <div className="md:hidden bg-black text-white p-4 flex items-center justify-between h-[65px]">
       <img
-        src="https://storage.googleapis.com/thebunker-assets/thebunker/thebunker_mobile_header.png"
+				src="Bunker_Trademarked_Mobile.png"
         className="p-1 cursor-pointer"
         style={{ maxWidth: '170px' }}
         onClick={() => {
