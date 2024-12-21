@@ -995,24 +995,24 @@
     "drinks": [
       {
         "title": "Domestic Bucket",
-        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra) - 5 for $22-$27"
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
       },
       {
         "title": "Import Bucket",
-        "qty": "(Heineken, Corona, Amstel) - 5 for $25-$30"
+        "qty": "(Heineken, Corona, Amstel)"
       },
-      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw) - 5 for $28" },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
       {
         "title": "Beer Tower",
-        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more) - $27-$37"
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
       },
       {
         "title": "Cocktail Towers",
-        "qty": "- $54-$60"
+        "qty": null
       },
       {
         "title": "Bottle of Wine",
-        "qty": "- $34-$52"
+        "qty": null
       },
       {
         "title": "Full bar available based on consumption",
@@ -1109,24 +1109,24 @@
     "drinks": [
       {
         "title": "Domestic Bucket",
-        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra) - 5 for $22-$27"
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
       },
       {
         "title": "Import Bucket",
-        "qty": "(Heineken, Corona, Amstel) - 5 for $25-$30"
+        "qty": "(Heineken, Corona, Amstel)"
       },
-      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw) - 5 for $28" },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
       {
         "title": "Beer Tower",
-        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more) - $27-$37"
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
       },
       {
         "title": "Cocktail Towers",
-        "qty": "- $54-$60"
+				"qty": null
       },
       {
         "title": "Bottle of Wine",
-        "qty": "- $34-$52"
+        "qty": null
       },
       {
         "title": "Full bar available based on consumption",
@@ -1225,25 +1225,26 @@
     "drinks": [
       {
         "title": "Domestic Bucket",
-        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra) - 5 for $22-$27"
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
       },
       {
         "title": "Import Bucket",
-        "qty": "(Heineken, Corona, Amstel) - 5 for $25-$30"
+        "qty": "(Heineken, Corona, Amstel)"
       },
-      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw) - 5 for $28" },
+      { 
+				"title": "Seltzer Bucket", "qty": "(Truly, White Claw)" 
+			},
       {
         "title": "Beer Tower",
-        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more) - $27-$37"
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
       },
       {
         "title": "Cocktail Towers",
-        "qty": "- $54-$60"
+        "qty": null
       },
       {
         "title": "Bottle of Wine",
-        "qty": "- $34-$52"
-      },
+        "qty": null      },
       {
         "title": "Full bar available based on consumption",
         "qty": null
@@ -1330,24 +1331,24 @@
     "drinks": [
       {
         "title": "Domestic Bucket",
-        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra) - 5 for $22-$27"
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
       },
       {
         "title": "Import Bucket",
-        "qty": "(Heineken, Corona, Amstel) - 5 for $25-$30"
+        "qty": "(Heineken, Corona, Amstel)"
       },
-      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw) - 5 for $28" },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
       {
         "title": "Beer Tower",
-        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more) - $27-$37"
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
       },
       {
         "title": "Cocktail Towers",
-        "qty": "- $54-$60"
+        "qty": null
       },
       {
         "title": "Bottle of Wine",
-        "qty": "- $34-$52"
+        "qty": null
       },
       {
         "title": "Full bar available based on consumption",
@@ -1459,24 +1460,24 @@
     "drinks": [
       {
         "title": "Domestic Bucket",
-        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra) - 5 for $22-$27"
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
       },
       {
         "title": "Import Bucket",
-        "qty": "(Heineken, Corona, Amstel) - 5 for $25-$30"
+        "qty": "(Heineken, Corona, Amstel)"
       },
-      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw) - 5 for $28" },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
       {
         "title": "Beer Tower",
-        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more) - $27-$37"
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
       },
       {
         "title": "Cocktail Towers",
-        "qty": "- $54-$60"
+        "qty": null
       },
       {
         "title": "Bottle of Wine",
-        "qty": "- $34-$52"
+        "qty": null
       },
       {
         "title": "Full bar available based on consumption",
