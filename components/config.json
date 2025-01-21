@@ -918,7 +918,8 @@
       "btnTitle": "START PLANNING",
       "to": "/location/latham",
       "showBayDescriptions": true,
-      "coordinates": { "lat": 43.07896181183951, "lng": -73.78634854815526 },
+      "coordinates": { "lat": 42.740589791741044, "lng": -73.73273051349403 },
+			
       "matterportUrl": "https://mpembed.com/show/?m=AyNVXroMWhK&mpu=1854",
       "id": "latham",
       "images": [
