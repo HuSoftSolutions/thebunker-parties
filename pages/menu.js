@@ -12,14 +12,14 @@
 // import Testimonials from '@/components/TestimonialComponent';
 // import Modal from '@/components/Modal';
 
-import React, { useState, useEffect } from 'react';
-import Layout from '@/components/Layout';
-import Hero from '@/components/HeroComponent';
 import config from '@/components/config';
-import Testimonials from '@/components/TestimonialComponent';
-import Modal from '@/components/Modal';
+import Hero from '@/components/HeroComponent';
+import Layout from '@/components/Layout';
 import MenuPlatterComponent from '@/components/MenuPlatterComponent';
+import Modal from '@/components/Modal';
+import Testimonials from '@/components/TestimonialComponent';
 import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 
 function Menu() {
   const [showMenuModal, setShowMenuModal] = useState(false);
@@ -118,6 +118,16 @@ function Menu() {
                   onClick={() => handleTabClick('menu?menu=menuMohawkharbor')}
                 >
                   Mohawk Harbor
+                </button>
+								<button
+                  className={`px-4 py-2 ${
+                    activeMenu === 'menuLatham'
+                      ? 'bg-primary text-white'
+                      : 'bg-transparent'
+                  }`}
+                  onClick={() => handleTabClick('menu?menu=menuLatham')}
+                >
+                  Latham
                 </button>
               </div>
               <div className="flex flex-wrap justify-center items-start text-white">

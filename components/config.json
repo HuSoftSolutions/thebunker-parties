@@ -905,6 +905,135 @@
         { "icon": "/Darts.svg", "title": "Darts" },
         { "icon": "/Gift_Cards.svg", "title": "Gift Cards" }
       ]
+    },
+
+		{
+      "businessCardImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/main.jpg",
+      "locationHeaderImgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/main.jpg",
+      "title": "LATHAM",
+      "menuPath": "/menu?menu=menuLatham",
+      "address": "195 Troy-Schenectady Rd, Latham, NY 12110",
+      "hours": "Monday - Sunday 9am-11pm",
+      "phone": "(518) 300-1700",
+      "btnTitle": "START PLANNING",
+      "to": "/location/latham",
+      "showBayDescriptions": true,
+      "coordinates": { "lat": 43.07896181183951, "lng": -73.78634854815526 },
+      "matterportUrl": "https://mpembed.com/show/?m=AyNVXroMWhK&mpu=1854",
+      "id": "latham",
+      "images": [
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg",
+        "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/placeholders_wjhbbu.jpg"
+      ],
+      "eventPackages": [
+        {
+          "title": "Mezzanine Takeover - $500 per hour",
+          "details": [
+						"Upstairs level",
+						"2 dart boards",
+						"Up to 75 guests",
+						"Private bar",
+						"High top and low top seating",
+						"Closed to public"
+          ]
+        },
+				{
+					"title": "VIP Duo - $200 per hour",
+					"details":[
+						"VIP North + VIP South",
+						"Up to 30 guests",
+						"Lounge and bar style seating",
+						"2 simulator screens",
+						"Closed to public",
+						"TV projectors",
+						"Bluetooth music"
+					]
+				},
+				{
+					"title": "Triple Bogey - $180 per hour",
+					"details":[
+						"Bay 3 + Bay 4 + Bay 5",
+						"3 simulator screens",
+						"Bar style seating",
+						"Up to 50 guests",
+						"Can be paired with the VIP Duo"
+					]
+				},
+				{
+					"title": "The Front 9 Takeover - $500 per hour",
+					"details":[
+						"Front 9 Bay 1 + Front 9 Bay 2",
+						"2 multi sport simulators",
+						"Mini bar",
+						"Air hockey, jukebox, pacman games",
+						"Up to 50 guests",
+						"Closed to public"
+					]
+				}
+      ],
+
+      "bays": [
+        {
+          "id": 1,
+          "name": "BAY 3",
+          "details": [
+           
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/Bay3.jpg"
+        },
+				{
+          "id": 2,
+          "name": "BAY 4",
+          "details": [
+           
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/Bay4.jpg"
+        },
+				{
+          "id": 3,
+          "name": "BAY 5",
+          "details": [
+           
+          ],
+          "rate": 60,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/Bay5.jpg"
+        },
+        {
+          "id": 4,
+          "name": "VIP SUITE NORTH",
+          "details": [
+            
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/VIPNorth.jpg"
+        },
+        {
+          "id": 5,
+          "name": "VIP SUITE SOUTH",
+          "details": [
+           
+          ],
+          "rate": 100,
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/VIPSouth.jpg"
+        }
+      ],
+
+      "amenities": [
+        { "icon": "/TRACKMAN_Bays.svg", "title": "7 TRACKMAN Bays" },
+        { "icon": "/TRACKMAN_Bays.svg", "title": "2 Multi Sport Simulators" },
+        { "icon": "/Golf_Lessons.svg", "title": "Gof Lessons" },
+        { "icon": "/Full_Bar.svg", "title": "Full Bars" },
+        { "icon": "/Full_Food.svg", "title": "Full Food Menu" },
+        { "icon": "/2_Floors.svg", "title": "2 Floors" },
+        { "icon": "/Catering.svg", "title": "Catering", "width": 70 },
+        { "icon": "/Events.svg", "title": "Events" },
+        { "icon": "/Darts.svg", "title": "Darts" },
+        { "icon": "/Gift_Cards.svg", "title": "Gift Cards" }
+      ]
     }
   ],
   "menu": {
@@ -1486,6 +1615,121 @@
     ],
 		"pizzaToppings": ["Buffalo Chicken, Chicken Bacon Ranch, Meat Lovers, Mediterranean, Apple & Brie, Margherita, Pepperoni & Hot Honey, Broccoli Bianca"],
 		"wingFlavors": ["Garlic Parm", "Thai Chili", "BBQ", "Stinger", "Bourbon Brown Sugar", "Mango Habanero", "Buffalo"]
+  },
+	"menuLatham": {
+		"title": "Latham",
+    "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/mohawkharbor/catering-menu/bunker-parties-mh-menu-header.jpg",
+    "images": [
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF4892_nfdge1.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3460_c2t4nb.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3876_dvkt9z.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3885_febjga.jpg",
+      "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_2375_jbo566.jpg"
+    ],
+    "bottleServicePdfUrl": "public/BottleServiceMenu.pdf",
+    "items": [
+      {
+        "title": "Field Green Salad",
+        "qty": null,
+        "cost": "36",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-field-greens_yxwmym.jpg"
+      },
+      {
+        "title": "Caesar Salad",
+        "qty": null,
+        "cost": "36",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-caesar_jrwjeu.jpg"
+      },
+      {
+        "title": "Angus Sliders with Fries",
+        "qty": "(24)",
+        "cost": "92",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5230-sliders_tg4lio.jpg"
+      },
+      {
+        "title": "Pretzel Bites",
+        "qty": "(50 pieces)",
+        "cost": "48",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-pretzel-bites_fkqyjs.jpg"
+      },
+      {
+        "title": "Meatballs",
+        "qty": "(24)",
+        "cost": "48",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3753_j3tv1w.jpg"
+      },
+      {
+        "title": "Pan-fried Pork Potstickers",
+        "qty": "(24)",
+        "cost": "50",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5226-potstickers_gy79s2.jpg"
+      },
+      {
+        "title": "Loaded Fries",
+        "qty": null,
+        "cost": "48",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3734_yy7luj.jpg"
+      },
+      {
+        "title": "Roasted Red Pepper Hummus",
+        "qty": null,
+        "cost": "34",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-hummus_vsmznx.jpg"
+      },
+      {
+        "title": "Black Bean and Corn Salsa",
+        "qty": null,
+        "cost": "32",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/bunker-parties-menu-corn-salsa_itma7b.jpg"
+      },
+      {
+        "title": "Bucket of Range Balls",
+        "qty": "(50)",
+        "cost": "30",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5258-range-balls_vpm3mh.jpg"
+      },
+      {
+        "title": "Bone-in Chicken Wings",
+        "qty": "(24)",
+        "cost": "48",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/DSCF5242-wings_qykmtk.jpg"
+      },
+      {
+        "title": "Boneless Chicken Wings",
+        "qty": "(30)",
+        "cost": "42",
+        "imgUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/Cloudinary_Archive_2024/IMG_3761_ukqpcu.jpg"
+      }
+    ],
+    "drinks": [
+      {
+        "title": "Domestic Bucket",
+        "qty": "(Miller lite, Coors Light, Bud Light, Bud, Michelob Ultra)"
+      },
+      {
+        "title": "Import Bucket",
+        "qty": "(Heineken, Corona, Amstel)"
+      },
+      { "title": "Seltzer Bucket", "qty": "(Truly, White Claw)" },
+      {
+        "title": "Beer Tower",
+        "qty": "88oz of Draft Beer (Fiddlehead, Miller Lite, Sam Seasonal, Stella, and more)"
+      },
+      {
+        "title": "Cocktail Towers",
+				"qty": null
+      },
+      {
+        "title": "Bottle of Wine",
+        "qty": null
+      },
+      {
+        "title": "Full bar available based on consumption",
+        "qty": null
+      }
+    ],
+		"wingFlavors": ["Garlic Parm", "BBQ", "Stinger", "Bourbon Brown Sugar", "Mango Habanero", "Buffalo"]
+
   },
   "gallery": [
     {
