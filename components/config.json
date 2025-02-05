@@ -979,49 +979,54 @@
         {
           "id": 1,
           "name": "BAY 3",
-          "details": [
-           
-          ],
-          "rate": 60,
+          "details": ["One widescreen hitting bay with bar style seating", "Large screen LED TV’s in view", "Pairs nicely with bays 4 and 5 for parties of 40 guests"],
+          "rate": "50-60",
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/Bay3.jpg"
         },
 				{
           "id": 2,
           "name": "BAY 4",
-          "details": [
-           
-          ],
-          "rate": 60,
+          "details": ["One widescreen hitting bay with bar style seating", "Large screen LED TV’s in view", "Pairs nicely with bays 3 and 5 for parties of 40 guests"],
+          "rate": "50-60",
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/Bay4.jpg"
         },
 				{
           "id": 3,
           "name": "BAY 5",
-          "details": [
-           
-          ],
-          "rate": 60,
+          "details": ["One widescreen hitting bay with bar style seating", "Large screen LED TV’s in view", "Pairs nicely with bays 3 and 4 for parties of 40 guests"],
+          "rate": "50-60",
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/Bay5.jpg"
         },
         {
           "id": 4,
           "name": "VIP SUITE NORTH",
-          "details": [
-            
-          ],
+ 					"details": ["16’ wide hitting screen with private lounge (800 sq.ft)", "One large screen TV", "Personalized Music"],
           "rate": 100,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/VIPNorth.jpg"
         },
         {
           "id": 5,
           "name": "VIP SUITE SOUTH",
-          "details": [
-           
-          ],
+          "details": ["16’ wide hitting screen with private lounge (800 sq.ft)", "One large screen TV", "Personalized Music"],
           "rate": 100,
           "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/VIPSouth.jpg"
+        },
+        {
+          "id": 6,
+          "name": "FRONT 9 BAY 1",
+          "rate": "50-60",
+					"details": ["One hitting bay with bar style seating", "Two large screen LED TV’s in view", "Trackman and Multisport capability", "Pairs nicely with Bay 2 for a group of 8 or can rent out the whole Front 9 for a group of 50"],
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/FRONT9BAY1.png"
+
+        },      
+				{
+          "id": 7,
+          "name": "FRONT 9 BAY 2",
+          "rate": "50-60",
+					"details": ["One hitting bay with bar style seating", "Two large screen LED TV’s in view", "Trackman and Multisport capability", "Pairs nicely with Bay 1 for a group of 8 or can rent out the whole Front 9 for a group of 50"],
+          "imageUrl": "https://storage.googleapis.com/thebunker-assets/thebunker/latham-new/FRONT9BAY2.png"
         }
-      ],
+			],
 
       "amenities": [
         { "icon": "/TRACKMAN_Bays.svg", "title": "7 TRACKMAN Bays" },
