@@ -35,6 +35,11 @@ export const navigationItems = [
         to: '/location/saratoga',
         id: 13,
       },
+			{
+        title: 'Latham',
+        to: '/location/latham',
+        id: 14,
+      },
     ],
   },
   // {
