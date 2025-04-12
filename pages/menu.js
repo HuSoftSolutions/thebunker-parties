@@ -137,6 +137,8 @@ function Menu() {
                       title={option?.title}
                       imageUrl={option?.imgUrl}
                       cost={option?.cost}
+											qty={option?.qty}
+											desc={option?.desc}
                     />
                   </div>
                 ))}
