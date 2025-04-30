@@ -152,48 +152,21 @@ function Menu() {
                 </div> : null}
 
                 {/* Dynamic Extras based on Menu */}
-                <div className="text-primary">
-                  <div className="flex flex-col justify-center mt-20 ">
+                <div className="text-primary w-full">
+                  <div className="flex flex-col justify-center mt-20 w-full ">
                     <h1 className=" font-bold text-4xl mb-1">
                       DRINKS & BOTTLE SERVICE
                     </h1>
-                    <div className="flex flex-wrap flex-col w-full h-[300px] lg:h-[700px]">
-                      <div className="w-1/3 h-1/2">
+                    <div className="flex flex-wrap flex-col w-full h-fit">
                         <img
-                          src={config?.menu?.images[0]}
-                          className="w-full h-full object-cover"
+                          src={'/IMG-7 (2).jpeg'}
+                          className="w-[600px] h-full object-cover"
                           alt=""
                         />
-                      </div>
-                      <div className="w-1/3 h-1/2">
-                        <img
-                          src={config?.menu?.images[1]}
-                          className="w-full h-full object-cover"
-                          alt=""
-                        />
-                      </div>
-                      <div className="w-1/3 h-1/2">
-                        <img
-                          src={config?.menu?.images[2]}
-                          className="w-full h-full object-cover"
-                          alt=""
-                        />
-                      </div>
-                      <div className="w-1/3 h-1/2">
-                        <img
-                          src={config?.menu?.images[3]}
-                          className="w-full h-full object-cover"
-                          alt=""
-                        />
-                      </div>
-                      <div className="w-1/3 h-full">
-                        <img
-                          src={config?.menu?.images[4]}
-                          className="w-full h-full object-cover"
-                          alt=""
-                        />
-                      </div>
-                    </div>
+    
+                    
+										
+										</div>
                     <div className="mt-5 text-black">
                       {config?.menu?.drinks?.map((drink, index) => {
                         return (
