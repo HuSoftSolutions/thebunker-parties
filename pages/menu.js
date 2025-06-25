@@ -192,6 +192,7 @@ function Menu() {
                         BOTTLE SERVICE MENU
                       </button>
                     </div>
+										<p className="py-4">* Must be 21+ to purchase alcohol.</p>
                   </div>
                 </div>
               </div>{' '}
