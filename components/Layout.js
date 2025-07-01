@@ -119,7 +119,7 @@ const MobileNavBar = ({ open, toggle }) => {
   return (
     <div className="md:hidden bg-black text-white p-4 flex items-center justify-between h-[65px]">
       <img
-				src="Bunker_Trademarked_Mobile.png"
+				src="bunker-logo-mobile-site.svg"
         className="p-1 cursor-pointer"
         style={{ maxWidth: '170px' }}
         onClick={() => {
