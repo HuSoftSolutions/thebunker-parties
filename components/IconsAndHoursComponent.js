@@ -1,8 +1,7 @@
-import React from 'react';
-import { CgPin } from 'react-icons/cg';
-import { GiKnifeFork } from 'react-icons/gi';
 import IconComponent from '@/components/IconComponent';
 import { useRouter } from 'next/router';
+import { CgPin } from 'react-icons/cg';
+import { GiKnifeFork } from 'react-icons/gi';
 
 const IconsAndHours = ({ locObj, mapClick, mapClose }) => {
   const router = useRouter();
@@ -31,10 +30,10 @@ const IconsAndHours = ({ locObj, mapClick, mapClose }) => {
 			</div> : null}
 
       <div className="font-normal text-black">
-        <div>
+        {/* <div>
           <span className="text-primary font-bold">HOURS:</span>{' '}
           <span>{locObj?.hours}</span>
-        </div>
+        </div> */}
         <div>
           <span className="text-primary font-bold">PHONE:</span>{' '}
           <span>{locObj?.phone}</span>
